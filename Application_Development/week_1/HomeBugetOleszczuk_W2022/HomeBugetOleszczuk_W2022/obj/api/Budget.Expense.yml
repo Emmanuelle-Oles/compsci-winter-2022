@@ -1,0 +1,652 @@
+### YamlMime:ManagedReference
+items:
+- uid: Budget.Expense
+  commentId: T:Budget.Expense
+  id: Expense
+  parent: Budget
+  children:
+  - Budget.Expense.#ctor(Budget.Expense)
+  - Budget.Expense.#ctor(System.Int32,System.DateTime,System.Int32,System.Double,System.String)
+  - Budget.Expense.Amount
+  - Budget.Expense.Category
+  - Budget.Expense.Date
+  - Budget.Expense.Description
+  - Budget.Expense.Id
+  langs:
+  - csharp
+  - vb
+  name: Expense
+  nameWithType: Expense
+  fullName: Budget.Expense
+  type: Class
+  source:
+    id: Expense
+    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\Expense.cs
+    startLine: 20
+  assemblies:
+  - HomeBugetOleszczuk_W2022
+  namespace: Budget
+  summary: "\nA class that represents an expense. \n"
+  example: []
+  syntax:
+    content: public class Expense
+    content.vb: Public Class Expense
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Budget.Expense.Id
+  commentId: P:Budget.Expense.Id
+  id: Id
+  parent: Budget.Expense
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: Expense.Id
+  fullName: Budget.Expense.Id
+  type: Property
+  source:
+    id: Id
+    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\Expense.cs
+    startLine: 29
+  assemblies:
+  - HomeBugetOleszczuk_W2022
+  namespace: Budget
+  summary: "\nProperty that gets a numerical id of an expense. \n"
+  example: []
+  syntax:
+    content: public int Id { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Id As Integer
+  overload: Budget.Expense.Id*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Budget.Expense.Date
+  commentId: P:Budget.Expense.Date
+  id: Date
+  parent: Budget.Expense
+  langs:
+  - csharp
+  - vb
+  name: Date
+  nameWithType: Expense.Date
+  fullName: Budget.Expense.Date
+  type: Property
+  source:
+    id: Date
+    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\Expense.cs
+    startLine: 34
+  assemblies:
+  - HomeBugetOleszczuk_W2022
+  namespace: Budget
+  summary: "\nProperty date on a expense.\n"
+  example: []
+  syntax:
+    content: public DateTime Date { get; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public ReadOnly Property Date As Date
+  overload: Budget.Expense.Date*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Budget.Expense.Amount
+  commentId: P:Budget.Expense.Amount
+  id: Amount
+  parent: Budget.Expense
+  langs:
+  - csharp
+  - vb
+  name: Amount
+  nameWithType: Expense.Amount
+  fullName: Budget.Expense.Amount
+  type: Property
+  source:
+    id: Amount
+    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\Expense.cs
+    startLine: 39
+  assemblies:
+  - HomeBugetOleszczuk_W2022
+  namespace: Budget
+  summary: "\nProperty that gets and sets the monetary value of the expense.\n"
+  example: []
+  syntax:
+    content: public double Amount { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Amount As Double
+  overload: Budget.Expense.Amount*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Budget.Expense.Description
+  commentId: P:Budget.Expense.Description
+  id: Description
+  parent: Budget.Expense
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: Expense.Description
+  fullName: Budget.Expense.Description
+  type: Property
+  source:
+    id: Description
+    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\Expense.cs
+    startLine: 44
+  assemblies:
+  - HomeBugetOleszczuk_W2022
+  namespace: Budget
+  summary: "\nProperty that gets and sets the description of the expense.\n"
+  example: []
+  syntax:
+    content: public string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Description As String
+  overload: Budget.Expense.Description*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Budget.Expense.Category
+  commentId: P:Budget.Expense.Category
+  id: Category
+  parent: Budget.Expense
+  langs:
+  - csharp
+  - vb
+  name: Category
+  nameWithType: Expense.Category
+  fullName: Budget.Expense.Category
+  type: Property
+  source:
+    id: Category
+    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\Expense.cs
+    startLine: 49
+  assemblies:
+  - HomeBugetOleszczuk_W2022
+  namespace: Budget
+  summary: "\nProperty that gets and sets a numerical id of an categories.\n"
+  example: []
+  syntax:
+    content: public int Category { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Category As Integer
+  overload: Budget.Expense.Category*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Budget.Expense.#ctor(System.Int32,System.DateTime,System.Int32,System.Double,System.String)
+  commentId: M:Budget.Expense.#ctor(System.Int32,System.DateTime,System.Int32,System.Double,System.String)
+  id: '#ctor(System.Int32,System.DateTime,System.Int32,System.Double,System.String)'
+  parent: Budget.Expense
+  langs:
+  - csharp
+  - vb
+  name: Expense(Int32, DateTime, Int32, Double, String)
+  nameWithType: Expense.Expense(Int32, DateTime, Int32, Double, String)
+  fullName: Budget.Expense.Expense(System.Int32, System.DateTime, System.Int32, System.Double, System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\Expense.cs
+    startLine: 64
+  assemblies:
+  - HomeBugetOleszczuk_W2022
+  namespace: Budget
+  summary: "\nConstructor creates an instance of expense with the specified parameters.\n"
+  example: []
+  syntax:
+    content: public Expense(int id, DateTime date, int category, double amount, string description)
+    parameters:
+    - id: id
+      type: System.Int32
+      description: ''
+    - id: date
+      type: System.DateTime
+      description: ''
+    - id: category
+      type: System.Int32
+      description: ''
+    - id: amount
+      type: System.Double
+      description: ''
+    - id: description
+      type: System.String
+      description: ''
+    content.vb: Public Sub New(id As Integer, date As Date, category As Integer, amount As Double, description As String)
+  overload: Budget.Expense.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Budget.Expense.#ctor(Budget.Expense)
+  commentId: M:Budget.Expense.#ctor(Budget.Expense)
+  id: '#ctor(Budget.Expense)'
+  parent: Budget.Expense
+  langs:
+  - csharp
+  - vb
+  name: Expense(Expense)
+  nameWithType: Expense.Expense(Expense)
+  fullName: Budget.Expense.Expense(Budget.Expense)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\Expense.cs
+    startLine: 80
+  assemblies:
+  - HomeBugetOleszczuk_W2022
+  namespace: Budget
+  summary: "\nConstructor receives an obj expense and makes a deep copy of specified expense.\n"
+  example: []
+  syntax:
+    content: public Expense(Expense obj)
+    parameters:
+    - id: obj
+      type: Budget.Expense
+      description: 'Expense to be copied. '
+    content.vb: Public Sub New(obj As Expense)
+  overload: Budget.Expense.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Budget
+  commentId: N:Budget
+  name: Budget
+  nameWithType: Budget
+  fullName: Budget
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Budget.Expense.Id*
+  commentId: Overload:Budget.Expense.Id
+  name: Id
+  nameWithType: Expense.Id
+  fullName: Budget.Expense.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Budget.Expense.Date*
+  commentId: Overload:Budget.Expense.Date
+  name: Date
+  nameWithType: Expense.Date
+  fullName: Budget.Expense.Date
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: Budget.Expense.Amount*
+  commentId: Overload:Budget.Expense.Amount
+  name: Amount
+  nameWithType: Expense.Amount
+  fullName: Budget.Expense.Amount
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: Budget.Expense.Description*
+  commentId: Overload:Budget.Expense.Description
+  name: Description
+  nameWithType: Expense.Description
+  fullName: Budget.Expense.Description
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Budget.Expense.Category*
+  commentId: Overload:Budget.Expense.Category
+  name: Category
+  nameWithType: Expense.Category
+  fullName: Budget.Expense.Category
+- uid: Budget.Expense.#ctor*
+  commentId: Overload:Budget.Expense.#ctor
+  name: Expense
+  nameWithType: Expense.Expense
+  fullName: Budget.Expense.Expense
+- uid: Budget.Expense
+  commentId: T:Budget.Expense
+  parent: Budget
+  name: Expense
+  nameWithType: Expense
+  fullName: Budget.Expense

@@ -1,0 +1,36 @@
+Focus: How do I handle data, display and logic?
+
+
+i love to make lists
+i love to have trackers
+i love color-coding
+i love to compability based on likes
+i love tracking projects
+
+id love to build a personalized studying tracker
+
+app vs web programming
+
+
+consistency: what is the data, how can you change it and how can you view it?
+
+
+what excites me about web programming -> good UI :) intiutive, 
+
+i hope you feel confident and excited about web 
+
+
+podcasts, running, studying
+
+
+
+
+what is node.js?
+
+what cab node js do?
+generate dynamic page content
+
+
+the main idea of node.js
+use non-blocking, event-driven IO
+

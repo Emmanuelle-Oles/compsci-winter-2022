@@ -1,0 +1,822 @@
+### YamlMime:ManagedReference
+items:
+- uid: Budget.Categories
+  commentId: T:Budget.Categories
+  id: Categories
+  parent: Budget
+  children:
+  - Budget.Categories.#ctor
+  - Budget.Categories.Add(System.String,Budget.Category.CategoryType)
+  - Budget.Categories.Delete(System.Int32)
+  - Budget.Categories.DirName
+  - Budget.Categories.FileName
+  - Budget.Categories.GetCategoryFromId(System.Int32)
+  - Budget.Categories.List
+  - Budget.Categories.ReadFromFile(System.String)
+  - Budget.Categories.SaveToFile(System.String)
+  - Budget.Categories.SetCategoriesToDefaults
+  langs:
+  - csharp
+  - vb
+  name: Categories
+  nameWithType: Categories
+  fullName: Budget.Categories
+  type: Class
+  source:
+    id: Categories
+    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\Categories.cs
+    startLine: 25
+  assemblies:
+  - HomeBugetOleszczuk_W2022
+  namespace: Budget
+  summary: "\nA class that holds a collection of category items to organize a budget. \n"
+  example: []
+  syntax:
+    content: public class Categories
+    content.vb: Public Class Categories
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Budget.Categories.FileName
+  commentId: P:Budget.Categories.FileName
+  id: FileName
+  parent: Budget.Categories
+  langs:
+  - csharp
+  - vb
+  name: FileName
+  nameWithType: Categories.FileName
+  fullName: Budget.Categories.FileName
+  type: Property
+  source:
+    id: FileName
+    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\Categories.cs
+    startLine: 35
+  assemblies:
+  - HomeBugetOleszczuk_W2022
+  namespace: Budget
+  syntax:
+    content: public string FileName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property FileName As String
+  overload: Budget.Categories.FileName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Budget.Categories.DirName
+  commentId: P:Budget.Categories.DirName
+  id: DirName
+  parent: Budget.Categories
+  langs:
+  - csharp
+  - vb
+  name: DirName
+  nameWithType: Categories.DirName
+  fullName: Budget.Categories.DirName
+  type: Property
+  source:
+    id: DirName
+    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\Categories.cs
+    startLine: 36
+  assemblies:
+  - HomeBugetOleszczuk_W2022
+  namespace: Budget
+  syntax:
+    content: public string DirName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property DirName As String
+  overload: Budget.Categories.DirName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Budget.Categories.#ctor
+  commentId: M:Budget.Categories.#ctor
+  id: '#ctor'
+  parent: Budget.Categories
+  langs:
+  - csharp
+  - vb
+  name: Categories()
+  nameWithType: Categories.Categories()
+  fullName: Budget.Categories.Categories()
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\Categories.cs
+    startLine: 41
+  assemblies:
+  - HomeBugetOleszczuk_W2022
+  namespace: Budget
+  syntax:
+    content: public Categories()
+    content.vb: Public Sub New
+  overload: Budget.Categories.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Budget.Categories.GetCategoryFromId(System.Int32)
+  commentId: M:Budget.Categories.GetCategoryFromId(System.Int32)
+  id: GetCategoryFromId(System.Int32)
+  parent: Budget.Categories
+  langs:
+  - csharp
+  - vb
+  name: GetCategoryFromId(Int32)
+  nameWithType: Categories.GetCategoryFromId(Int32)
+  fullName: Budget.Categories.GetCategoryFromId(System.Int32)
+  type: Method
+  source:
+    id: GetCategoryFromId
+    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\Categories.cs
+    startLine: 49
+  assemblies:
+  - HomeBugetOleszczuk_W2022
+  namespace: Budget
+  syntax:
+    content: public Category GetCategoryFromId(int i)
+    parameters:
+    - id: i
+      type: System.Int32
+    return:
+      type: Budget.Category
+    content.vb: Public Function GetCategoryFromId(i As Integer) As Category
+  overload: Budget.Categories.GetCategoryFromId*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Budget.Categories.ReadFromFile(System.String)
+  commentId: M:Budget.Categories.ReadFromFile(System.String)
+  id: ReadFromFile(System.String)
+  parent: Budget.Categories
+  langs:
+  - csharp
+  - vb
+  name: ReadFromFile(String)
+  nameWithType: Categories.ReadFromFile(String)
+  fullName: Budget.Categories.ReadFromFile(System.String)
+  type: Method
+  source:
+    id: ReadFromFile
+    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\Categories.cs
+    startLine: 70
+  assemblies:
+  - HomeBugetOleszczuk_W2022
+  namespace: Budget
+  summary: "\nMethod reads from *passed-in* file to extract the categories.\n"
+  example: []
+  syntax:
+    content: public void ReadFromFile(string filepath = null)
+    parameters:
+    - id: filepath
+      type: System.String
+      description: 'File path to read from. '
+    content.vb: Public Sub ReadFromFile(filepath As String = Nothing)
+  overload: Budget.Categories.ReadFromFile*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Budget.Categories.SaveToFile(System.String)
+  commentId: M:Budget.Categories.SaveToFile(System.String)
+  id: SaveToFile(System.String)
+  parent: Budget.Categories
+  langs:
+  - csharp
+  - vb
+  name: SaveToFile(String)
+  nameWithType: Categories.SaveToFile(String)
+  fullName: Budget.Categories.SaveToFile(System.String)
+  type: Method
+  source:
+    id: SaveToFile
+    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\Categories.cs
+    startLine: 107
+  assemblies:
+  - HomeBugetOleszczuk_W2022
+  namespace: Budget
+  summary: "\nMethod saves to file. \n"
+  example: []
+  syntax:
+    content: public void SaveToFile(string filepath = null)
+    parameters:
+    - id: filepath
+      type: System.String
+      description: 'File path to save to. '
+    content.vb: Public Sub SaveToFile(filepath As String = Nothing)
+  overload: Budget.Categories.SaveToFile*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Budget.Categories.SetCategoriesToDefaults
+  commentId: M:Budget.Categories.SetCategoriesToDefaults
+  id: SetCategoriesToDefaults
+  parent: Budget.Categories
+  langs:
+  - csharp
+  - vb
+  name: SetCategoriesToDefaults()
+  nameWithType: Categories.SetCategoriesToDefaults()
+  fullName: Budget.Categories.SetCategoriesToDefaults()
+  type: Method
+  source:
+    id: SetCategoriesToDefaults
+    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\Categories.cs
+    startLine: 146
+  assemblies:
+  - HomeBugetOleszczuk_W2022
+  namespace: Budget
+  summary: "\nMethod sets categories to default values.\n"
+  example: []
+  syntax:
+    content: public void SetCategoriesToDefaults()
+    content.vb: Public Sub SetCategoriesToDefaults
+  overload: Budget.Categories.SetCategoriesToDefaults*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Budget.Categories.Add(System.String,Budget.Category.CategoryType)
+  commentId: M:Budget.Categories.Add(System.String,Budget.Category.CategoryType)
+  id: Add(System.String,Budget.Category.CategoryType)
+  parent: Budget.Categories
+  langs:
+  - csharp
+  - vb
+  name: Add(String, Category.CategoryType)
+  nameWithType: Categories.Add(String, Category.CategoryType)
+  fullName: Budget.Categories.Add(System.String, Budget.Category.CategoryType)
+  type: Method
+  source:
+    id: Add
+    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\Categories.cs
+    startLine: 192
+  assemblies:
+  - HomeBugetOleszczuk_W2022
+  namespace: Budget
+  summary: "\nOverloaded methods that adds category\n"
+  example: []
+  syntax:
+    content: public void Add(string desc, Category.CategoryType type)
+    parameters:
+    - id: desc
+      type: System.String
+      description: 'Description of category. '
+    - id: type
+      type: Budget.Category.CategoryType
+      description: 'Type of category. '
+    content.vb: Public Sub Add(desc As String, type As Category.CategoryType)
+  overload: Budget.Categories.Add*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Budget.Categories.Delete(System.Int32)
+  commentId: M:Budget.Categories.Delete(System.Int32)
+  id: Delete(System.Int32)
+  parent: Budget.Categories
+  langs:
+  - csharp
+  - vb
+  name: Delete(Int32)
+  nameWithType: Categories.Delete(Int32)
+  fullName: Budget.Categories.Delete(System.Int32)
+  type: Method
+  source:
+    id: Delete
+    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\Categories.cs
+    startLine: 210
+  assemblies:
+  - HomeBugetOleszczuk_W2022
+  namespace: Budget
+  summary: "\nMethod that removes/delete category from the list.\n"
+  example: []
+  syntax:
+    content: public void Delete(int Id)
+    parameters:
+    - id: Id
+      type: System.Int32
+      description: 'Id of category to be removed. '
+    content.vb: Public Sub Delete(Id As Integer)
+  overload: Budget.Categories.Delete*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Budget.Categories.List
+  commentId: M:Budget.Categories.List
+  id: List
+  parent: Budget.Categories
+  langs:
+  - csharp
+  - vb
+  name: List()
+  nameWithType: Categories.List()
+  fullName: Budget.Categories.List()
+  type: Method
+  source:
+    id: List
+    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\Categories.cs
+    startLine: 226
+  assemblies:
+  - HomeBugetOleszczuk_W2022
+  namespace: Budget
+  summary: "\nMethod makes a copy of list of category.\n"
+  example: []
+  syntax:
+    content: public List<Category> List()
+    return:
+      type: System.Collections.Generic.List{Budget.Category}
+      description: 'List of categories. '
+    content.vb: Public Function List As List(Of Category)
+  overload: Budget.Categories.List*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Budget
+  commentId: N:Budget
+  name: Budget
+  nameWithType: Budget
+  fullName: Budget
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Budget.Categories.FileName*
+  commentId: Overload:Budget.Categories.FileName
+  name: FileName
+  nameWithType: Categories.FileName
+  fullName: Budget.Categories.FileName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Budget.Categories.DirName*
+  commentId: Overload:Budget.Categories.DirName
+  name: DirName
+  nameWithType: Categories.DirName
+  fullName: Budget.Categories.DirName
+- uid: Budget.Categories.#ctor*
+  commentId: Overload:Budget.Categories.#ctor
+  name: Categories
+  nameWithType: Categories.Categories
+  fullName: Budget.Categories.Categories
+- uid: Budget.Categories.GetCategoryFromId*
+  commentId: Overload:Budget.Categories.GetCategoryFromId
+  name: GetCategoryFromId
+  nameWithType: Categories.GetCategoryFromId
+  fullName: Budget.Categories.GetCategoryFromId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Budget.Category
+  commentId: T:Budget.Category
+  parent: Budget
+  name: Category
+  nameWithType: Category
+  fullName: Budget.Category
+- uid: Budget.Categories.ReadFromFile*
+  commentId: Overload:Budget.Categories.ReadFromFile
+  name: ReadFromFile
+  nameWithType: Categories.ReadFromFile
+  fullName: Budget.Categories.ReadFromFile
+- uid: Budget.Categories.SaveToFile*
+  commentId: Overload:Budget.Categories.SaveToFile
+  name: SaveToFile
+  nameWithType: Categories.SaveToFile
+  fullName: Budget.Categories.SaveToFile
+- uid: Budget.Categories.SetCategoriesToDefaults*
+  commentId: Overload:Budget.Categories.SetCategoriesToDefaults
+  name: SetCategoriesToDefaults
+  nameWithType: Categories.SetCategoriesToDefaults
+  fullName: Budget.Categories.SetCategoriesToDefaults
+- uid: Budget.Categories.Add*
+  commentId: Overload:Budget.Categories.Add
+  name: Add
+  nameWithType: Categories.Add
+  fullName: Budget.Categories.Add
+- uid: Budget.Category.CategoryType
+  commentId: T:Budget.Category.CategoryType
+  parent: Budget
+  name: Category.CategoryType
+  nameWithType: Category.CategoryType
+  fullName: Budget.Category.CategoryType
+- uid: Budget.Categories.Delete*
+  commentId: Overload:Budget.Categories.Delete
+  name: Delete
+  nameWithType: Categories.Delete
+  fullName: Budget.Categories.Delete
+- uid: Budget.Categories.List*
+  commentId: Overload:Budget.Categories.List
+  name: List
+  nameWithType: Categories.List
+  fullName: Budget.Categories.List
+- uid: System.Collections.Generic.List{Budget.Category}
+  commentId: T:System.Collections.Generic.List{Budget.Category}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Category>
+  nameWithType: List<Category>
+  fullName: System.Collections.Generic.List<Budget.Category>
+  nameWithType.vb: List(Of Category)
+  fullName.vb: System.Collections.Generic.List(Of Budget.Category)
+  name.vb: List(Of Category)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Budget.Category
+    name: Category
+    nameWithType: Category
+    fullName: Budget.Category
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Budget.Category
+    name: Category
+    nameWithType: Category
+    fullName: Budget.Category
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

@@ -1,0 +1,1246 @@
+### YamlMime:ManagedReference
+items:
+- uid: Budget.HomeBudget
+  commentId: T:Budget.HomeBudget
+  id: HomeBudget
+  parent: Budget
+  children:
+  - Budget.HomeBudget.#ctor
+  - Budget.HomeBudget.#ctor(System.String)
+  - Budget.HomeBudget.categories
+  - Budget.HomeBudget.DirName
+  - Budget.HomeBudget.expenses
+  - Budget.HomeBudget.FileName
+  - Budget.HomeBudget.GeBudgetItemsByCategory(System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Boolean,System.Int32)
+  - Budget.HomeBudget.GetBudgetDictionaryByCategoryAndMonth(System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Boolean,System.Int32)
+  - Budget.HomeBudget.GetBudgetItems(System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Boolean,System.Int32)
+  - Budget.HomeBudget.GetBudgetItemsByMonth(System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Boolean,System.Int32)
+  - Budget.HomeBudget.PathName
+  - Budget.HomeBudget.ReadFromFile(System.String)
+  - Budget.HomeBudget.SaveToFile(System.String)
+  langs:
+  - csharp
+  - vb
+  name: HomeBudget
+  nameWithType: HomeBudget
+  fullName: Budget.HomeBudget
+  type: Class
+  source:
+    id: HomeBudget
+    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\HomeBudget.cs
+    startLine: 24
+  assemblies:
+  - HomeBugetOleszczuk_W2022
+  namespace: Budget
+  summary: "\nA class represents a home budget that tracks the expenses and their categories. \n"
+  example: []
+  syntax:
+    content: public class HomeBudget
+    content.vb: Public Class HomeBudget
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Budget.HomeBudget.FileName
+  commentId: P:Budget.HomeBudget.FileName
+  id: FileName
+  parent: Budget.HomeBudget
+  langs:
+  - csharp
+  - vb
+  name: FileName
+  nameWithType: HomeBudget.FileName
+  fullName: Budget.HomeBudget.FileName
+  type: Property
+  source:
+    id: FileName
+    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\HomeBudget.cs
+    startLine: 38
+  assemblies:
+  - HomeBugetOleszczuk_W2022
+  namespace: Budget
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public string FileName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property FileName As String
+  overload: Budget.HomeBudget.FileName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Budget.HomeBudget.DirName
+  commentId: P:Budget.HomeBudget.DirName
+  id: DirName
+  parent: Budget.HomeBudget
+  langs:
+  - csharp
+  - vb
+  name: DirName
+  nameWithType: HomeBudget.DirName
+  fullName: Budget.HomeBudget.DirName
+  type: Property
+  source:
+    id: DirName
+    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\HomeBudget.cs
+    startLine: 39
+  assemblies:
+  - HomeBugetOleszczuk_W2022
+  namespace: Budget
+  syntax:
+    content: public string DirName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property DirName As String
+  overload: Budget.HomeBudget.DirName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Budget.HomeBudget.PathName
+  commentId: P:Budget.HomeBudget.PathName
+  id: PathName
+  parent: Budget.HomeBudget
+  langs:
+  - csharp
+  - vb
+  name: PathName
+  nameWithType: HomeBudget.PathName
+  fullName: Budget.HomeBudget.PathName
+  type: Property
+  source:
+    id: PathName
+    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\HomeBudget.cs
+    startLine: 40
+  assemblies:
+  - HomeBugetOleszczuk_W2022
+  namespace: Budget
+  syntax:
+    content: public string PathName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property PathName As String
+  overload: Budget.HomeBudget.PathName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Budget.HomeBudget.categories
+  commentId: P:Budget.HomeBudget.categories
+  id: categories
+  parent: Budget.HomeBudget
+  langs:
+  - csharp
+  - vb
+  name: categories
+  nameWithType: HomeBudget.categories
+  fullName: Budget.HomeBudget.categories
+  type: Property
+  source:
+    id: categories
+    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\HomeBudget.cs
+    startLine: 56
+  assemblies:
+  - HomeBugetOleszczuk_W2022
+  namespace: Budget
+  syntax:
+    content: public Categories categories { get; }
+    parameters: []
+    return:
+      type: Budget.Categories
+    content.vb: Public ReadOnly Property categories As Categories
+  overload: Budget.HomeBudget.categories*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Budget.HomeBudget.expenses
+  commentId: P:Budget.HomeBudget.expenses
+  id: expenses
+  parent: Budget.HomeBudget
+  langs:
+  - csharp
+  - vb
+  name: expenses
+  nameWithType: HomeBudget.expenses
+  fullName: Budget.HomeBudget.expenses
+  type: Property
+  source:
+    id: expenses
+    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\HomeBudget.cs
+    startLine: 57
+  assemblies:
+  - HomeBugetOleszczuk_W2022
+  namespace: Budget
+  syntax:
+    content: public Expenses expenses { get; }
+    parameters: []
+    return:
+      type: Budget.Expenses
+    content.vb: Public ReadOnly Property expenses As Expenses
+  overload: Budget.HomeBudget.expenses*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Budget.HomeBudget.#ctor
+  commentId: M:Budget.HomeBudget.#ctor
+  id: '#ctor'
+  parent: Budget.HomeBudget
+  langs:
+  - csharp
+  - vb
+  name: HomeBudget()
+  nameWithType: HomeBudget.HomeBudget()
+  fullName: Budget.HomeBudget.HomeBudget()
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\HomeBudget.cs
+    startLine: 65
+  assemblies:
+  - HomeBugetOleszczuk_W2022
+  namespace: Budget
+  summary: "\nDefault constructor to instantiate a home budget.\n"
+  example: []
+  syntax:
+    content: public HomeBudget()
+    content.vb: Public Sub New
+  overload: Budget.HomeBudget.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Budget.HomeBudget.#ctor(System.String)
+  commentId: M:Budget.HomeBudget.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: Budget.HomeBudget
+  langs:
+  - csharp
+  - vb
+  name: HomeBudget(String)
+  nameWithType: HomeBudget.HomeBudget(String)
+  fullName: Budget.HomeBudget.HomeBudget(System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\HomeBudget.cs
+    startLine: 78
+  assemblies:
+  - HomeBugetOleszczuk_W2022
+  namespace: Budget
+  summary: "\nConstructor to instantiate a home budget with information extracted from file.\n"
+  example: []
+  syntax:
+    content: public HomeBudget(string budgetFileName)
+    parameters:
+    - id: budgetFileName
+      type: System.String
+      description: 'The file that contains the home budget information. '
+    content.vb: Public Sub New(budgetFileName As String)
+  overload: Budget.HomeBudget.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Budget.HomeBudget.ReadFromFile(System.String)
+  commentId: M:Budget.HomeBudget.ReadFromFile(System.String)
+  id: ReadFromFile(System.String)
+  parent: Budget.HomeBudget
+  langs:
+  - csharp
+  - vb
+  name: ReadFromFile(String)
+  nameWithType: HomeBudget.ReadFromFile(String)
+  fullName: Budget.HomeBudget.ReadFromFile(System.String)
+  type: Method
+  source:
+    id: ReadFromFile
+    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\HomeBudget.cs
+    startLine: 90
+  assemblies:
+  - HomeBugetOleszczuk_W2022
+  namespace: Budget
+  syntax:
+    content: public void ReadFromFile(string budgetFileName)
+    parameters:
+    - id: budgetFileName
+      type: System.String
+    content.vb: Public Sub ReadFromFile(budgetFileName As String)
+  overload: Budget.HomeBudget.ReadFromFile*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Budget.HomeBudget.SaveToFile(System.String)
+  commentId: M:Budget.HomeBudget.SaveToFile(System.String)
+  id: SaveToFile(System.String)
+  parent: Budget.HomeBudget
+  langs:
+  - csharp
+  - vb
+  name: SaveToFile(String)
+  nameWithType: HomeBudget.SaveToFile(String)
+  fullName: Budget.HomeBudget.SaveToFile(System.String)
+  type: Method
+  source:
+    id: SaveToFile
+    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\HomeBudget.cs
+    startLine: 137
+  assemblies:
+  - HomeBugetOleszczuk_W2022
+  namespace: Budget
+  syntax:
+    content: public void SaveToFile(string filepath)
+    parameters:
+    - id: filepath
+      type: System.String
+    content.vb: Public Sub SaveToFile(filepath As String)
+  overload: Budget.HomeBudget.SaveToFile*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Budget.HomeBudget.GetBudgetItems(System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Boolean,System.Int32)
+  commentId: M:Budget.HomeBudget.GetBudgetItems(System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Boolean,System.Int32)
+  id: GetBudgetItems(System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Boolean,System.Int32)
+  parent: Budget.HomeBudget
+  langs:
+  - csharp
+  - vb
+  name: GetBudgetItems(Nullable<DateTime>, Nullable<DateTime>, Boolean, Int32)
+  nameWithType: HomeBudget.GetBudgetItems(Nullable<DateTime>, Nullable<DateTime>, Boolean, Int32)
+  fullName: Budget.HomeBudget.GetBudgetItems(System.Nullable<System.DateTime>, System.Nullable<System.DateTime>, System.Boolean, System.Int32)
+  type: Method
+  source:
+    id: GetBudgetItems
+    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\HomeBudget.cs
+    startLine: 260
+  assemblies:
+  - HomeBugetOleszczuk_W2022
+  namespace: Budget
+  summary: "\nMethod gets an list of expenses. \n"
+  example:
+  - "\n\nFor all examples below, assume the budget file contains the\nfollowing elements:\n\n<pre><code>Cat_ID  Expense_ID  Date                    Description                    Cost\n   10       1       1/10/2018 12:00:00 AM   Clothes hat (on credit)         10\n    9       2       1/11/2018 12:00:00 AM   Credit Card hat                -10\n   10       3       1/10/2019 12:00:00 AM   Clothes scarf(on credit)        15\n    9       4       1/10/2020 12:00:00 AM   Credit Card scarf              -15\n   14       5       1/11/2020 12:00:00 AM   Eating Out McDonalds            45\n   14       7       1/12/2020 12:00:00 AM   Eating Out Wendys               25\n   14      10       2/1/2020 12:00:00 AM    Eating Out Pizza                33.33\n    9      13       2/10/2020 12:00:00 AM   Credit Card mittens            -15\n    9      12       2/25/2020 12:00:00 AM   Credit Card Hat                -25\n   14      11       2/27/2020 12:00:00 AM   Eating Out Pizza                33.33\n   14       9       7/11/2020 12:00:00 AM   Eating Out Cafeteria            11.11</code></pre>\n\n<strong>Getting a list of ALL budget items.</strong>\n\n<pre><code> HomeBudget budget = new HomeBudget();\n budget.ReadFromFile(filename);\n\n // Get a list of all budget items\n var budgetItems = budget.GetBudgetItems(null, null, false, 0);\n\n // print important information\n foreach (var bi in budgetItems)\n {\n     Console.WRiteLine ( \n         String.Format(&quot;{0} {1,-20}  {2,8:C} {3,12:C}&quot;, \n            bi.Date.ToString(&quot;yyyy/MMM/dd&quot;),\n            bi.ShortDescription,\n            bi.Amount, bi.Balance)\n      );\n }</code></pre>\n\nSample output:\n<pre><code>2018/Jan/10 hat (on credit)       ($10.00)     ($10.00)\n2018/Jan/11 hat                     $10.00        $0.00\n2019/Jan/10 scarf(on credit)      ($15.00)     ($15.00)\n2020/Jan/10 scarf                   $15.00        $0.00\n2020/Jan/11 McDonalds             ($45.00)     ($45.00)\n2020/Jan/12 Wendys                ($25.00)     ($70.00)\n2020/Feb/01 Pizza                 ($33.33)    ($103.33)\n2020/Feb/10 mittens                 $15.00     ($88.33)\n2020/Feb/25 Hat                     $25.00     ($63.33)\n2020/Feb/27 Pizza                 ($33.33)     ($96.66)\n2020/Jul/11 Cafeteria             ($11.11)    ($107.77)</code></pre>\n\n"
+  syntax:
+    content: public List<BudgetItem> GetBudgetItems(DateTime? Start, DateTime? End, bool FilterFlag, int CategoryID)
+    parameters:
+    - id: Start
+      type: System.Nullable{System.DateTime}
+      description: 'Date of the begin of the period. '
+    - id: End
+      type: System.Nullable{System.DateTime}
+      description: 'Date of the end of the period. '
+    - id: FilterFlag
+      type: System.Boolean
+      description: ''
+    - id: CategoryID
+      type: System.Int32
+    return:
+      type: System.Collections.Generic.List{Budget.BudgetItem}
+      description: 'A list of items considered expenses. '
+    content.vb: Public Function GetBudgetItems(Start As Date?, End As Date?, FilterFlag As Boolean, CategoryID As Integer) As List(Of BudgetItem)
+  overload: Budget.HomeBudget.GetBudgetItems*
+  nameWithType.vb: HomeBudget.GetBudgetItems(Nullable(Of DateTime), Nullable(Of DateTime), Boolean, Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Budget.HomeBudget.GetBudgetItems(System.Nullable(Of System.DateTime), System.Nullable(Of System.DateTime), System.Boolean, System.Int32)
+  name.vb: GetBudgetItems(Nullable(Of DateTime), Nullable(Of DateTime), Boolean, Int32)
+- uid: Budget.HomeBudget.GetBudgetItemsByMonth(System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Boolean,System.Int32)
+  commentId: M:Budget.HomeBudget.GetBudgetItemsByMonth(System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Boolean,System.Int32)
+  id: GetBudgetItemsByMonth(System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Boolean,System.Int32)
+  parent: Budget.HomeBudget
+  langs:
+  - csharp
+  - vb
+  name: GetBudgetItemsByMonth(Nullable<DateTime>, Nullable<DateTime>, Boolean, Int32)
+  nameWithType: HomeBudget.GetBudgetItemsByMonth(Nullable<DateTime>, Nullable<DateTime>, Boolean, Int32)
+  fullName: Budget.HomeBudget.GetBudgetItemsByMonth(System.Nullable<System.DateTime>, System.Nullable<System.DateTime>, System.Boolean, System.Int32)
+  type: Method
+  source:
+    id: GetBudgetItemsByMonth
+    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\HomeBudget.cs
+    startLine: 321
+  assemblies:
+  - HomeBugetOleszczuk_W2022
+  namespace: Budget
+  summary: "\nMethod groups all expenses according to the month. \n"
+  example:
+  - "\nset up for example.\n"
+  syntax:
+    content: public List<BudgetItemsByMonth> GetBudgetItemsByMonth(DateTime? Start, DateTime? End, bool FilterFlag, int CategoryID)
+    parameters:
+    - id: Start
+      type: System.Nullable{System.DateTime}
+      description: 'Date of the beginning of period. '
+    - id: End
+      type: System.Nullable{System.DateTime}
+      description: 'Date of the end of period. '
+    - id: FilterFlag
+      type: System.Boolean
+      description: ''
+    - id: CategoryID
+      type: System.Int32
+      description: 'Numerical representation of category. '
+    return:
+      type: System.Collections.Generic.List{Budget.BudgetItemsByMonth}
+      description: 'List of item for specific month. '
+    content.vb: Public Function GetBudgetItemsByMonth(Start As Date?, End As Date?, FilterFlag As Boolean, CategoryID As Integer) As List(Of BudgetItemsByMonth)
+  overload: Budget.HomeBudget.GetBudgetItemsByMonth*
+  nameWithType.vb: HomeBudget.GetBudgetItemsByMonth(Nullable(Of DateTime), Nullable(Of DateTime), Boolean, Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Budget.HomeBudget.GetBudgetItemsByMonth(System.Nullable(Of System.DateTime), System.Nullable(Of System.DateTime), System.Boolean, System.Int32)
+  name.vb: GetBudgetItemsByMonth(Nullable(Of DateTime), Nullable(Of DateTime), Boolean, Int32)
+- uid: Budget.HomeBudget.GeBudgetItemsByCategory(System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Boolean,System.Int32)
+  commentId: M:Budget.HomeBudget.GeBudgetItemsByCategory(System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Boolean,System.Int32)
+  id: GeBudgetItemsByCategory(System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Boolean,System.Int32)
+  parent: Budget.HomeBudget
+  langs:
+  - csharp
+  - vb
+  name: GeBudgetItemsByCategory(Nullable<DateTime>, Nullable<DateTime>, Boolean, Int32)
+  nameWithType: HomeBudget.GeBudgetItemsByCategory(Nullable<DateTime>, Nullable<DateTime>, Boolean, Int32)
+  fullName: Budget.HomeBudget.GeBudgetItemsByCategory(System.Nullable<System.DateTime>, System.Nullable<System.DateTime>, System.Boolean, System.Int32)
+  type: Method
+  source:
+    id: GeBudgetItemsByCategory
+    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\HomeBudget.cs
+    startLine: 371
+  assemblies:
+  - HomeBugetOleszczuk_W2022
+  namespace: Budget
+  summary: "\nMethod groups all expenses by category \n"
+  example: []
+  syntax:
+    content: public List<BudgetItemsByCategory> GeBudgetItemsByCategory(DateTime? Start, DateTime? End, bool FilterFlag, int CategoryID)
+    parameters:
+    - id: Start
+      type: System.Nullable{System.DateTime}
+      description: ''
+    - id: End
+      type: System.Nullable{System.DateTime}
+      description: ''
+    - id: FilterFlag
+      type: System.Boolean
+      description: ''
+    - id: CategoryID
+      type: System.Int32
+      description: ''
+    return:
+      type: System.Collections.Generic.List{Budget.BudgetItemsByCategory}
+      description: 'A list all expenses sorted by the name of categories. '
+    content.vb: Public Function GeBudgetItemsByCategory(Start As Date?, End As Date?, FilterFlag As Boolean, CategoryID As Integer) As List(Of BudgetItemsByCategory)
+  overload: Budget.HomeBudget.GeBudgetItemsByCategory*
+  nameWithType.vb: HomeBudget.GeBudgetItemsByCategory(Nullable(Of DateTime), Nullable(Of DateTime), Boolean, Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Budget.HomeBudget.GeBudgetItemsByCategory(System.Nullable(Of System.DateTime), System.Nullable(Of System.DateTime), System.Boolean, System.Int32)
+  name.vb: GeBudgetItemsByCategory(Nullable(Of DateTime), Nullable(Of DateTime), Boolean, Int32)
+- uid: Budget.HomeBudget.GetBudgetDictionaryByCategoryAndMonth(System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Boolean,System.Int32)
+  commentId: M:Budget.HomeBudget.GetBudgetDictionaryByCategoryAndMonth(System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Boolean,System.Int32)
+  id: GetBudgetDictionaryByCategoryAndMonth(System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Boolean,System.Int32)
+  parent: Budget.HomeBudget
+  langs:
+  - csharp
+  - vb
+  name: GetBudgetDictionaryByCategoryAndMonth(Nullable<DateTime>, Nullable<DateTime>, Boolean, Int32)
+  nameWithType: HomeBudget.GetBudgetDictionaryByCategoryAndMonth(Nullable<DateTime>, Nullable<DateTime>, Boolean, Int32)
+  fullName: Budget.HomeBudget.GetBudgetDictionaryByCategoryAndMonth(System.Nullable<System.DateTime>, System.Nullable<System.DateTime>, System.Boolean, System.Int32)
+  type: Method
+  source:
+    id: GetBudgetDictionaryByCategoryAndMonth
+    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\HomeBudget.cs
+    startLine: 436
+  assemblies:
+  - HomeBugetOleszczuk_W2022
+  namespace: Budget
+  summary: "\nMethod groups all expenses by category and month creating a list of \n\n"
+  example: []
+  syntax:
+    content: public List<Dictionary<string, object>> GetBudgetDictionaryByCategoryAndMonth(DateTime? Start, DateTime? End, bool FilterFlag, int CategoryID)
+    parameters:
+    - id: Start
+      type: System.Nullable{System.DateTime}
+      description: ''
+    - id: End
+      type: System.Nullable{System.DateTime}
+      description: ''
+    - id: FilterFlag
+      type: System.Boolean
+      description: ''
+    - id: CategoryID
+      type: System.Int32
+      description: ''
+    return:
+      type: System.Collections.Generic.List{System.Collections.Generic.Dictionary{System.String,System.Object}}
+      description: ''
+    content.vb: Public Function GetBudgetDictionaryByCategoryAndMonth(Start As Date?, End As Date?, FilterFlag As Boolean, CategoryID As Integer) As List(Of Dictionary(Of String, Object))
+  overload: Budget.HomeBudget.GetBudgetDictionaryByCategoryAndMonth*
+  nameWithType.vb: HomeBudget.GetBudgetDictionaryByCategoryAndMonth(Nullable(Of DateTime), Nullable(Of DateTime), Boolean, Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Budget.HomeBudget.GetBudgetDictionaryByCategoryAndMonth(System.Nullable(Of System.DateTime), System.Nullable(Of System.DateTime), System.Boolean, System.Int32)
+  name.vb: GetBudgetDictionaryByCategoryAndMonth(Nullable(Of DateTime), Nullable(Of DateTime), Boolean, Int32)
+references:
+- uid: Budget
+  commentId: N:Budget
+  name: Budget
+  nameWithType: Budget
+  fullName: Budget
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Budget.HomeBudget.FileName*
+  commentId: Overload:Budget.HomeBudget.FileName
+  name: FileName
+  nameWithType: HomeBudget.FileName
+  fullName: Budget.HomeBudget.FileName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Budget.HomeBudget.DirName*
+  commentId: Overload:Budget.HomeBudget.DirName
+  name: DirName
+  nameWithType: HomeBudget.DirName
+  fullName: Budget.HomeBudget.DirName
+- uid: Budget.HomeBudget.PathName*
+  commentId: Overload:Budget.HomeBudget.PathName
+  name: PathName
+  nameWithType: HomeBudget.PathName
+  fullName: Budget.HomeBudget.PathName
+- uid: Budget.HomeBudget.categories*
+  commentId: Overload:Budget.HomeBudget.categories
+  name: categories
+  nameWithType: HomeBudget.categories
+  fullName: Budget.HomeBudget.categories
+- uid: Budget.Categories
+  commentId: T:Budget.Categories
+  parent: Budget
+  name: Categories
+  nameWithType: Categories
+  fullName: Budget.Categories
+- uid: Budget.HomeBudget.expenses*
+  commentId: Overload:Budget.HomeBudget.expenses
+  name: expenses
+  nameWithType: HomeBudget.expenses
+  fullName: Budget.HomeBudget.expenses
+- uid: Budget.Expenses
+  commentId: T:Budget.Expenses
+  parent: Budget
+  name: Expenses
+  nameWithType: Expenses
+  fullName: Budget.Expenses
+- uid: Budget.HomeBudget.#ctor*
+  commentId: Overload:Budget.HomeBudget.#ctor
+  name: HomeBudget
+  nameWithType: HomeBudget.HomeBudget
+  fullName: Budget.HomeBudget.HomeBudget
+- uid: Budget.HomeBudget.ReadFromFile*
+  commentId: Overload:Budget.HomeBudget.ReadFromFile
+  name: ReadFromFile
+  nameWithType: HomeBudget.ReadFromFile
+  fullName: Budget.HomeBudget.ReadFromFile
+- uid: Budget.HomeBudget.SaveToFile*
+  commentId: Overload:Budget.HomeBudget.SaveToFile
+  name: SaveToFile
+  nameWithType: HomeBudget.SaveToFile
+  fullName: Budget.HomeBudget.SaveToFile
+- uid: Budget.HomeBudget.GetBudgetItems*
+  commentId: Overload:Budget.HomeBudget.GetBudgetItems
+  name: GetBudgetItems
+  nameWithType: HomeBudget.GetBudgetItems
+  fullName: Budget.HomeBudget.GetBudgetItems
+- uid: System.Nullable{System.DateTime}
+  commentId: T:System.Nullable{System.DateTime}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<DateTime>
+  nameWithType: Nullable<DateTime>
+  fullName: System.Nullable<System.DateTime>
+  nameWithType.vb: Nullable(Of DateTime)
+  fullName.vb: System.Nullable(Of System.DateTime)
+  name.vb: Nullable(Of DateTime)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Collections.Generic.List{Budget.BudgetItem}
+  commentId: T:System.Collections.Generic.List{Budget.BudgetItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<BudgetItem>
+  nameWithType: List<BudgetItem>
+  fullName: System.Collections.Generic.List<Budget.BudgetItem>
+  nameWithType.vb: List(Of BudgetItem)
+  fullName.vb: System.Collections.Generic.List(Of Budget.BudgetItem)
+  name.vb: List(Of BudgetItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Budget.BudgetItem
+    name: BudgetItem
+    nameWithType: BudgetItem
+    fullName: Budget.BudgetItem
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Budget.BudgetItem
+    name: BudgetItem
+    nameWithType: BudgetItem
+    fullName: Budget.BudgetItem
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Budget.HomeBudget.GetBudgetItemsByMonth*
+  commentId: Overload:Budget.HomeBudget.GetBudgetItemsByMonth
+  name: GetBudgetItemsByMonth
+  nameWithType: HomeBudget.GetBudgetItemsByMonth
+  fullName: Budget.HomeBudget.GetBudgetItemsByMonth
+- uid: System.Collections.Generic.List{Budget.BudgetItemsByMonth}
+  commentId: T:System.Collections.Generic.List{Budget.BudgetItemsByMonth}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<BudgetItemsByMonth>
+  nameWithType: List<BudgetItemsByMonth>
+  fullName: System.Collections.Generic.List<Budget.BudgetItemsByMonth>
+  nameWithType.vb: List(Of BudgetItemsByMonth)
+  fullName.vb: System.Collections.Generic.List(Of Budget.BudgetItemsByMonth)
+  name.vb: List(Of BudgetItemsByMonth)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Budget.BudgetItemsByMonth
+    name: BudgetItemsByMonth
+    nameWithType: BudgetItemsByMonth
+    fullName: Budget.BudgetItemsByMonth
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Budget.BudgetItemsByMonth
+    name: BudgetItemsByMonth
+    nameWithType: BudgetItemsByMonth
+    fullName: Budget.BudgetItemsByMonth
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Budget.HomeBudget.GeBudgetItemsByCategory*
+  commentId: Overload:Budget.HomeBudget.GeBudgetItemsByCategory
+  name: GeBudgetItemsByCategory
+  nameWithType: HomeBudget.GeBudgetItemsByCategory
+  fullName: Budget.HomeBudget.GeBudgetItemsByCategory
+- uid: System.Collections.Generic.List{Budget.BudgetItemsByCategory}
+  commentId: T:System.Collections.Generic.List{Budget.BudgetItemsByCategory}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<BudgetItemsByCategory>
+  nameWithType: List<BudgetItemsByCategory>
+  fullName: System.Collections.Generic.List<Budget.BudgetItemsByCategory>
+  nameWithType.vb: List(Of BudgetItemsByCategory)
+  fullName.vb: System.Collections.Generic.List(Of Budget.BudgetItemsByCategory)
+  name.vb: List(Of BudgetItemsByCategory)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Budget.BudgetItemsByCategory
+    name: BudgetItemsByCategory
+    nameWithType: BudgetItemsByCategory
+    fullName: Budget.BudgetItemsByCategory
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Budget.BudgetItemsByCategory
+    name: BudgetItemsByCategory
+    nameWithType: BudgetItemsByCategory
+    fullName: Budget.BudgetItemsByCategory
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Budget.HomeBudget.GetBudgetDictionaryByCategoryAndMonth*
+  commentId: Overload:Budget.HomeBudget.GetBudgetDictionaryByCategoryAndMonth
+  name: GetBudgetDictionaryByCategoryAndMonth
+  nameWithType: HomeBudget.GetBudgetDictionaryByCategoryAndMonth
+  fullName: Budget.HomeBudget.GetBudgetDictionaryByCategoryAndMonth
+- uid: System.Collections.Generic.List{System.Collections.Generic.Dictionary{System.String,System.Object}}
+  commentId: T:System.Collections.Generic.List{System.Collections.Generic.Dictionary{System.String,System.Object}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Dictionary<String, Object>>
+  nameWithType: List<Dictionary<String, Object>>
+  fullName: System.Collections.Generic.List<System.Collections.Generic.Dictionary<System.String, System.Object>>
+  nameWithType.vb: List(Of Dictionary(Of String, Object))
+  fullName.vb: System.Collections.Generic.List(Of System.Collections.Generic.Dictionary(Of System.String, System.Object))
+  name.vb: List(Of Dictionary(Of String, Object))
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )

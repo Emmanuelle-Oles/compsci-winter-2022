@@ -1,0 +1,8 @@
+SQL injection
+
+in order to protect your information
+you compile the sql with the placeholder
+the sql is already compiled 
+
+
+this is how encapsulation helps with protecting our data

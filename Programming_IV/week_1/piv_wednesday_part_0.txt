@@ -1,0 +1,38 @@
+introduction to java
+
+- created in 1990s
+- oop language
+
+uses
+- mobile
+- web (server side)
+- enterprise
+- big data
+
+
+decompiling -> opposite of compiling
+
+java byt code is what java compiles to :)
+
+
+JVM -> vm used to run java code
+JRE -> runtime environment, includes libraries n jvm
+JDK -> development kit, tools to compile and run java program
+
+each version has a jdk -> thats why we needed jdk 11 when we
+ran ian's code
+
+Java SE -> what we are using 
+Java EE -> companies, different flavour
+
+
+review : interfaces in java
+
+- declare that a class implements an interface
+- "skeleton" aspect
+- "contract" aspect when you change the signature of a method you
+break the contract 
+- "membership" aspect: the implementing class can be supplied 
+wherever the interface type is used
+
+

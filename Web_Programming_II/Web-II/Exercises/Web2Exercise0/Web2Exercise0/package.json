@@ -1,0 +1,14 @@
+{
+  "name": "web2-exercise0",
+  "version": "0.0.0",
+  "description": "Web2Exercise0",
+  "scripts": {
+    "start": "node server"
+  },
+  "engines": {
+    "node": "~6.10.x"
+  },
+  "author": {
+    "name": ""
+  }
+}

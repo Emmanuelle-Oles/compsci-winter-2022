@@ -1,0 +1,12 @@
+          Cat_ID  Expense_ID  Date                    Description                    Cost
+            10       1       1/10/2018 12:00:00 am   clothes hat (on credit)         10
+             9       2       1/11/2018 12:00:00 am   credit card hat                -10
+            10       3       1/10/2019 12:00:00 am   clothes scarf(on credit)        15
+             9       4       1/10/2020 12:00:00 am   credit card scarf              -15
+            14       5       1/11/2020 12:00:00 am   eating out mcdonalds            45
+            14       7       1/12/2020 12:00:00 am   eating out wendys               25
+            14      10       2/1/2020 12:00:00 am    eating out pizza                33.33
+             9      13       2/10/2020 12:00:00 am   credit card mittens            -15
+             9      12       2/25/2020 12:00:00 am   credit card hat                -25
+            14      11       2/27/2020 12:00:00 am   eating out pizza                33.33
+            14       9       7/11/2020 12:00:00 am   eating out cafeteria            11.11

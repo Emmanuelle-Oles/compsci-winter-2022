@@ -1,0 +1,4 @@
+Input/Output Streams
+
+- streams of data
+- like streamReader and streamWriter in C#

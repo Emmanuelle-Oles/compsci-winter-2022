@@ -1,0 +1,7 @@
+C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\bin\Debug\HomeBugetOleszczuk_W2022.exe.config
+C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\bin\Debug\HomeBugetOleszczuk_W2022.exe
+C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\bin\Debug\HomeBugetOleszczuk_W2022.pdb
+C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\obj\Debug\HomeBugetOleszczuk_W2022.csproj.CoreCompileInputs.cache
+C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\obj\Debug\HomeBugetOleszczuk_W2022.exe
+C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\obj\Debug\HomeBugetOleszczuk_W2022.pdb
+C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\obj\Debug\HomeBugetOleszczuk_W2022.csproj.AssemblyReference.cache

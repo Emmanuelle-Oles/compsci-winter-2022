@@ -1,0 +1,120 @@
+SQLite
+
+
+what is SQLite?
+
+It is a software library that provides a relational database management system.
+
+noticeable features: self-contained, serverless, zero-conf, transactional
+
+
+usually a relational database management system requires a seperate server process
+to operate using the TCP/IP protocol to send and receive requests: this is called
+client/server architecture.
+
+^^ sqlite does not work this way
+
+
+self-contained
+
+- requires minimal support from os or external library, making it usable
+in any env like iphones, androids phones, game console.
+
+
+zero-config
+
+- no server process thhat needs to be config, started or stopped
+
+
+transactional
+
+all transactions in SQLite are fully ACID-compliant. 
+atomic
+consistent
+isolated
+durable
+
+why does it have the name lite?
+bc no stored procedures, no logins, restrictions on files not logins
+
+it is open-source: you can look at the code: submit or request corrections:
+then small commitments on 
+
+
+it is a relational database: foreign keys
+
+
+
+working from command prompt
+
+dos -> command prompt
+
+if you want to switch drive you need to type the letter
+
+
+cd \  -> folder and dir are the same thing
+
+to get a list of dir -> 
+
+
+////// extremely important /////////
+			environment variable : information about your computer
+							- name of pc
+
+			path variable 
+
+files that can be executed 
+when i type sqlite3 -> its the name of a executable 
+			.com
+			.bat
+			.exe
+			 etc
+			
+in windows
+
+1 - searches for sqlite3 in the current dir
+if found, executed
+
+2 - it searches the path environment variable: object on a computer, 
+containing an editable value
+
+
+
+we are doing to save time
+this is one of the most important question
+
+linux/mac
+
+- nothing 
+
+
+data type introduction to SQLite 
+
+in mySQL and PostgreSQL; they use static typing
+
+SQLite uses dynamic type system
+
+you are not restricted to your datatypes
+
+5 storage classes 
+
+null ->
+integer ->
+real ->
+text ->
+blob ->
+
+not date or time type in sqlite
+
+stores date as string and then interpret
+
+
+what is nuget?
+
+it is a package manager that delivers compiled source code and other files
+related to code.
+a nuget package takes the form of a zip file with the extension .nupkg
+
+makes adding, updating, removing librairies easy in visual studio applications
+
+

@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Categories
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Categories
+   ">
+    <meta name="generator" content="docfx 2.59.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Budget.Categories">
+  
+  
+  <h1 id="Budget_Categories" data-uid="Budget.Categories" class="text-break">Class Categories
+  </h1>
+  <div class="markdown level0 summary"><p sourcefile="obj/api/Budget.Categories.yml" sourcestartlinenumber="2" sourceendlinenumber="2">A class that holds a collection of category items to organize a budget. </p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">Categories</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Budget.html">Budget</a></h6>
+  <h6><strong>Assembly</strong>: HomeBugetOleszczuk_W2022.dll</h6>
+  <h5 id="Budget_Categories_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Categories</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="Budget_Categories__ctor_" data-uid="Budget.Categories.#ctor*"></a>
+  <h4 id="Budget_Categories__ctor" data-uid="Budget.Categories.#ctor">Categories()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Categories()</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Budget_Categories_DirName_" data-uid="Budget.Categories.DirName*"></a>
+  <h4 id="Budget_Categories_DirName" data-uid="Budget.Categories.DirName">DirName</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string DirName { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Budget_Categories_FileName_" data-uid="Budget.Categories.FileName*"></a>
+  <h4 id="Budget_Categories_FileName" data-uid="Budget.Categories.FileName">FileName</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string FileName { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Budget_Categories_Add_" data-uid="Budget.Categories.Add*"></a>
+  <h4 id="Budget_Categories_Add_System_String_Budget_Category_CategoryType_" data-uid="Budget.Categories.Add(System.String,Budget.Category.CategoryType)">Add(String, Category.CategoryType)</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/Budget.Categories.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Overloaded methods that adds category</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Add(string desc, Category.CategoryType type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">desc</span></td>
+        <td><p sourcefile="obj/api/Budget.Categories.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Description of category. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Budget.Category.CategoryType.html">Category.CategoryType</a></td>
+        <td><span class="parametername">type</span></td>
+        <td><p sourcefile="obj/api/Budget.Categories.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Type of category. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Budget_Categories_Delete_" data-uid="Budget.Categories.Delete*"></a>
+  <h4 id="Budget_Categories_Delete_System_Int32_" data-uid="Budget.Categories.Delete(System.Int32)">Delete(Int32)</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/Budget.Categories.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Method that removes/delete category from the list.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Delete(int Id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">Id</span></td>
+        <td><p sourcefile="obj/api/Budget.Categories.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Id of category to be removed. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Budget_Categories_GetCategoryFromId_" data-uid="Budget.Categories.GetCategoryFromId*"></a>
+  <h4 id="Budget_Categories_GetCategoryFromId_System_Int32_" data-uid="Budget.Categories.GetCategoryFromId(System.Int32)">GetCategoryFromId(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Category GetCategoryFromId(int i)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">i</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Budget.Category.html">Category</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Budget_Categories_List_" data-uid="Budget.Categories.List*"></a>
+  <h4 id="Budget_Categories_List" data-uid="Budget.Categories.List">List()</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/Budget.Categories.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Method makes a copy of list of category.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Category&gt; List()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Budget.Category.html">Category</a>&gt;</td>
+        <td><p sourcefile="obj/api/Budget.Categories.yml" sourcestartlinenumber="1" sourceendlinenumber="1">List of categories. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Budget_Categories_ReadFromFile_" data-uid="Budget.Categories.ReadFromFile*"></a>
+  <h4 id="Budget_Categories_ReadFromFile_System_String_" data-uid="Budget.Categories.ReadFromFile(System.String)">ReadFromFile(String)</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/Budget.Categories.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Method reads from <em>passed-in</em> file to extract the categories.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReadFromFile(string filepath = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">filepath</span></td>
+        <td><p sourcefile="obj/api/Budget.Categories.yml" sourcestartlinenumber="1" sourceendlinenumber="1">File path to read from. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Budget_Categories_SaveToFile_" data-uid="Budget.Categories.SaveToFile*"></a>
+  <h4 id="Budget_Categories_SaveToFile_System_String_" data-uid="Budget.Categories.SaveToFile(System.String)">SaveToFile(String)</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/Budget.Categories.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Method saves to file. </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SaveToFile(string filepath = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">filepath</span></td>
+        <td><p sourcefile="obj/api/Budget.Categories.yml" sourcestartlinenumber="1" sourceendlinenumber="1">File path to save to. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Budget_Categories_SetCategoriesToDefaults_" data-uid="Budget.Categories.SetCategoriesToDefaults*"></a>
+  <h4 id="Budget_Categories_SetCategoriesToDefaults" data-uid="Budget.Categories.SetCategoriesToDefaults">SetCategoriesToDefaults()</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/Budget.Categories.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Method sets categories to default values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetCategoriesToDefaults()</code></pre>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

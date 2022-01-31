@@ -1,0 +1,18 @@
+
+
+Software architectural pattern :)
+
+A software system architect is the set of principal deisgn decision
+about the system.
+a schema in which a software system runs. 
+
+The software architecture is the blueprint for a software system's construction
+and evolution.
+
+
+Model View Controller is an architectural pattern that seperates an application
+into three main logical components: the model, the view and the controller.
+
+model: all data related logic
+view: UI logic for application
+controller: interface between model and view components

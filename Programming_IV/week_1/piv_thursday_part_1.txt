@@ -1,0 +1,42 @@
+Input/Output Streams
+
+- streams of data
+- like streamReader and streamWriter in C#
+
+- river analogy: only see a "current" piece of data 
+
+- we have a source of our streams
+
+- output streams are a bit weirder : out to some destination
+- we are the person placing things into the streamReader
+- output things are sent to a destination
+
+- rare but can be possible to move in the stream 
+
+- stream has a small memory footprint
+
+
+JAVA equivalent -> fileReader
+
+FileReader: we can create onne from a file name
+https://docs.oracle.com/javase/7/docs/api/java/io/FileReader.html
+
+
+FileReader reader = new FileReader("in.txt");
+
+char c = (char)
+
+
+bufferedReader
+
+https://docs.oracle.com/javase/8/docs/api/java/io/BufferedReader.html
+
+
+scanner is very powerful 
+
+scanner uses a delimiter to process "tokens"
+default is whitespace 
+processing by token not lines
+
+
+

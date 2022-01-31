@@ -1,0 +1,158 @@
+### YamlMime:ManagedReference
+items:
+- uid: Budget.Category.CategoryType
+  commentId: T:Budget.Category.CategoryType
+  id: Category.CategoryType
+  parent: Budget
+  children:
+  - Budget.Category.CategoryType.Credit
+  - Budget.Category.CategoryType.Expense
+  - Budget.Category.CategoryType.Income
+  - Budget.Category.CategoryType.Savings
+  langs:
+  - csharp
+  - vb
+  name: Category.CategoryType
+  nameWithType: Category.CategoryType
+  fullName: Budget.Category.CategoryType
+  type: Enum
+  source:
+    id: CategoryType
+    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\Category.cs
+    startLine: 26
+  assemblies:
+  - HomeBugetOleszczuk_W2022
+  namespace: Budget
+  syntax:
+    content: public enum CategoryType
+    content.vb: Public Enum CategoryType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Budget.Category.CategoryType.Income
+  commentId: F:Budget.Category.CategoryType.Income
+  id: Income
+  parent: Budget.Category.CategoryType
+  langs:
+  - csharp
+  - vb
+  name: Income
+  nameWithType: Category.CategoryType.Income
+  fullName: Budget.Category.CategoryType.Income
+  type: Field
+  source:
+    id: Income
+    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\Category.cs
+    startLine: 28
+  assemblies:
+  - HomeBugetOleszczuk_W2022
+  namespace: Budget
+  syntax:
+    content: Income = 0
+    return:
+      type: Budget.Category.CategoryType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Budget.Category.CategoryType.Expense
+  commentId: F:Budget.Category.CategoryType.Expense
+  id: Expense
+  parent: Budget.Category.CategoryType
+  langs:
+  - csharp
+  - vb
+  name: Expense
+  nameWithType: Category.CategoryType.Expense
+  fullName: Budget.Category.CategoryType.Expense
+  type: Field
+  source:
+    id: Expense
+    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\Category.cs
+    startLine: 29
+  assemblies:
+  - HomeBugetOleszczuk_W2022
+  namespace: Budget
+  syntax:
+    content: Expense = 1
+    return:
+      type: Budget.Category.CategoryType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Budget.Category.CategoryType.Credit
+  commentId: F:Budget.Category.CategoryType.Credit
+  id: Credit
+  parent: Budget.Category.CategoryType
+  langs:
+  - csharp
+  - vb
+  name: Credit
+  nameWithType: Category.CategoryType.Credit
+  fullName: Budget.Category.CategoryType.Credit
+  type: Field
+  source:
+    id: Credit
+    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\Category.cs
+    startLine: 30
+  assemblies:
+  - HomeBugetOleszczuk_W2022
+  namespace: Budget
+  syntax:
+    content: Credit = 2
+    return:
+      type: Budget.Category.CategoryType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Budget.Category.CategoryType.Savings
+  commentId: F:Budget.Category.CategoryType.Savings
+  id: Savings
+  parent: Budget.Category.CategoryType
+  langs:
+  - csharp
+  - vb
+  name: Savings
+  nameWithType: Category.CategoryType.Savings
+  fullName: Budget.Category.CategoryType.Savings
+  type: Field
+  source:
+    id: Savings
+    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\Category.cs
+    startLine: 31
+  assemblies:
+  - HomeBugetOleszczuk_W2022
+  namespace: Budget
+  syntax:
+    content: Savings = 3
+    return:
+      type: Budget.Category.CategoryType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Budget
+  commentId: N:Budget
+  name: Budget
+  nameWithType: Budget
+  fullName: Budget
+- uid: Budget.Category.CategoryType
+  commentId: T:Budget.Category.CategoryType
+  parent: Budget
+  name: Category.CategoryType
+  nameWithType: Category.CategoryType
+  fullName: Budget.Category.CategoryType

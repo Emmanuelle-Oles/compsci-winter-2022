@@ -1,0 +1,45 @@
+life cycle to create a software
+
+-> planning
+-> developing
+-> requirements
+-> designing
+-> implementing
+-> testing
+-> maintaining 
+-> deployment
+
+
+1. Planning
+- idenitfy project
+- budget
+- requirements -> hardest part -> solutions -> use cases
+- schedule
+
+Business proposal
+-> how long is it going to take me?
+-> how much time will it save other people who use my new tool? (research) prove that it would save company under a year
+
+
+2. Design
+- Architectual
+- UML, flowcharts
+
+3. Developping 
+
+4. Maintenance
+
+-> updates 
+-> new small features
+-> bug fixes
+
+
+Managers: maximize profits, shortest execution
+
+Customer: quality product, 
+
+Programmers/ Designers
+
+
+
+
