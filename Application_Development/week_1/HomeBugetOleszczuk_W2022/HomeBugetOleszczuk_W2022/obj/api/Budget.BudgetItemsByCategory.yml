@@ -16,8 +16,12 @@ items:
   fullName: Budget.BudgetItemsByCategory
   type: Class
   source:
+    remote:
+      path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/BudgetItem.cs
+      branch: main
+      repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
     id: BudgetItemsByCategory
-    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\BudgetItem.cs
+    path: BudgetItem.cs
     startLine: 45
   assemblies:
   - HomeBugetOleszczuk_W2022
@@ -55,8 +59,12 @@ items:
   fullName: Budget.BudgetItemsByCategory.Category
   type: Property
   source:
+    remote:
+      path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/BudgetItem.cs
+      branch: main
+      repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
     id: Category
-    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\BudgetItem.cs
+    path: BudgetItem.cs
     startLine: 47
   assemblies:
   - HomeBugetOleszczuk_W2022
@@ -86,8 +94,12 @@ items:
   fullName: Budget.BudgetItemsByCategory.Details
   type: Property
   source:
+    remote:
+      path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/BudgetItem.cs
+      branch: main
+      repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
     id: Details
-    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\BudgetItem.cs
+    path: BudgetItem.cs
     startLine: 48
   assemblies:
   - HomeBugetOleszczuk_W2022
@@ -117,8 +129,12 @@ items:
   fullName: Budget.BudgetItemsByCategory.Total
   type: Property
   source:
+    remote:
+      path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/BudgetItem.cs
+      branch: main
+      repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
     id: Total
-    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\BudgetItem.cs
+    path: BudgetItem.cs
     startLine: 49
   assemblies:
   - HomeBugetOleszczuk_W2022

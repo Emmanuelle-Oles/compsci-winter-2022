@@ -26,9 +26,13 @@ items:
   fullName: Budget.HomeBudget
   type: Class
   source:
+    remote:
+      path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/HomeBudget.cs
+      branch: main
+      repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
     id: HomeBudget
-    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\HomeBudget.cs
-    startLine: 24
+    path: HomeBudget.cs
+    startLine: 23
   assemblies:
   - HomeBugetOleszczuk_W2022
   namespace: Budget
@@ -65,9 +69,13 @@ items:
   fullName: Budget.HomeBudget.FileName
   type: Property
   source:
+    remote:
+      path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/HomeBudget.cs
+      branch: main
+      repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
     id: FileName
-    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\HomeBudget.cs
-    startLine: 38
+    path: HomeBudget.cs
+    startLine: 37
   assemblies:
   - HomeBugetOleszczuk_W2022
   namespace: Budget
@@ -98,9 +106,13 @@ items:
   fullName: Budget.HomeBudget.DirName
   type: Property
   source:
+    remote:
+      path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/HomeBudget.cs
+      branch: main
+      repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
     id: DirName
-    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\HomeBudget.cs
-    startLine: 39
+    path: HomeBudget.cs
+    startLine: 38
   assemblies:
   - HomeBugetOleszczuk_W2022
   namespace: Budget
@@ -129,9 +141,13 @@ items:
   fullName: Budget.HomeBudget.PathName
   type: Property
   source:
+    remote:
+      path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/HomeBudget.cs
+      branch: main
+      repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
     id: PathName
-    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\HomeBudget.cs
-    startLine: 40
+    path: HomeBudget.cs
+    startLine: 39
   assemblies:
   - HomeBugetOleszczuk_W2022
   namespace: Budget
@@ -160,9 +176,13 @@ items:
   fullName: Budget.HomeBudget.categories
   type: Property
   source:
+    remote:
+      path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/HomeBudget.cs
+      branch: main
+      repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
     id: categories
-    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\HomeBudget.cs
-    startLine: 56
+    path: HomeBudget.cs
+    startLine: 55
   assemblies:
   - HomeBugetOleszczuk_W2022
   namespace: Budget
@@ -191,9 +211,13 @@ items:
   fullName: Budget.HomeBudget.expenses
   type: Property
   source:
+    remote:
+      path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/HomeBudget.cs
+      branch: main
+      repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
     id: expenses
-    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\HomeBudget.cs
-    startLine: 57
+    path: HomeBudget.cs
+    startLine: 56
   assemblies:
   - HomeBugetOleszczuk_W2022
   namespace: Budget
@@ -222,13 +246,17 @@ items:
   fullName: Budget.HomeBudget.HomeBudget()
   type: Constructor
   source:
+    remote:
+      path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/HomeBudget.cs
+      branch: main
+      repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
     id: .ctor
-    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\HomeBudget.cs
+    path: HomeBudget.cs
     startLine: 65
   assemblies:
   - HomeBugetOleszczuk_W2022
   namespace: Budget
-  summary: "\nDefault constructor to instantiate a home budget.\n"
+  summary: "\nDefault constructor to instantiate a home budget object. It populates the\nlist of categories with the default categories and no expenses. \n"
   example: []
   syntax:
     content: public HomeBudget()
@@ -250,13 +278,17 @@ items:
   fullName: Budget.HomeBudget.HomeBudget(System.String)
   type: Constructor
   source:
+    remote:
+      path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/HomeBudget.cs
+      branch: main
+      repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
     id: .ctor
-    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\HomeBudget.cs
-    startLine: 78
+    path: HomeBudget.cs
+    startLine: 79
   assemblies:
   - HomeBugetOleszczuk_W2022
   namespace: Budget
-  summary: "\nConstructor to instantiate a home budget with information extracted from file.\n"
+  summary: "\nConstructor to instantiate a home budget with information extracted from file.\nThrows exception if the\n"
   example: []
   syntax:
     content: public HomeBudget(string budgetFileName)
@@ -282,9 +314,13 @@ items:
   fullName: Budget.HomeBudget.ReadFromFile(System.String)
   type: Method
   source:
+    remote:
+      path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/HomeBudget.cs
+      branch: main
+      repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
     id: ReadFromFile
-    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\HomeBudget.cs
-    startLine: 90
+    path: HomeBudget.cs
+    startLine: 91
   assemblies:
   - HomeBugetOleszczuk_W2022
   namespace: Budget
@@ -311,9 +347,13 @@ items:
   fullName: Budget.HomeBudget.SaveToFile(System.String)
   type: Method
   source:
+    remote:
+      path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/HomeBudget.cs
+      branch: main
+      repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
     id: SaveToFile
-    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\HomeBudget.cs
-    startLine: 137
+    path: HomeBudget.cs
+    startLine: 138
   assemblies:
   - HomeBugetOleszczuk_W2022
   namespace: Budget
@@ -340,9 +380,13 @@ items:
   fullName: Budget.HomeBudget.GetBudgetItems(System.Nullable<System.DateTime>, System.Nullable<System.DateTime>, System.Boolean, System.Int32)
   type: Method
   source:
+    remote:
+      path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/HomeBudget.cs
+      branch: main
+      repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
     id: GetBudgetItems
-    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\HomeBudget.cs
-    startLine: 260
+    path: HomeBudget.cs
+    startLine: 258
   assemblies:
   - HomeBugetOleszczuk_W2022
   namespace: Budget
@@ -363,6 +407,7 @@ items:
       description: ''
     - id: CategoryID
       type: System.Int32
+      description: 'Numerical representation of a category. '
     return:
       type: System.Collections.Generic.List{Budget.BudgetItem}
       description: 'A list of items considered expenses. '
@@ -387,15 +432,19 @@ items:
   fullName: Budget.HomeBudget.GetBudgetItemsByMonth(System.Nullable<System.DateTime>, System.Nullable<System.DateTime>, System.Boolean, System.Int32)
   type: Method
   source:
+    remote:
+      path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/HomeBudget.cs
+      branch: main
+      repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
     id: GetBudgetItemsByMonth
-    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\HomeBudget.cs
-    startLine: 321
+    path: HomeBudget.cs
+    startLine: 323
   assemblies:
   - HomeBugetOleszczuk_W2022
   namespace: Budget
   summary: "\nMethod groups all expenses according to the month. \n"
   example:
-  - "\nset up for example.\n"
+  - "\n\n<pre><code></code></pre>\n\n"
   syntax:
     content: public List<BudgetItemsByMonth> GetBudgetItemsByMonth(DateTime? Start, DateTime? End, bool FilterFlag, int CategoryID)
     parameters:
@@ -435,14 +484,19 @@ items:
   fullName: Budget.HomeBudget.GeBudgetItemsByCategory(System.Nullable<System.DateTime>, System.Nullable<System.DateTime>, System.Boolean, System.Int32)
   type: Method
   source:
+    remote:
+      path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/HomeBudget.cs
+      branch: main
+      repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
     id: GeBudgetItemsByCategory
-    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\HomeBudget.cs
-    startLine: 371
+    path: HomeBudget.cs
+    startLine: 380
   assemblies:
   - HomeBugetOleszczuk_W2022
   namespace: Budget
   summary: "\nMethod groups all expenses by category \n"
-  example: []
+  example:
+  - "\n\n<pre><code></code></pre>\n\n"
   syntax:
     content: public List<BudgetItemsByCategory> GeBudgetItemsByCategory(DateTime? Start, DateTime? End, bool FilterFlag, int CategoryID)
     parameters:
@@ -482,14 +536,19 @@ items:
   fullName: Budget.HomeBudget.GetBudgetDictionaryByCategoryAndMonth(System.Nullable<System.DateTime>, System.Nullable<System.DateTime>, System.Boolean, System.Int32)
   type: Method
   source:
+    remote:
+      path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/HomeBudget.cs
+      branch: main
+      repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
     id: GetBudgetDictionaryByCategoryAndMonth
-    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\HomeBudget.cs
-    startLine: 436
+    path: HomeBudget.cs
+    startLine: 452
   assemblies:
   - HomeBugetOleszczuk_W2022
   namespace: Budget
   summary: "\nMethod groups all expenses by category and month creating a list of \n\n"
-  example: []
+  example:
+  - "\n\n<pre><code></code></pre>\n\n"
   syntax:
     content: public List<Dictionary<string, object>> GetBudgetDictionaryByCategoryAndMonth(DateTime? Start, DateTime? End, bool FilterFlag, int CategoryID)
     parameters:

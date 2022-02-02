@@ -23,13 +23,17 @@ items:
   fullName: Budget.Categories
   type: Class
   source:
+    remote:
+      path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Categories.cs
+      branch: main
+      repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
     id: Categories
-    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\Categories.cs
-    startLine: 25
+    path: Categories.cs
+    startLine: 22
   assemblies:
   - HomeBugetOleszczuk_W2022
   namespace: Budget
-  summary: "\nA class that holds a collection of category items to organize a budget. \n"
+  summary: "\nA class that represents a list of category items to organize a budget. \n"
   example: []
   syntax:
     content: public class Categories
@@ -62,12 +66,18 @@ items:
   fullName: Budget.Categories.FileName
   type: Property
   source:
+    remote:
+      path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Categories.cs
+      branch: main
+      repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
     id: FileName
-    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\Categories.cs
+    path: Categories.cs
     startLine: 35
   assemblies:
   - HomeBugetOleszczuk_W2022
   namespace: Budget
+  summary: "\nProperty that gets the file name.\n"
+  example: []
   syntax:
     content: public string FileName { get; }
     parameters: []
@@ -93,12 +103,18 @@ items:
   fullName: Budget.Categories.DirName
   type: Property
   source:
+    remote:
+      path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Categories.cs
+      branch: main
+      repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
     id: DirName
-    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\Categories.cs
-    startLine: 36
+    path: Categories.cs
+    startLine: 40
   assemblies:
   - HomeBugetOleszczuk_W2022
   namespace: Budget
+  summary: "\nProperty that get the directory name.\n"
+  example: []
   syntax:
     content: public string DirName { get; }
     parameters: []
@@ -124,12 +140,18 @@ items:
   fullName: Budget.Categories.Categories()
   type: Constructor
   source:
+    remote:
+      path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Categories.cs
+      branch: main
+      repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
     id: .ctor
-    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\Categories.cs
-    startLine: 41
+    path: Categories.cs
+    startLine: 49
   assemblies:
   - HomeBugetOleszczuk_W2022
   namespace: Budget
+  summary: "\nDefault constructor that populates the categories to default values.\n"
+  example: []
   syntax:
     content: public Categories()
     content.vb: Public Sub New
@@ -150,19 +172,28 @@ items:
   fullName: Budget.Categories.GetCategoryFromId(System.Int32)
   type: Method
   source:
+    remote:
+      path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Categories.cs
+      branch: main
+      repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
     id: GetCategoryFromId
-    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\Categories.cs
-    startLine: 49
+    path: Categories.cs
+    startLine: 74
   assemblies:
   - HomeBugetOleszczuk_W2022
   namespace: Budget
+  summary: "\nMethod that gets the category object based on the specified id.\nThrows a exception, if the category can not be found.\n"
+  example:
+  - "\n<pre><code>Categories categories = new Categories();\nCategory category = categories.GetCategoryFromId(12);</code></pre>\n"
   syntax:
     content: public Category GetCategoryFromId(int i)
     parameters:
     - id: i
       type: System.Int32
+      description: Numerical id for a specific category.
     return:
       type: Budget.Category
+      description: 'Category with the corresponding id. '
     content.vb: Public Function GetCategoryFromId(i As Integer) As Category
   overload: Budget.Categories.GetCategoryFromId*
   modifiers.csharp:
@@ -181,20 +212,21 @@ items:
   fullName: Budget.Categories.ReadFromFile(System.String)
   type: Method
   source:
+    remote:
+      path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Categories.cs
+      branch: main
+      repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
     id: ReadFromFile
-    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\Categories.cs
-    startLine: 70
+    path: Categories.cs
+    startLine: 102
   assemblies:
   - HomeBugetOleszczuk_W2022
   namespace: Budget
-  summary: "\nMethod reads from *passed-in* file to extract the categories.\n"
-  example: []
   syntax:
     content: public void ReadFromFile(string filepath = null)
     parameters:
     - id: filepath
       type: System.String
-      description: 'File path to read from. '
     content.vb: Public Sub ReadFromFile(filepath As String = Nothing)
   overload: Budget.Categories.ReadFromFile*
   modifiers.csharp:
@@ -213,13 +245,17 @@ items:
   fullName: Budget.Categories.SaveToFile(System.String)
   type: Method
   source:
+    remote:
+      path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Categories.cs
+      branch: main
+      repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
     id: SaveToFile
-    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\Categories.cs
-    startLine: 107
+    path: Categories.cs
+    startLine: 140
   assemblies:
   - HomeBugetOleszczuk_W2022
   namespace: Budget
-  summary: "\nMethod saves to file. \n"
+  summary: "\nMethod saves to specified file.\nThe file is \n"
   example: []
   syntax:
     content: public void SaveToFile(string filepath = null)
@@ -245,9 +281,13 @@ items:
   fullName: Budget.Categories.SetCategoriesToDefaults()
   type: Method
   source:
+    remote:
+      path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Categories.cs
+      branch: main
+      repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
     id: SetCategoriesToDefaults
-    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\Categories.cs
-    startLine: 146
+    path: Categories.cs
+    startLine: 179
   assemblies:
   - HomeBugetOleszczuk_W2022
   namespace: Budget
@@ -273,14 +313,19 @@ items:
   fullName: Budget.Categories.Add(System.String, Budget.Category.CategoryType)
   type: Method
   source:
+    remote:
+      path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Categories.cs
+      branch: main
+      repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
     id: Add
-    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\Categories.cs
-    startLine: 192
+    path: Categories.cs
+    startLine: 238
   assemblies:
   - HomeBugetOleszczuk_W2022
   namespace: Budget
   summary: "\nOverloaded methods that adds category\n"
-  example: []
+  example:
+  - "\n<pre><code>Categories categories = new Categories();\n\ncategories.Add(&quot;Leisure&quot;, Category.CategoryType.Expense);\ncategories.Add(&quot;Freelancing&quot;, Category.CategoryType.Income);</code></pre>\n"
   syntax:
     content: public void Add(string desc, Category.CategoryType type)
     parameters:
@@ -308,14 +353,19 @@ items:
   fullName: Budget.Categories.Delete(System.Int32)
   type: Method
   source:
+    remote:
+      path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Categories.cs
+      branch: main
+      repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
     id: Delete
-    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\Categories.cs
-    startLine: 210
+    path: Categories.cs
+    startLine: 276
   assemblies:
   - HomeBugetOleszczuk_W2022
   namespace: Budget
   summary: "\nMethod that removes/delete category from the list.\n"
-  example: []
+  example:
+  - "\n<pre><code>Categories categories = new Categories();\n\ncategories.Add(&quot;Leisure&quot;, Category.CategoryType.Expense);\n\ncategories.Add(&quot;Freelance&quot;, Category.CategoryType.Income);\n\nforeach(Category category in categories.List())\n    Console.WriteLine(category);\n\nConsole.ReadKey();\n\ncategories.Delete(1);\n\nforeach (Category category in categories.List())\n    Console.WriteLine(category);\n\nConsole.ReadKey();</code></pre>\n"
   syntax:
     content: public void Delete(int Id)
     parameters:
@@ -340,14 +390,19 @@ items:
   fullName: Budget.Categories.List()
   type: Method
   source:
+    remote:
+      path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Categories.cs
+      branch: main
+      repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
     id: List
-    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\Categories.cs
-    startLine: 226
+    path: Categories.cs
+    startLine: 306
   assemblies:
   - HomeBugetOleszczuk_W2022
   namespace: Budget
   summary: "\nMethod makes a copy of list of category.\n"
-  example: []
+  example:
+  - "\n<pre><code>Categories categories = new Categories();\ncategories.Add(&quot;Leisure&quot;, Category.CategoryType.Expense);\nList&lt;Category> categoriesList = categories.List();\n\nforeach(Category category in categoriesList)    \n    Console.WriteLine(category.Description);</code></pre>\n"
   syntax:
     content: public List<Category> List()
     return:

@@ -19,8 +19,12 @@ items:
   fullName: Budget.Category
   type: Class
   source:
+    remote:
+      path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Category.cs
+      branch: main
+      repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
     id: Category
-    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\Category.cs
+    path: Category.cs
     startLine: 18
   assemblies:
   - HomeBugetOleszczuk_W2022
@@ -55,12 +59,18 @@ items:
   fullName: Budget.Category.Id
   type: Property
   source:
+    remote:
+      path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Category.cs
+      branch: main
+      repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
     id: Id
-    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\Category.cs
-    startLine: 23
+    path: Category.cs
+    startLine: 27
   assemblies:
   - HomeBugetOleszczuk_W2022
   namespace: Budget
+  summary: "\nProperty that gets and sets a numerical id for a category. \n"
+  example: []
   syntax:
     content: public int Id { get; set; }
     parameters: []
@@ -86,12 +96,18 @@ items:
   fullName: Budget.Category.Description
   type: Property
   source:
+    remote:
+      path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Category.cs
+      branch: main
+      repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
     id: Description
-    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\Category.cs
-    startLine: 24
+    path: Category.cs
+    startLine: 32
   assemblies:
   - HomeBugetOleszczuk_W2022
   namespace: Budget
+  summary: "\nProperty that gets and sets the description of the category.\n"
+  example: []
   syntax:
     content: public string Description { get; set; }
     parameters: []
@@ -117,12 +133,18 @@ items:
   fullName: Budget.Category.Type
   type: Property
   source:
+    remote:
+      path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Category.cs
+      branch: main
+      repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
     id: Type
-    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\Category.cs
-    startLine: 25
+    path: Category.cs
+    startLine: 37
   assemblies:
   - HomeBugetOleszczuk_W2022
   namespace: Budget
+  summary: "\nProperty that gets and sets the category type from the CategoryType enum. \n"
+  example: []
   syntax:
     content: public Category.CategoryType Type { get; set; }
     parameters: []
@@ -148,13 +170,17 @@ items:
   fullName: Budget.Category.Category(System.Int32, System.String, Budget.Category.CategoryType)
   type: Constructor
   source:
+    remote:
+      path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Category.cs
+      branch: main
+      repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
     id: .ctor
-    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\Category.cs
-    startLine: 43
+    path: Category.cs
+    startLine: 60
   assemblies:
   - HomeBugetOleszczuk_W2022
   namespace: Budget
-  summary: "\n\n"
+  summary: "\nConstructor that creates an instance of category with the specificied id, description\nand type. If the type is not specified, it will be set by default to expense. \n"
   example: []
   syntax:
     content: public Category(int id, string description, Category.CategoryType type = Category.CategoryType.Expense)
@@ -186,13 +212,17 @@ items:
   fullName: Budget.Category.Category(Budget.Category)
   type: Constructor
   source:
+    remote:
+      path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Category.cs
+      branch: main
+      repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
     id: .ctor
-    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\Category.cs
-    startLine: 57
+    path: Category.cs
+    startLine: 75
   assemblies:
   - HomeBugetOleszczuk_W2022
   namespace: Budget
-  summary: "\n\n"
+  summary: "\nConstructor that takes the specified instance of category and makes a deep \ncopy. \n"
   example: []
   syntax:
     content: public Category(Category category)
@@ -218,14 +248,19 @@ items:
   fullName: Budget.Category.ToString()
   type: Method
   source:
+    remote:
+      path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Category.cs
+      branch: main
+      repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
     id: ToString
-    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\Category.cs
-    startLine: 70
+    path: Category.cs
+    startLine: 100
   assemblies:
   - HomeBugetOleszczuk_W2022
   namespace: Budget
-  summary: "\nMethod ToString represensation of category. \n"
-  example: []
+  summary: "\nMethod that outputs the description of the category. \n"
+  example:
+  - "\n<pre><code>Category category = new Category(12, &quot;Food&quot;, Category.CategoryType.Expense);\nConsole.WriteLine(category.ToString());</code></pre>\n"
   syntax:
     content: public override string ToString()
     return:

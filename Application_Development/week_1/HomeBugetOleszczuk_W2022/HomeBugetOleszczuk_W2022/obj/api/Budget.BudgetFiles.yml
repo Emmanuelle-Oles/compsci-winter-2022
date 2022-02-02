@@ -15,8 +15,12 @@ items:
   fullName: Budget.BudgetFiles
   type: Class
   source:
+    remote:
+      path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/BudgetFiles.cs
+      branch: main
+      repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
     id: BudgetFiles
-    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\BudgetFiles.cs
+    path: BudgetFiles.cs
     startLine: 18
   assemblies:
   - HomeBugetOleszczuk_W2022
@@ -54,8 +58,12 @@ items:
   fullName: Budget.BudgetFiles.VerifyReadFromFileName(System.String, System.String)
   type: Method
   source:
+    remote:
+      path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/BudgetFiles.cs
+      branch: main
+      repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
     id: VerifyReadFromFileName
-    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\BudgetFiles.cs
+    path: BudgetFiles.cs
     startLine: 34
   assemblies:
   - HomeBugetOleszczuk_W2022
@@ -94,8 +102,12 @@ items:
   fullName: Budget.BudgetFiles.VerifyWriteToFileName(System.String, System.String)
   type: Method
   source:
+    remote:
+      path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/BudgetFiles.cs
+      branch: main
+      repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
     id: VerifyWriteToFileName
-    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\BudgetFiles.cs
+    path: BudgetFiles.cs
     startLine: 71
   assemblies:
   - HomeBugetOleszczuk_W2022

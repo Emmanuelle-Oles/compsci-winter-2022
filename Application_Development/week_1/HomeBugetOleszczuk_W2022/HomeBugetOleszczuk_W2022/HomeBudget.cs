@@ -16,7 +16,6 @@ namespace Budget
 {
     // ====================================================================
     // CLASS: HomeBudget
-    //        - One File defines Category and Budget File (im not sure what this means)
     // ====================================================================
 
     /// <summary>
@@ -58,10 +57,11 @@ namespace Budget
         public Expenses expenses { get { return _expenses; } }
 
         // -------------------------------------------------------------------
-        // Constructor (new... default categories, no expenses)
+        // Constructor 
         // -------------------------------------------------------------------
         /// <summary>
-        /// Default constructor to instantiate a home budget.
+        /// Default constructor to instantiate a home budget object. It populates the
+        /// list of categories with the default categories and no expenses. 
         /// </summary>
         public HomeBudget()
         {
@@ -70,10 +70,11 @@ namespace Budget
         }
 
         // -------------------------------------------------------------------
-        // Constructor (existing budget ... must specify file)
+        // Constructor 
         // -------------------------------------------------------------------
         /// <summary>
         /// Constructor to instantiate a home budget with information extracted from file.
+        /// Throws exception if the
         /// </summary>
         /// <param name="budgetFileName"> The file that contains the home budget information. </param>
         public HomeBudget(String budgetFileName)
@@ -182,9 +183,7 @@ namespace Budget
         #region GetList
 
 
-
         // ============================================================================
-        // Get all expenses list
         // NOTE: VERY IMPORTANT... budget amount is the negative of the expense amount
         // Reasoning: an expense of $15 is -$15 from your bank account.
         // ============================================================================
@@ -195,8 +194,7 @@ namespace Budget
         /// <param name="Start"> Date of the begin of the period. </param>
         /// <param name="End"> Date of the end of the period. </param>
         /// <param name="FilterFlag"> </param>
-        /// <param name="Categor
-        /// yID"> Numerical representation of a category. </param>
+        /// <param name="CategoryID"> Numerical representation of a category. </param>
         /// <returns> A list of items considered expenses. </returns>
         /// <example>
         /// 
@@ -317,7 +315,11 @@ namespace Budget
         /// <param name="CategoryID"> Numerical representation of category. </param>
         /// <returns> List of item for specific month. </returns>
         /// <example>
-        /// set up for example.
+        /// 
+        /// <code>
+        /// 
+        /// </code>
+        /// 
         /// </example>
         public List<BudgetItemsByMonth> GetBudgetItemsByMonth(DateTime? Start, DateTime? End, bool FilterFlag, int CategoryID)
         {
@@ -369,6 +371,13 @@ namespace Budget
         /// <param name="FilterFlag"></param>
         /// <param name="CategoryID"></param>
         /// <returns> A list all expenses sorted by the name of categories. </returns>
+        /// <example>
+        /// 
+        /// <code>
+        /// 
+        /// </code>
+        /// 
+        /// </example>
         public List<BudgetItemsByCategory> GeBudgetItemsByCategory(DateTime? Start, DateTime? End, bool FilterFlag, int CategoryID)
         {
             // -----------------------------------------------------------------------
@@ -434,6 +443,13 @@ namespace Budget
         /// <param name="FilterFlag"></param>
         /// <param name="CategoryID"></param>
         /// <returns></returns>
+        /// <example>
+        /// 
+        /// <code>
+        /// 
+        /// </code>
+        /// 
+        /// </example>
         public List<Dictionary<string,object>> GetBudgetDictionaryByCategoryAndMonth(DateTime? Start, DateTime? End, bool FilterFlag, int CategoryID)
         {
             // -----------------------------------------------------------------------

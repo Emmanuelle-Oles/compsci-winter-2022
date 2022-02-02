@@ -75,7 +75,7 @@ namespace Budget
         //                  Copy constructor - does a deep copy
         // ====================================================================
         /// <summary>
-        /// Constructor receives an instance of Expense and makes a deep copy of specified expense.
+        /// Constructor takes specified instance of Expense and makes a deep copy of specified expense.
         /// </summary>
         /// <param name="obj"> Expense to be copied. </param>
         public Expense (Expense obj)

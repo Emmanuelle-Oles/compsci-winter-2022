@@ -30,7 +30,14 @@ namespace Budget
         // ====================================================================
         // Properties
         // ====================================================================
+        /// <summary>
+        /// Property that gets the file name.
+        /// </summary>
         public String FileName { get { return _FileName; } }
+
+        /// <summary>
+        /// Property that get the directory name.
+        /// </summary>
         public String DirName { get { return _DirName; } }
 
         // ====================================================================
@@ -48,6 +55,23 @@ namespace Budget
         // ====================================================================
         // get a specific category from the list where the id is the one specified
         // ====================================================================
+
+        /// <summary>
+        /// Method that gets the category object based on the specified id.
+        /// Throws a exception, if the category can not be found.
+        /// </summary>
+        /// <param name="i"> Numerical id for a specific category.</param>
+        /// <returns> Category with the corresponding id. </returns>
+        /// <example>
+        /// <code>
+        /// <![CDATA[
+        /// 
+        /// Categories categories = new Categories();
+        /// Category category = categories.GetCategoryFromId(12);
+        ///
+        /// ]]>
+        /// </code>
+        /// </example>
         public Category GetCategoryFromId(int i)
         {
             Category c = _Cats.Find(x => x.Id == i);
@@ -66,9 +90,16 @@ namespace Budget
         // ====================================================================
 
         /// <summary>
-        /// Method reads from *passed-in* file to extract the categories.
+        /// Method reads from specified file to extract the categories.
         /// </summary>
         /// <param name="filepath"> File path to read from. </param>
+        /// <example>
+        /// <code>
+        /// <![CDATA[
+
+        /// ]]>
+        /// </code>
+        /// </example>
         public void ReadFromFile(String filepath = null)
         {
 
@@ -103,7 +134,8 @@ namespace Budget
         // ====================================================================
 
         /// <summary>
-        /// Method saves to file. 
+        /// Method saves to specified file.
+        /// The file is 
         /// </summary>
         /// <param name="filepath"> File path to save to. </param>
         public void SaveToFile(String filepath = null)
@@ -191,6 +223,19 @@ namespace Budget
         /// </summary>
         /// <param name="desc"> Description of category. </param>
         /// <param name="type"> Type of category. </param>
+        /// <example>
+        /// <code>
+        /// <![CDATA[
+        /// 
+        /// Categories categories = new Categories();
+        /// 
+        /// categories.Add("Leisure", Category.CategoryType.Expense);
+        /// categories.Add("Freelancing", Category.CategoryType.Income);
+        /// 
+        ///
+        /// ]]> 
+        /// </code>
+        /// </example>
         public void Add(String desc, Category.CategoryType type)
         {
             int new_num = 1;
@@ -202,13 +247,33 @@ namespace Budget
             _Cats.Add(new Category(new_num, desc, type));
         }
 
-        // ====================================================================
-        // Delete category
-        // ====================================================================
         /// <summary>
         /// Method that removes/delete category from the list.
         /// </summary>
         /// <param name="Id"> Id of category to be removed. </param>
+        /// <example>
+        /// <code>
+        /// <![CDATA[
+        /// Categories categories = new Categories();
+        /// 
+        /// categories.Add("Leisure", Category.CategoryType.Expense);
+        /// 
+        /// categories.Add("Freelance", Category.CategoryType.Income);
+        /// 
+        /// foreach(Category category in categories.List())
+        ///     Console.WriteLine(category);
+        ///     
+        /// Console.ReadKey();
+        /// 
+        /// categories.Delete(1);
+        /// 
+        /// foreach (Category category in categories.List())
+        ///     Console.WriteLine(category);
+        ///     
+        /// Console.ReadKey();
+        /// ]]>
+        /// </code>
+        /// </example>
         public void Delete(int Id)
         {
             int i = _Cats.FindIndex(x => x.Id == Id);
@@ -225,6 +290,20 @@ namespace Budget
         /// Method makes a copy of list of category.
         /// </summary>
         /// <returns> List of categories. </returns>
+        /// <example>
+        /// <code>
+        /// <![CDATA[
+        /// 
+        /// Categories categories = new Categories();
+        /// categories.Add("Leisure", Category.CategoryType.Expense);
+        /// List<Category> categoriesList = categories.List();
+        ///
+        /// foreach(Category category in categoriesList)    
+        ///     Console.WriteLine(category.Description);
+        ///
+        /// ]]> 
+        /// </code>
+        /// </example>
         public List<Category> List()
         {
             List<Category> newList = new List<Category>();
@@ -235,9 +314,6 @@ namespace Budget
             return newList;
         }
 
-        // ====================================================================
-        // read from an XML file and add categories to our categories list
-        // ====================================================================
         /// <summary>
         /// Method reads from XML file and adds categories to the list of categories.
         /// </summary>
@@ -286,10 +362,6 @@ namespace Budget
 
         }
 
-
-        // ====================================================================
-        // write all categories in our list to XML file
-        // ====================================================================
         /// <summary>
         /// Method that write the list of categories to a XML file.
         /// </summary>

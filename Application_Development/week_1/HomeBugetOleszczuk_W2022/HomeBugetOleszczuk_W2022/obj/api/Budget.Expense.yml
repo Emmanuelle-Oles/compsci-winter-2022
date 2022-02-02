@@ -20,8 +20,12 @@ items:
   fullName: Budget.Expense
   type: Class
   source:
+    remote:
+      path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Expense.cs
+      branch: main
+      repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
     id: Expense
-    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\Expense.cs
+    path: Expense.cs
     startLine: 20
   assemblies:
   - HomeBugetOleszczuk_W2022
@@ -59,8 +63,12 @@ items:
   fullName: Budget.Expense.Id
   type: Property
   source:
+    remote:
+      path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Expense.cs
+      branch: main
+      repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
     id: Id
-    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\Expense.cs
+    path: Expense.cs
     startLine: 29
   assemblies:
   - HomeBugetOleszczuk_W2022
@@ -92,13 +100,17 @@ items:
   fullName: Budget.Expense.Date
   type: Property
   source:
+    remote:
+      path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Expense.cs
+      branch: main
+      repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
     id: Date
-    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\Expense.cs
+    path: Expense.cs
     startLine: 34
   assemblies:
   - HomeBugetOleszczuk_W2022
   namespace: Budget
-  summary: "\nProperty date on a expense.\n"
+  summary: "\nProperty that gets date on a expense.\n"
   example: []
   syntax:
     content: public DateTime Date { get; }
@@ -125,8 +137,12 @@ items:
   fullName: Budget.Expense.Amount
   type: Property
   source:
+    remote:
+      path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Expense.cs
+      branch: main
+      repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
     id: Amount
-    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\Expense.cs
+    path: Expense.cs
     startLine: 39
   assemblies:
   - HomeBugetOleszczuk_W2022
@@ -158,8 +174,12 @@ items:
   fullName: Budget.Expense.Description
   type: Property
   source:
+    remote:
+      path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Expense.cs
+      branch: main
+      repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
     id: Description
-    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\Expense.cs
+    path: Expense.cs
     startLine: 44
   assemblies:
   - HomeBugetOleszczuk_W2022
@@ -191,8 +211,12 @@ items:
   fullName: Budget.Expense.Category
   type: Property
   source:
+    remote:
+      path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Expense.cs
+      branch: main
+      repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
     id: Category
-    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\Expense.cs
+    path: Expense.cs
     startLine: 49
   assemblies:
   - HomeBugetOleszczuk_W2022
@@ -224,32 +248,36 @@ items:
   fullName: Budget.Expense.Expense(System.Int32, System.DateTime, System.Int32, System.Double, System.String)
   type: Constructor
   source:
+    remote:
+      path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Expense.cs
+      branch: main
+      repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
     id: .ctor
-    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\Expense.cs
+    path: Expense.cs
     startLine: 64
   assemblies:
   - HomeBugetOleszczuk_W2022
   namespace: Budget
-  summary: "\nConstructor creates an instance of expense with the specified parameters.\n"
+  summary: "\nConstructor creates an instance of Expense with the specified parameters.\n"
   example: []
   syntax:
     content: public Expense(int id, DateTime date, int category, double amount, string description)
     parameters:
     - id: id
       type: System.Int32
-      description: ''
+      description: 'Numerical representation of the expense. '
     - id: date
       type: System.DateTime
-      description: ''
+      description: 'Date and time of the expense. '
     - id: category
       type: System.Int32
-      description: ''
+      description: 'Numerical representation of the category of the expense. '
     - id: amount
       type: System.Double
-      description: ''
+      description: 'The monetary value of the expense. '
     - id: description
       type: System.String
-      description: ''
+      description: 'The description of the expense. '
     content.vb: Public Sub New(id As Integer, date As Date, category As Integer, amount As Double, description As String)
   overload: Budget.Expense.#ctor*
   modifiers.csharp:
@@ -268,13 +296,17 @@ items:
   fullName: Budget.Expense.Expense(Budget.Expense)
   type: Constructor
   source:
+    remote:
+      path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Expense.cs
+      branch: main
+      repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
     id: .ctor
-    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\Expense.cs
+    path: Expense.cs
     startLine: 80
   assemblies:
   - HomeBugetOleszczuk_W2022
   namespace: Budget
-  summary: "\nConstructor receives an obj expense and makes a deep copy of specified expense.\n"
+  summary: "\nConstructor takes specified instance of Expense and makes a deep copy of specified expense.\n"
   example: []
   syntax:
     content: public Expense(Expense obj)

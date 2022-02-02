@@ -1,0 +1,4743 @@
+id: HomeBugetOleszczuk_W2022
+language: CSharp
+name:
+  Default: HomeBugetOleszczuk_W2022
+qualifiedName:
+  Default: HomeBugetOleszczuk_W2022
+type: Assembly
+modifiers: {}
+items:
+- id: Budget
+  commentId: N:Budget
+  language: CSharp
+  name:
+    CSharp: Budget
+    VB: Budget
+  nameWithType:
+    CSharp: Budget
+    VB: Budget
+  qualifiedName:
+    CSharp: Budget
+    VB: Budget
+  type: Namespace
+  assemblies:
+  - HomeBugetOleszczuk_W2022
+  modifiers: {}
+  items:
+  - id: Budget.BudgetFiles
+    commentId: T:Budget.BudgetFiles
+    language: CSharp
+    name:
+      CSharp: BudgetFiles
+      VB: BudgetFiles
+    nameWithType:
+      CSharp: BudgetFiles
+      VB: BudgetFiles
+    qualifiedName:
+      CSharp: Budget.BudgetFiles
+      VB: Budget.BudgetFiles
+    type: Class
+    assemblies:
+    - HomeBugetOleszczuk_W2022
+    namespace: Budget
+    source:
+      remote:
+        path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/BudgetFiles.cs
+        branch: main
+        repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+      id: BudgetFiles
+      path: BudgetFiles.cs
+      startLine: 18
+    summary: "\nBudgetFiles class is used to manage the files used in the Budget project.\n"
+    example: []
+    syntax:
+      content:
+        CSharp: public class BudgetFiles
+        VB: Public Class BudgetFiles
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.ToString
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: Budget.BudgetFiles.VerifyReadFromFileName(System.String,System.String)
+      commentId: M:Budget.BudgetFiles.VerifyReadFromFileName(System.String,System.String)
+      language: CSharp
+      name:
+        CSharp: VerifyReadFromFileName(String, String)
+        VB: VerifyReadFromFileName(String, String)
+      nameWithType:
+        CSharp: BudgetFiles.VerifyReadFromFileName(String, String)
+        VB: BudgetFiles.VerifyReadFromFileName(String, String)
+      qualifiedName:
+        CSharp: Budget.BudgetFiles.VerifyReadFromFileName(System.String, System.String)
+        VB: Budget.BudgetFiles.VerifyReadFromFileName(System.String, System.String)
+      type: Method
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/BudgetFiles.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: VerifyReadFromFileName
+        path: BudgetFiles.cs
+        startLine: 34
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public static string VerifyReadFromFileName(string FilePath, string DefaultFileName)
+          VB: Public Shared Function VerifyReadFromFileName(FilePath As String, DefaultFileName As String) As String
+        parameters:
+        - id: FilePath
+          type: System.String
+          description: ''
+        - id: DefaultFileName
+          type: System.String
+          description: ''
+        return:
+          type: System.String
+          description: 'A valid path. '
+      overload: Budget.BudgetFiles.VerifyReadFromFileName*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - id: Budget.BudgetFiles.VerifyWriteToFileName(System.String,System.String)
+      commentId: M:Budget.BudgetFiles.VerifyWriteToFileName(System.String,System.String)
+      language: CSharp
+      name:
+        CSharp: VerifyWriteToFileName(String, String)
+        VB: VerifyWriteToFileName(String, String)
+      nameWithType:
+        CSharp: BudgetFiles.VerifyWriteToFileName(String, String)
+        VB: BudgetFiles.VerifyWriteToFileName(String, String)
+      qualifiedName:
+        CSharp: Budget.BudgetFiles.VerifyWriteToFileName(System.String, System.String)
+        VB: Budget.BudgetFiles.VerifyWriteToFileName(System.String, System.String)
+      type: Method
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/BudgetFiles.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: VerifyWriteToFileName
+        path: BudgetFiles.cs
+        startLine: 71
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public static string VerifyWriteToFileName(string FilePath, string DefaultFileName)
+          VB: Public Shared Function VerifyWriteToFileName(FilePath As String, DefaultFileName As String) As String
+        parameters:
+        - id: FilePath
+          type: System.String
+          description: ''
+        - id: DefaultFileName
+          type: System.String
+          description: ''
+        return:
+          type: System.String
+          description: ''
+      overload: Budget.BudgetFiles.VerifyWriteToFileName*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+  - id: Budget.BudgetItem
+    commentId: T:Budget.BudgetItem
+    language: CSharp
+    name:
+      CSharp: BudgetItem
+      VB: BudgetItem
+    nameWithType:
+      CSharp: BudgetItem
+      VB: BudgetItem
+    qualifiedName:
+      CSharp: Budget.BudgetItem
+      VB: Budget.BudgetItem
+    type: Class
+    assemblies:
+    - HomeBugetOleszczuk_W2022
+    namespace: Budget
+    source:
+      remote:
+        path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/BudgetItem.cs
+        branch: main
+        repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+      id: BudgetItem
+      path: BudgetItem.cs
+      startLine: 20
+    summary: "\nA class that holds a single item. \n"
+    example: []
+    syntax:
+      content:
+        CSharp: public class BudgetItem
+        VB: Public Class BudgetItem
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.ToString
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: Budget.BudgetItem.CategoryID
+      commentId: P:Budget.BudgetItem.CategoryID
+      language: CSharp
+      name:
+        CSharp: CategoryID
+        VB: CategoryID
+      nameWithType:
+        CSharp: BudgetItem.CategoryID
+        VB: BudgetItem.CategoryID
+      qualifiedName:
+        CSharp: Budget.BudgetItem.CategoryID
+        VB: Budget.BudgetItem.CategoryID
+      type: Property
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/BudgetItem.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: CategoryID
+        path: BudgetItem.cs
+        startLine: 22
+      syntax:
+        content:
+          CSharp: public int CategoryID { get; set; }
+          VB: Public Property CategoryID As Integer
+        parameters: []
+        return:
+          type: System.Int32
+      overload: Budget.BudgetItem.CategoryID*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: Budget.BudgetItem.ExpenseID
+      commentId: P:Budget.BudgetItem.ExpenseID
+      language: CSharp
+      name:
+        CSharp: ExpenseID
+        VB: ExpenseID
+      nameWithType:
+        CSharp: BudgetItem.ExpenseID
+        VB: BudgetItem.ExpenseID
+      qualifiedName:
+        CSharp: Budget.BudgetItem.ExpenseID
+        VB: Budget.BudgetItem.ExpenseID
+      type: Property
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/BudgetItem.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: ExpenseID
+        path: BudgetItem.cs
+        startLine: 23
+      syntax:
+        content:
+          CSharp: public int ExpenseID { get; set; }
+          VB: Public Property ExpenseID As Integer
+        parameters: []
+        return:
+          type: System.Int32
+      overload: Budget.BudgetItem.ExpenseID*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: Budget.BudgetItem.Date
+      commentId: P:Budget.BudgetItem.Date
+      language: CSharp
+      name:
+        CSharp: Date
+        VB: Date
+      nameWithType:
+        CSharp: BudgetItem.Date
+        VB: BudgetItem.Date
+      qualifiedName:
+        CSharp: Budget.BudgetItem.Date
+        VB: Budget.BudgetItem.Date
+      type: Property
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/BudgetItem.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: Date
+        path: BudgetItem.cs
+        startLine: 24
+      syntax:
+        content:
+          CSharp: public DateTime Date { get; set; }
+          VB: Public Property Date As Date
+        parameters: []
+        return:
+          type: System.DateTime
+      overload: Budget.BudgetItem.Date*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: Budget.BudgetItem.Category
+      commentId: P:Budget.BudgetItem.Category
+      language: CSharp
+      name:
+        CSharp: Category
+        VB: Category
+      nameWithType:
+        CSharp: BudgetItem.Category
+        VB: BudgetItem.Category
+      qualifiedName:
+        CSharp: Budget.BudgetItem.Category
+        VB: Budget.BudgetItem.Category
+      type: Property
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/BudgetItem.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: Category
+        path: BudgetItem.cs
+        startLine: 25
+      syntax:
+        content:
+          CSharp: public string Category { get; set; }
+          VB: Public Property Category As String
+        parameters: []
+        return:
+          type: System.String
+      overload: Budget.BudgetItem.Category*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: Budget.BudgetItem.ShortDescription
+      commentId: P:Budget.BudgetItem.ShortDescription
+      language: CSharp
+      name:
+        CSharp: ShortDescription
+        VB: ShortDescription
+      nameWithType:
+        CSharp: BudgetItem.ShortDescription
+        VB: BudgetItem.ShortDescription
+      qualifiedName:
+        CSharp: Budget.BudgetItem.ShortDescription
+        VB: Budget.BudgetItem.ShortDescription
+      type: Property
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/BudgetItem.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: ShortDescription
+        path: BudgetItem.cs
+        startLine: 26
+      syntax:
+        content:
+          CSharp: public string ShortDescription { get; set; }
+          VB: Public Property ShortDescription As String
+        parameters: []
+        return:
+          type: System.String
+      overload: Budget.BudgetItem.ShortDescription*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: Budget.BudgetItem.Amount
+      commentId: P:Budget.BudgetItem.Amount
+      language: CSharp
+      name:
+        CSharp: Amount
+        VB: Amount
+      nameWithType:
+        CSharp: BudgetItem.Amount
+        VB: BudgetItem.Amount
+      qualifiedName:
+        CSharp: Budget.BudgetItem.Amount
+        VB: Budget.BudgetItem.Amount
+      type: Property
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/BudgetItem.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: Amount
+        path: BudgetItem.cs
+        startLine: 27
+      syntax:
+        content:
+          CSharp: public double Amount { get; set; }
+          VB: Public Property Amount As Double
+        parameters: []
+        return:
+          type: System.Double
+      overload: Budget.BudgetItem.Amount*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: Budget.BudgetItem.Balance
+      commentId: P:Budget.BudgetItem.Balance
+      language: CSharp
+      name:
+        CSharp: Balance
+        VB: Balance
+      nameWithType:
+        CSharp: BudgetItem.Balance
+        VB: BudgetItem.Balance
+      qualifiedName:
+        CSharp: Budget.BudgetItem.Balance
+        VB: Budget.BudgetItem.Balance
+      type: Property
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/BudgetItem.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: Balance
+        path: BudgetItem.cs
+        startLine: 28
+      syntax:
+        content:
+          CSharp: public double Balance { get; set; }
+          VB: Public Property Balance As Double
+        parameters: []
+        return:
+          type: System.Double
+      overload: Budget.BudgetItem.Balance*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+  - id: Budget.BudgetItemsByMonth
+    commentId: T:Budget.BudgetItemsByMonth
+    language: CSharp
+    name:
+      CSharp: BudgetItemsByMonth
+      VB: BudgetItemsByMonth
+    nameWithType:
+      CSharp: BudgetItemsByMonth
+      VB: BudgetItemsByMonth
+    qualifiedName:
+      CSharp: Budget.BudgetItemsByMonth
+      VB: Budget.BudgetItemsByMonth
+    type: Class
+    assemblies:
+    - HomeBugetOleszczuk_W2022
+    namespace: Budget
+    source:
+      remote:
+        path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/BudgetItem.cs
+        branch: main
+        repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+      id: BudgetItemsByMonth
+      path: BudgetItem.cs
+      startLine: 35
+    summary: "\n\n"
+    example: []
+    syntax:
+      content:
+        CSharp: public class BudgetItemsByMonth
+        VB: Public Class BudgetItemsByMonth
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.ToString
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: Budget.BudgetItemsByMonth.Month
+      commentId: P:Budget.BudgetItemsByMonth.Month
+      language: CSharp
+      name:
+        CSharp: Month
+        VB: Month
+      nameWithType:
+        CSharp: BudgetItemsByMonth.Month
+        VB: BudgetItemsByMonth.Month
+      qualifiedName:
+        CSharp: Budget.BudgetItemsByMonth.Month
+        VB: Budget.BudgetItemsByMonth.Month
+      type: Property
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/BudgetItem.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: Month
+        path: BudgetItem.cs
+        startLine: 37
+      syntax:
+        content:
+          CSharp: public string Month { get; set; }
+          VB: Public Property Month As String
+        parameters: []
+        return:
+          type: System.String
+      overload: Budget.BudgetItemsByMonth.Month*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: Budget.BudgetItemsByMonth.Details
+      commentId: P:Budget.BudgetItemsByMonth.Details
+      language: CSharp
+      name:
+        CSharp: Details
+        VB: Details
+      nameWithType:
+        CSharp: BudgetItemsByMonth.Details
+        VB: BudgetItemsByMonth.Details
+      qualifiedName:
+        CSharp: Budget.BudgetItemsByMonth.Details
+        VB: Budget.BudgetItemsByMonth.Details
+      type: Property
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/BudgetItem.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: Details
+        path: BudgetItem.cs
+        startLine: 38
+      syntax:
+        content:
+          CSharp: public List<BudgetItem> Details { get; set; }
+          VB: Public Property Details As List(Of BudgetItem)
+        parameters: []
+        return:
+          type: System.Collections.Generic.List{Budget.BudgetItem}
+      overload: Budget.BudgetItemsByMonth.Details*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: Budget.BudgetItemsByMonth.Total
+      commentId: P:Budget.BudgetItemsByMonth.Total
+      language: CSharp
+      name:
+        CSharp: Total
+        VB: Total
+      nameWithType:
+        CSharp: BudgetItemsByMonth.Total
+        VB: BudgetItemsByMonth.Total
+      qualifiedName:
+        CSharp: Budget.BudgetItemsByMonth.Total
+        VB: Budget.BudgetItemsByMonth.Total
+      type: Property
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/BudgetItem.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: Total
+        path: BudgetItem.cs
+        startLine: 39
+      syntax:
+        content:
+          CSharp: public double Total { get; set; }
+          VB: Public Property Total As Double
+        parameters: []
+        return:
+          type: System.Double
+      overload: Budget.BudgetItemsByMonth.Total*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+  - id: Budget.BudgetItemsByCategory
+    commentId: T:Budget.BudgetItemsByCategory
+    language: CSharp
+    name:
+      CSharp: BudgetItemsByCategory
+      VB: BudgetItemsByCategory
+    nameWithType:
+      CSharp: BudgetItemsByCategory
+      VB: BudgetItemsByCategory
+    qualifiedName:
+      CSharp: Budget.BudgetItemsByCategory
+      VB: Budget.BudgetItemsByCategory
+    type: Class
+    assemblies:
+    - HomeBugetOleszczuk_W2022
+    namespace: Budget
+    source:
+      remote:
+        path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/BudgetItem.cs
+        branch: main
+        repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+      id: BudgetItemsByCategory
+      path: BudgetItem.cs
+      startLine: 45
+    summary: "\n\n"
+    example: []
+    syntax:
+      content:
+        CSharp: public class BudgetItemsByCategory
+        VB: Public Class BudgetItemsByCategory
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.ToString
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: Budget.BudgetItemsByCategory.Category
+      commentId: P:Budget.BudgetItemsByCategory.Category
+      language: CSharp
+      name:
+        CSharp: Category
+        VB: Category
+      nameWithType:
+        CSharp: BudgetItemsByCategory.Category
+        VB: BudgetItemsByCategory.Category
+      qualifiedName:
+        CSharp: Budget.BudgetItemsByCategory.Category
+        VB: Budget.BudgetItemsByCategory.Category
+      type: Property
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/BudgetItem.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: Category
+        path: BudgetItem.cs
+        startLine: 47
+      syntax:
+        content:
+          CSharp: public string Category { get; set; }
+          VB: Public Property Category As String
+        parameters: []
+        return:
+          type: System.String
+      overload: Budget.BudgetItemsByCategory.Category*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: Budget.BudgetItemsByCategory.Details
+      commentId: P:Budget.BudgetItemsByCategory.Details
+      language: CSharp
+      name:
+        CSharp: Details
+        VB: Details
+      nameWithType:
+        CSharp: BudgetItemsByCategory.Details
+        VB: BudgetItemsByCategory.Details
+      qualifiedName:
+        CSharp: Budget.BudgetItemsByCategory.Details
+        VB: Budget.BudgetItemsByCategory.Details
+      type: Property
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/BudgetItem.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: Details
+        path: BudgetItem.cs
+        startLine: 48
+      syntax:
+        content:
+          CSharp: public List<BudgetItem> Details { get; set; }
+          VB: Public Property Details As List(Of BudgetItem)
+        parameters: []
+        return:
+          type: System.Collections.Generic.List{Budget.BudgetItem}
+      overload: Budget.BudgetItemsByCategory.Details*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: Budget.BudgetItemsByCategory.Total
+      commentId: P:Budget.BudgetItemsByCategory.Total
+      language: CSharp
+      name:
+        CSharp: Total
+        VB: Total
+      nameWithType:
+        CSharp: BudgetItemsByCategory.Total
+        VB: BudgetItemsByCategory.Total
+      qualifiedName:
+        CSharp: Budget.BudgetItemsByCategory.Total
+        VB: Budget.BudgetItemsByCategory.Total
+      type: Property
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/BudgetItem.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: Total
+        path: BudgetItem.cs
+        startLine: 49
+      syntax:
+        content:
+          CSharp: public double Total { get; set; }
+          VB: Public Property Total As Double
+        parameters: []
+        return:
+          type: System.Double
+      overload: Budget.BudgetItemsByCategory.Total*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+  - id: Budget.Categories
+    commentId: T:Budget.Categories
+    language: CSharp
+    name:
+      CSharp: Categories
+      VB: Categories
+    nameWithType:
+      CSharp: Categories
+      VB: Categories
+    qualifiedName:
+      CSharp: Budget.Categories
+      VB: Budget.Categories
+    type: Class
+    assemblies:
+    - HomeBugetOleszczuk_W2022
+    namespace: Budget
+    source:
+      remote:
+        path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Categories.cs
+        branch: main
+        repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+      id: Categories
+      path: Categories.cs
+      startLine: 22
+    summary: "\nA class that represents a list of category items to organize a budget. \n"
+    example: []
+    syntax:
+      content:
+        CSharp: public class Categories
+        VB: Public Class Categories
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.ToString
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: Budget.Categories.FileName
+      commentId: P:Budget.Categories.FileName
+      language: CSharp
+      name:
+        CSharp: FileName
+        VB: FileName
+      nameWithType:
+        CSharp: Categories.FileName
+        VB: Categories.FileName
+      qualifiedName:
+        CSharp: Budget.Categories.FileName
+        VB: Budget.Categories.FileName
+      type: Property
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Categories.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: FileName
+        path: Categories.cs
+        startLine: 35
+      summary: "\nProperty that gets the file name.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public string FileName { get; }
+          VB: Public ReadOnly Property FileName As String
+        parameters: []
+        return:
+          type: System.String
+      overload: Budget.Categories.FileName*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        VB:
+        - Public
+        - ReadOnly
+    - id: Budget.Categories.DirName
+      commentId: P:Budget.Categories.DirName
+      language: CSharp
+      name:
+        CSharp: DirName
+        VB: DirName
+      nameWithType:
+        CSharp: Categories.DirName
+        VB: Categories.DirName
+      qualifiedName:
+        CSharp: Budget.Categories.DirName
+        VB: Budget.Categories.DirName
+      type: Property
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Categories.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: DirName
+        path: Categories.cs
+        startLine: 40
+      summary: "\nProperty that get the directory name.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public string DirName { get; }
+          VB: Public ReadOnly Property DirName As String
+        parameters: []
+        return:
+          type: System.String
+      overload: Budget.Categories.DirName*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        VB:
+        - Public
+        - ReadOnly
+    - id: Budget.Categories.#ctor
+      commentId: M:Budget.Categories.#ctor
+      language: CSharp
+      name:
+        CSharp: Categories()
+        VB: Categories()
+      nameWithType:
+        CSharp: Categories.Categories()
+        VB: Categories.Categories()
+      qualifiedName:
+        CSharp: Budget.Categories.Categories()
+        VB: Budget.Categories.Categories()
+      type: Constructor
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Categories.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: .ctor
+        path: Categories.cs
+        startLine: 49
+      summary: "\nDefault constructor that populates the categories to default values.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public Categories()
+          VB: Public Sub New
+      overload: Budget.Categories.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Budget.Categories.GetCategoryFromId(System.Int32)
+      commentId: M:Budget.Categories.GetCategoryFromId(System.Int32)
+      language: CSharp
+      name:
+        CSharp: GetCategoryFromId(Int32)
+        VB: GetCategoryFromId(Int32)
+      nameWithType:
+        CSharp: Categories.GetCategoryFromId(Int32)
+        VB: Categories.GetCategoryFromId(Int32)
+      qualifiedName:
+        CSharp: Budget.Categories.GetCategoryFromId(System.Int32)
+        VB: Budget.Categories.GetCategoryFromId(System.Int32)
+      type: Method
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Categories.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: GetCategoryFromId
+        path: Categories.cs
+        startLine: 74
+      summary: "\nMethod that gets the category object based on the specified id.\nThrows a exception, if the category can not be found.\n"
+      example:
+      - "\n<pre><code>Categories categories = new Categories();\nCategory category = categories.GetCategoryFromId(12);</code></pre>\n"
+      syntax:
+        content:
+          CSharp: public Category GetCategoryFromId(int i)
+          VB: Public Function GetCategoryFromId(i As Integer) As Category
+        parameters:
+        - id: i
+          type: System.Int32
+          description: Numerical id for a specific category.
+        return:
+          type: Budget.Category
+          description: 'Category with the corresponding id. '
+      overload: Budget.Categories.GetCategoryFromId*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Budget.Categories.ReadFromFile(System.String)
+      commentId: M:Budget.Categories.ReadFromFile(System.String)
+      language: CSharp
+      name:
+        CSharp: ReadFromFile(String)
+        VB: ReadFromFile(String)
+      nameWithType:
+        CSharp: Categories.ReadFromFile(String)
+        VB: Categories.ReadFromFile(String)
+      qualifiedName:
+        CSharp: Budget.Categories.ReadFromFile(System.String)
+        VB: Budget.Categories.ReadFromFile(System.String)
+      type: Method
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Categories.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: ReadFromFile
+        path: Categories.cs
+        startLine: 102
+      syntax:
+        content:
+          CSharp: public void ReadFromFile(string filepath = null)
+          VB: Public Sub ReadFromFile(filepath As String = Nothing)
+        parameters:
+        - id: filepath
+          type: System.String
+      overload: Budget.Categories.ReadFromFile*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Budget.Categories.SaveToFile(System.String)
+      commentId: M:Budget.Categories.SaveToFile(System.String)
+      language: CSharp
+      name:
+        CSharp: SaveToFile(String)
+        VB: SaveToFile(String)
+      nameWithType:
+        CSharp: Categories.SaveToFile(String)
+        VB: Categories.SaveToFile(String)
+      qualifiedName:
+        CSharp: Budget.Categories.SaveToFile(System.String)
+        VB: Budget.Categories.SaveToFile(System.String)
+      type: Method
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Categories.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: SaveToFile
+        path: Categories.cs
+        startLine: 140
+      summary: "\nMethod saves to specified file.\nThe file is \n"
+      example: []
+      syntax:
+        content:
+          CSharp: public void SaveToFile(string filepath = null)
+          VB: Public Sub SaveToFile(filepath As String = Nothing)
+        parameters:
+        - id: filepath
+          type: System.String
+          description: 'File path to save to. '
+      overload: Budget.Categories.SaveToFile*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Budget.Categories.SetCategoriesToDefaults
+      commentId: M:Budget.Categories.SetCategoriesToDefaults
+      language: CSharp
+      name:
+        CSharp: SetCategoriesToDefaults()
+        VB: SetCategoriesToDefaults()
+      nameWithType:
+        CSharp: Categories.SetCategoriesToDefaults()
+        VB: Categories.SetCategoriesToDefaults()
+      qualifiedName:
+        CSharp: Budget.Categories.SetCategoriesToDefaults()
+        VB: Budget.Categories.SetCategoriesToDefaults()
+      type: Method
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Categories.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: SetCategoriesToDefaults
+        path: Categories.cs
+        startLine: 179
+      summary: "\nMethod sets categories to default values.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public void SetCategoriesToDefaults()
+          VB: Public Sub SetCategoriesToDefaults
+      overload: Budget.Categories.SetCategoriesToDefaults*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Budget.Categories.Add(System.String,Budget.Category.CategoryType)
+      commentId: M:Budget.Categories.Add(System.String,Budget.Category.CategoryType)
+      language: CSharp
+      name:
+        CSharp: Add(String, Category.CategoryType)
+        VB: Add(String, Category.CategoryType)
+      nameWithType:
+        CSharp: Categories.Add(String, Category.CategoryType)
+        VB: Categories.Add(String, Category.CategoryType)
+      qualifiedName:
+        CSharp: Budget.Categories.Add(System.String, Budget.Category.CategoryType)
+        VB: Budget.Categories.Add(System.String, Budget.Category.CategoryType)
+      type: Method
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Categories.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: Add
+        path: Categories.cs
+        startLine: 238
+      summary: "\nOverloaded methods that adds category\n"
+      example:
+      - "\n<pre><code>Categories categories = new Categories();\n\ncategories.Add(&quot;Leisure&quot;, Category.CategoryType.Expense);\ncategories.Add(&quot;Freelancing&quot;, Category.CategoryType.Income);</code></pre>\n"
+      syntax:
+        content:
+          CSharp: public void Add(string desc, Category.CategoryType type)
+          VB: Public Sub Add(desc As String, type As Category.CategoryType)
+        parameters:
+        - id: desc
+          type: System.String
+          description: 'Description of category. '
+        - id: type
+          type: Budget.Category.CategoryType
+          description: 'Type of category. '
+      overload: Budget.Categories.Add*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Budget.Categories.Delete(System.Int32)
+      commentId: M:Budget.Categories.Delete(System.Int32)
+      language: CSharp
+      name:
+        CSharp: Delete(Int32)
+        VB: Delete(Int32)
+      nameWithType:
+        CSharp: Categories.Delete(Int32)
+        VB: Categories.Delete(Int32)
+      qualifiedName:
+        CSharp: Budget.Categories.Delete(System.Int32)
+        VB: Budget.Categories.Delete(System.Int32)
+      type: Method
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Categories.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: Delete
+        path: Categories.cs
+        startLine: 274
+      summary: "\nMethod that removes/delete category from the list.\n"
+      example:
+      - "\n<pre><code>Categories categories = new Categories();\ncategories.Add(&quot;Leisure&quot;, Category.CategoryType.Expense);\ncategories.Add(&quot;Freelance&quot;, Category.CategoryType.Income);\n\nforeach(Category category in categories.List())\n    Console.WriteLine(category);\n\nConsole.ReadKey();\n\ncategories.Delete(1);\n\nforeach (Category category in categories.List())\n    Console.WriteLine(category);\n\nConsole.ReadKey();</code></pre>\n"
+      syntax:
+        content:
+          CSharp: public void Delete(int Id)
+          VB: Public Sub Delete(Id As Integer)
+        parameters:
+        - id: Id
+          type: System.Int32
+          description: 'Id of category to be removed. '
+      overload: Budget.Categories.Delete*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Budget.Categories.List
+      commentId: M:Budget.Categories.List
+      language: CSharp
+      name:
+        CSharp: List()
+        VB: List()
+      nameWithType:
+        CSharp: Categories.List()
+        VB: Categories.List()
+      qualifiedName:
+        CSharp: Budget.Categories.List()
+        VB: Budget.Categories.List()
+      type: Method
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Categories.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: List
+        path: Categories.cs
+        startLine: 304
+      summary: "\nMethod makes a copy of list of category.\n"
+      example:
+      - "\n<pre><code>Categories categories = new Categories();\ncategories.Add(&quot;Leisure&quot;, Category.CategoryType.Expense);\nList&lt;Category> categoriesList = categories.List();\n\nforeach(Category category in categoriesList)    \n    Console.WriteLine(category.Description);</code></pre>\n"
+      syntax:
+        content:
+          CSharp: public List<Category> List()
+          VB: Public Function List As List(Of Category)
+        return:
+          type: System.Collections.Generic.List{Budget.Category}
+          description: 'List of categories. '
+      overload: Budget.Categories.List*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+  - id: Budget.Category
+    commentId: T:Budget.Category
+    language: CSharp
+    name:
+      CSharp: Category
+      VB: Category
+    nameWithType:
+      CSharp: Category
+      VB: Category
+    qualifiedName:
+      CSharp: Budget.Category
+      VB: Budget.Category
+    type: Class
+    assemblies:
+    - HomeBugetOleszczuk_W2022
+    namespace: Budget
+    source:
+      remote:
+        path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Category.cs
+        branch: main
+        repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+      id: Category
+      path: Category.cs
+      startLine: 18
+    syntax:
+      content:
+        CSharp: public class Category
+        VB: Public Class Category
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: Budget.Category.Id
+      commentId: P:Budget.Category.Id
+      language: CSharp
+      name:
+        CSharp: Id
+        VB: Id
+      nameWithType:
+        CSharp: Category.Id
+        VB: Category.Id
+      qualifiedName:
+        CSharp: Budget.Category.Id
+        VB: Budget.Category.Id
+      type: Property
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Category.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: Id
+        path: Category.cs
+        startLine: 27
+      summary: "\nProperty that gets and sets a numerical id for a category. \n"
+      example: []
+      syntax:
+        content:
+          CSharp: public int Id { get; set; }
+          VB: Public Property Id As Integer
+        parameters: []
+        return:
+          type: System.Int32
+      overload: Budget.Category.Id*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: Budget.Category.Description
+      commentId: P:Budget.Category.Description
+      language: CSharp
+      name:
+        CSharp: Description
+        VB: Description
+      nameWithType:
+        CSharp: Category.Description
+        VB: Category.Description
+      qualifiedName:
+        CSharp: Budget.Category.Description
+        VB: Budget.Category.Description
+      type: Property
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Category.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: Description
+        path: Category.cs
+        startLine: 32
+      summary: "\nProperty that gets and sets the description of the category.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public string Description { get; set; }
+          VB: Public Property Description As String
+        parameters: []
+        return:
+          type: System.String
+      overload: Budget.Category.Description*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: Budget.Category.Type
+      commentId: P:Budget.Category.Type
+      language: CSharp
+      name:
+        CSharp: Type
+        VB: Type
+      nameWithType:
+        CSharp: Category.Type
+        VB: Category.Type
+      qualifiedName:
+        CSharp: Budget.Category.Type
+        VB: Budget.Category.Type
+      type: Property
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Category.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: Type
+        path: Category.cs
+        startLine: 37
+      summary: "\nProperty that gets and sets the category type from the CategoryType enum. \n"
+      example: []
+      syntax:
+        content:
+          CSharp: public Category.CategoryType Type { get; set; }
+          VB: Public Property Type As Category.CategoryType
+        parameters: []
+        return:
+          type: Budget.Category.CategoryType
+      overload: Budget.Category.Type*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: Budget.Category.#ctor(System.Int32,System.String,Budget.Category.CategoryType)
+      commentId: M:Budget.Category.#ctor(System.Int32,System.String,Budget.Category.CategoryType)
+      language: CSharp
+      name:
+        CSharp: Category(Int32, String, Category.CategoryType)
+        VB: Category(Int32, String, Category.CategoryType)
+      nameWithType:
+        CSharp: Category.Category(Int32, String, Category.CategoryType)
+        VB: Category.Category(Int32, String, Category.CategoryType)
+      qualifiedName:
+        CSharp: Budget.Category.Category(System.Int32, System.String, Budget.Category.CategoryType)
+        VB: Budget.Category.Category(System.Int32, System.String, Budget.Category.CategoryType)
+      type: Constructor
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Category.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: .ctor
+        path: Category.cs
+        startLine: 60
+      summary: "\nConstructor that creates an instance of category with the specificied id, description\nand type. If the type is not specified, it will be set by default to expense. \n"
+      example: []
+      syntax:
+        content:
+          CSharp: public Category(int id, string description, Category.CategoryType type = Category.CategoryType.Expense)
+          VB: Public Sub New(id As Integer, description As String, type As Category.CategoryType = Category.CategoryType.Expense)
+        parameters:
+        - id: id
+          type: System.Int32
+          description: 'Numerical id assigned to the category. '
+        - id: description
+          type: System.String
+          description: 'Description of the category. '
+        - id: type
+          type: Budget.Category.CategoryType
+          description: 'Type of category. '
+      overload: Budget.Category.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Budget.Category.#ctor(Budget.Category)
+      commentId: M:Budget.Category.#ctor(Budget.Category)
+      language: CSharp
+      name:
+        CSharp: Category(Category)
+        VB: Category(Category)
+      nameWithType:
+        CSharp: Category.Category(Category)
+        VB: Category.Category(Category)
+      qualifiedName:
+        CSharp: Budget.Category.Category(Budget.Category)
+        VB: Budget.Category.Category(Budget.Category)
+      type: Constructor
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Category.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: .ctor
+        path: Category.cs
+        startLine: 75
+      summary: "\nConstructor that takes the specified instance of category and makes a deep \ncopy. \n"
+      example: []
+      syntax:
+        content:
+          CSharp: public Category(Category category)
+          VB: Public Sub New(category As Category)
+        parameters:
+        - id: category
+          type: Budget.Category
+          description: ''
+      overload: Budget.Category.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Budget.Category.ToString
+      commentId: M:Budget.Category.ToString
+      language: CSharp
+      name:
+        CSharp: ToString()
+        VB: ToString()
+      nameWithType:
+        CSharp: Category.ToString()
+        VB: Category.ToString()
+      qualifiedName:
+        CSharp: Budget.Category.ToString()
+        VB: Budget.Category.ToString()
+      type: Method
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Category.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: ToString
+        path: Category.cs
+        startLine: 100
+      summary: "\nMethod that outputs the description of the category. \n"
+      example:
+      - "\n<pre><code>Category category = new Category(12, &quot;Food&quot;, Category.CategoryType.Expense);\nConsole.WriteLine(category.ToString());</code></pre>\n"
+      syntax:
+        content:
+          CSharp: public override string ToString()
+          VB: Public Overrides Function ToString As String
+        return:
+          type: System.String
+          description: 'Description of category. '
+      overload: Budget.Category.ToString*
+      overridden: System.Object.ToString
+      modifiers:
+        CSharp:
+        - public
+        - override
+        VB:
+        - Public
+        - Overrides
+  - id: Budget.Category.CategoryType
+    commentId: T:Budget.Category.CategoryType
+    language: CSharp
+    name:
+      CSharp: Category.CategoryType
+      VB: Category.CategoryType
+    nameWithType:
+      CSharp: Category.CategoryType
+      VB: Category.CategoryType
+    qualifiedName:
+      CSharp: Budget.Category.CategoryType
+      VB: Budget.Category.CategoryType
+    type: Enum
+    assemblies:
+    - HomeBugetOleszczuk_W2022
+    namespace: Budget
+    source:
+      remote:
+        path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Category.cs
+        branch: main
+        repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+      id: CategoryType
+      path: Category.cs
+      startLine: 42
+    summary: "\nEnum that contains the default list of categories. \n"
+    example: []
+    syntax:
+      content:
+        CSharp: public enum CategoryType
+        VB: Public Enum CategoryType
+    modifiers:
+      CSharp:
+      - public
+      - enum
+      VB:
+      - Public
+      - Enum
+    items:
+    - id: Budget.Category.CategoryType.Income
+      commentId: F:Budget.Category.CategoryType.Income
+      language: CSharp
+      name:
+        CSharp: Income
+        VB: Income
+      nameWithType:
+        CSharp: Category.CategoryType.Income
+        VB: Category.CategoryType.Income
+      qualifiedName:
+        CSharp: Budget.Category.CategoryType.Income
+        VB: Budget.Category.CategoryType.Income
+      type: Field
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Category.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: Income
+        path: Category.cs
+        startLine: 44
+      syntax:
+        content:
+          CSharp: Income = 0
+          VB: Income = 0
+        return:
+          type: Budget.Category.CategoryType
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+    - id: Budget.Category.CategoryType.Expense
+      commentId: F:Budget.Category.CategoryType.Expense
+      language: CSharp
+      name:
+        CSharp: Expense
+        VB: Expense
+      nameWithType:
+        CSharp: Category.CategoryType.Expense
+        VB: Category.CategoryType.Expense
+      qualifiedName:
+        CSharp: Budget.Category.CategoryType.Expense
+        VB: Budget.Category.CategoryType.Expense
+      type: Field
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Category.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: Expense
+        path: Category.cs
+        startLine: 45
+      syntax:
+        content:
+          CSharp: Expense = 1
+          VB: Expense = 1
+        return:
+          type: Budget.Category.CategoryType
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+    - id: Budget.Category.CategoryType.Credit
+      commentId: F:Budget.Category.CategoryType.Credit
+      language: CSharp
+      name:
+        CSharp: Credit
+        VB: Credit
+      nameWithType:
+        CSharp: Category.CategoryType.Credit
+        VB: Category.CategoryType.Credit
+      qualifiedName:
+        CSharp: Budget.Category.CategoryType.Credit
+        VB: Budget.Category.CategoryType.Credit
+      type: Field
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Category.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: Credit
+        path: Category.cs
+        startLine: 46
+      syntax:
+        content:
+          CSharp: Credit = 2
+          VB: Credit = 2
+        return:
+          type: Budget.Category.CategoryType
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+    - id: Budget.Category.CategoryType.Savings
+      commentId: F:Budget.Category.CategoryType.Savings
+      language: CSharp
+      name:
+        CSharp: Savings
+        VB: Savings
+      nameWithType:
+        CSharp: Category.CategoryType.Savings
+        VB: Category.CategoryType.Savings
+      qualifiedName:
+        CSharp: Budget.Category.CategoryType.Savings
+        VB: Budget.Category.CategoryType.Savings
+      type: Field
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Category.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: Savings
+        path: Category.cs
+        startLine: 47
+      syntax:
+        content:
+          CSharp: Savings = 3
+          VB: Savings = 3
+        return:
+          type: Budget.Category.CategoryType
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+  - id: Budget.Expense
+    commentId: T:Budget.Expense
+    language: CSharp
+    name:
+      CSharp: Expense
+      VB: Expense
+    nameWithType:
+      CSharp: Expense
+      VB: Expense
+    qualifiedName:
+      CSharp: Budget.Expense
+      VB: Budget.Expense
+    type: Class
+    assemblies:
+    - HomeBugetOleszczuk_W2022
+    namespace: Budget
+    source:
+      remote:
+        path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Expense.cs
+        branch: main
+        repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+      id: Expense
+      path: Expense.cs
+      startLine: 20
+    summary: "\nA class that represents an expense. \n"
+    example: []
+    syntax:
+      content:
+        CSharp: public class Expense
+        VB: Public Class Expense
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.ToString
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: Budget.Expense.Id
+      commentId: P:Budget.Expense.Id
+      language: CSharp
+      name:
+        CSharp: Id
+        VB: Id
+      nameWithType:
+        CSharp: Expense.Id
+        VB: Expense.Id
+      qualifiedName:
+        CSharp: Budget.Expense.Id
+        VB: Budget.Expense.Id
+      type: Property
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Expense.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: Id
+        path: Expense.cs
+        startLine: 29
+      summary: "\nProperty that gets a numerical id of an expense. \n"
+      example: []
+      syntax:
+        content:
+          CSharp: public int Id { get; }
+          VB: Public ReadOnly Property Id As Integer
+        parameters: []
+        return:
+          type: System.Int32
+      overload: Budget.Expense.Id*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        VB:
+        - Public
+        - ReadOnly
+    - id: Budget.Expense.Date
+      commentId: P:Budget.Expense.Date
+      language: CSharp
+      name:
+        CSharp: Date
+        VB: Date
+      nameWithType:
+        CSharp: Expense.Date
+        VB: Expense.Date
+      qualifiedName:
+        CSharp: Budget.Expense.Date
+        VB: Budget.Expense.Date
+      type: Property
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Expense.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: Date
+        path: Expense.cs
+        startLine: 34
+      summary: "\nProperty that gets date on a expense.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public DateTime Date { get; }
+          VB: Public ReadOnly Property Date As Date
+        parameters: []
+        return:
+          type: System.DateTime
+      overload: Budget.Expense.Date*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        VB:
+        - Public
+        - ReadOnly
+    - id: Budget.Expense.Amount
+      commentId: P:Budget.Expense.Amount
+      language: CSharp
+      name:
+        CSharp: Amount
+        VB: Amount
+      nameWithType:
+        CSharp: Expense.Amount
+        VB: Expense.Amount
+      qualifiedName:
+        CSharp: Budget.Expense.Amount
+        VB: Budget.Expense.Amount
+      type: Property
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Expense.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: Amount
+        path: Expense.cs
+        startLine: 39
+      summary: "\nProperty that gets and sets the monetary value of the expense.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public double Amount { get; set; }
+          VB: Public Property Amount As Double
+        parameters: []
+        return:
+          type: System.Double
+      overload: Budget.Expense.Amount*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: Budget.Expense.Description
+      commentId: P:Budget.Expense.Description
+      language: CSharp
+      name:
+        CSharp: Description
+        VB: Description
+      nameWithType:
+        CSharp: Expense.Description
+        VB: Expense.Description
+      qualifiedName:
+        CSharp: Budget.Expense.Description
+        VB: Budget.Expense.Description
+      type: Property
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Expense.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: Description
+        path: Expense.cs
+        startLine: 44
+      summary: "\nProperty that gets and sets the description of the expense.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public string Description { get; set; }
+          VB: Public Property Description As String
+        parameters: []
+        return:
+          type: System.String
+      overload: Budget.Expense.Description*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: Budget.Expense.Category
+      commentId: P:Budget.Expense.Category
+      language: CSharp
+      name:
+        CSharp: Category
+        VB: Category
+      nameWithType:
+        CSharp: Expense.Category
+        VB: Expense.Category
+      qualifiedName:
+        CSharp: Budget.Expense.Category
+        VB: Budget.Expense.Category
+      type: Property
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Expense.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: Category
+        path: Expense.cs
+        startLine: 49
+      summary: "\nProperty that gets and sets a numerical id of an categories.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public int Category { get; set; }
+          VB: Public Property Category As Integer
+        parameters: []
+        return:
+          type: System.Int32
+      overload: Budget.Expense.Category*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: Budget.Expense.#ctor(System.Int32,System.DateTime,System.Int32,System.Double,System.String)
+      commentId: M:Budget.Expense.#ctor(System.Int32,System.DateTime,System.Int32,System.Double,System.String)
+      language: CSharp
+      name:
+        CSharp: Expense(Int32, DateTime, Int32, Double, String)
+        VB: Expense(Int32, DateTime, Int32, Double, String)
+      nameWithType:
+        CSharp: Expense.Expense(Int32, DateTime, Int32, Double, String)
+        VB: Expense.Expense(Int32, DateTime, Int32, Double, String)
+      qualifiedName:
+        CSharp: Budget.Expense.Expense(System.Int32, System.DateTime, System.Int32, System.Double, System.String)
+        VB: Budget.Expense.Expense(System.Int32, System.DateTime, System.Int32, System.Double, System.String)
+      type: Constructor
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Expense.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: .ctor
+        path: Expense.cs
+        startLine: 64
+      summary: "\nConstructor creates an instance of Expense with the specified parameters.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public Expense(int id, DateTime date, int category, double amount, string description)
+          VB: Public Sub New(id As Integer, date As Date, category As Integer, amount As Double, description As String)
+        parameters:
+        - id: id
+          type: System.Int32
+          description: 'Numerical representation of the expense. '
+        - id: date
+          type: System.DateTime
+          description: 'Date and time of the expense. '
+        - id: category
+          type: System.Int32
+          description: 'Numerical representation of the category of the expense. '
+        - id: amount
+          type: System.Double
+          description: 'The monetary value of the expense. '
+        - id: description
+          type: System.String
+          description: 'The description of the expense. '
+      overload: Budget.Expense.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Budget.Expense.#ctor(Budget.Expense)
+      commentId: M:Budget.Expense.#ctor(Budget.Expense)
+      language: CSharp
+      name:
+        CSharp: Expense(Expense)
+        VB: Expense(Expense)
+      nameWithType:
+        CSharp: Expense.Expense(Expense)
+        VB: Expense.Expense(Expense)
+      qualifiedName:
+        CSharp: Budget.Expense.Expense(Budget.Expense)
+        VB: Budget.Expense.Expense(Budget.Expense)
+      type: Constructor
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Expense.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: .ctor
+        path: Expense.cs
+        startLine: 80
+      summary: "\nConstructor takes specified instance of Expense and makes a deep copy of specified expense.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public Expense(Expense obj)
+          VB: Public Sub New(obj As Expense)
+        parameters:
+        - id: obj
+          type: Budget.Expense
+          description: 'Expense to be copied. '
+      overload: Budget.Expense.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+  - id: Budget.Expenses
+    commentId: T:Budget.Expenses
+    language: CSharp
+    name:
+      CSharp: Expenses
+      VB: Expenses
+    nameWithType:
+      CSharp: Expenses
+      VB: Expenses
+    qualifiedName:
+      CSharp: Budget.Expenses
+      VB: Budget.Expenses
+    type: Class
+    assemblies:
+    - HomeBugetOleszczuk_W2022
+    namespace: Budget
+    source:
+      remote:
+        path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Expenses.cs
+        branch: main
+        repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+      id: Expenses
+      path: Expenses.cs
+      startLine: 24
+    summary: "\nA class that holds an instance of a list of Expense objects. Also, holds the functionality of \nreading and writing to file.\n"
+    example: []
+    syntax:
+      content:
+        CSharp: public class Expenses
+        VB: Public Class Expenses
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.ToString
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: Budget.Expenses.FileName
+      commentId: P:Budget.Expenses.FileName
+      language: CSharp
+      name:
+        CSharp: FileName
+        VB: FileName
+      nameWithType:
+        CSharp: Expenses.FileName
+        VB: Expenses.FileName
+      qualifiedName:
+        CSharp: Budget.Expenses.FileName
+        VB: Budget.Expenses.FileName
+      type: Property
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Expenses.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: FileName
+        path: Expenses.cs
+        startLine: 38
+      summary: "\nProperty that gets a file name.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public string FileName { get; }
+          VB: Public ReadOnly Property FileName As String
+        parameters: []
+        return:
+          type: System.String
+      overload: Budget.Expenses.FileName*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        VB:
+        - Public
+        - ReadOnly
+    - id: Budget.Expenses.DirName
+      commentId: P:Budget.Expenses.DirName
+      language: CSharp
+      name:
+        CSharp: DirName
+        VB: DirName
+      nameWithType:
+        CSharp: Expenses.DirName
+        VB: Expenses.DirName
+      qualifiedName:
+        CSharp: Budget.Expenses.DirName
+        VB: Budget.Expenses.DirName
+      type: Property
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Expenses.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: DirName
+        path: Expenses.cs
+        startLine: 43
+      summary: "\nProperty that gets the name of directory.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public string DirName { get; }
+          VB: Public ReadOnly Property DirName As String
+        parameters: []
+        return:
+          type: System.String
+      overload: Budget.Expenses.DirName*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        VB:
+        - Public
+        - ReadOnly
+    - id: Budget.Expenses.ReadFromFile(System.String)
+      commentId: M:Budget.Expenses.ReadFromFile(System.String)
+      language: CSharp
+      name:
+        CSharp: ReadFromFile(String)
+        VB: ReadFromFile(String)
+      nameWithType:
+        CSharp: Expenses.ReadFromFile(String)
+        VB: Expenses.ReadFromFile(String)
+      qualifiedName:
+        CSharp: Budget.Expenses.ReadFromFile(System.String)
+        VB: Budget.Expenses.ReadFromFile(System.String)
+      type: Method
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Expenses.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: ReadFromFile
+        path: Expenses.cs
+        startLine: 55
+      summary: "\nMethod populates categories from file. If the file not specified, the information is \nread and saved to a file in the AppData folder.\nMethod throws a System.IO.FileNotFoundException if file does not exist.\nMethod throws a System.Exception if file cannot be read during the XML parsing.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public void ReadFromFile(string filepath = null)
+          VB: Public Sub ReadFromFile(filepath As String = Nothing)
+        parameters:
+        - id: filepath
+          type: System.String
+          description: "File path to the file that contains the budget information.\nFile path is set to null by default "
+      overload: Budget.Expenses.ReadFromFile*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Budget.Expenses.SaveToFile(System.String)
+      commentId: M:Budget.Expenses.SaveToFile(System.String)
+      language: CSharp
+      name:
+        CSharp: SaveToFile(String)
+        VB: SaveToFile(String)
+      nameWithType:
+        CSharp: Expenses.SaveToFile(String)
+        VB: Expenses.SaveToFile(String)
+      qualifiedName:
+        CSharp: Budget.Expenses.SaveToFile(System.String)
+        VB: Budget.Expenses.SaveToFile(System.String)
+      type: Method
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Expenses.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: SaveToFile
+        path: Expenses.cs
+        startLine: 105
+      summary: "\nMethod that saves file.\nIf the file path not specified, the information is read and saved to a file in the AppData folder.\nIf the file path does not exist, the path information is reset.\n"
+      example:
+      - "\n\n<pre><code></code></pre>\n\n"
+      syntax:
+        content:
+          CSharp: public void SaveToFile(string filepath = null)
+          VB: Public Sub SaveToFile(filepath As String = Nothing)
+        parameters:
+        - id: filepath
+          type: System.String
+          description: "File path specified by user to location.\nFile path is set to null by default. "
+      overload: Budget.Expenses.SaveToFile*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Budget.Expenses.Add(System.DateTime,System.Int32,System.Double,System.String)
+      commentId: M:Budget.Expenses.Add(System.DateTime,System.Int32,System.Double,System.String)
+      language: CSharp
+      name:
+        CSharp: Add(DateTime, Int32, Double, String)
+        VB: Add(DateTime, Int32, Double, String)
+      nameWithType:
+        CSharp: Expenses.Add(DateTime, Int32, Double, String)
+        VB: Expenses.Add(DateTime, Int32, Double, String)
+      qualifiedName:
+        CSharp: Budget.Expenses.Add(System.DateTime, System.Int32, System.Double, System.String)
+        VB: Budget.Expenses.Add(System.DateTime, System.Int32, System.Double, System.String)
+      type: Method
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Expenses.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: Add
+        path: Expenses.cs
+        startLine: 170
+      summary: "\nMethod receives specified date, category, amount and description of an\nexpense sets the id of the expense and adds it to the list of expenses. \n"
+      example:
+      - "\n\n<pre><code></code></pre>\n\n"
+      syntax:
+        content:
+          CSharp: public void Add(DateTime date, int category, double amount, string description)
+          VB: Public Sub Add(date As Date, category As Integer, amount As Double, description As String)
+        parameters:
+        - id: date
+          type: System.DateTime
+          description: 'Date and time of the expense. '
+        - id: category
+          type: System.Int32
+          description: 'Numerical representation of the category of the expense. '
+        - id: amount
+          type: System.Double
+          description: 'The monetary value of the expense. '
+        - id: description
+          type: System.String
+          description: 'The description of the expense. '
+      overload: Budget.Expenses.Add*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Budget.Expenses.Delete(System.Int32)
+      commentId: M:Budget.Expenses.Delete(System.Int32)
+      language: CSharp
+      name:
+        CSharp: Delete(Int32)
+        VB: Delete(Int32)
+      nameWithType:
+        CSharp: Expenses.Delete(Int32)
+        VB: Expenses.Delete(Int32)
+      qualifiedName:
+        CSharp: Budget.Expenses.Delete(System.Int32)
+        VB: Budget.Expenses.Delete(System.Int32)
+      type: Method
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Expenses.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: Delete
+        path: Expenses.cs
+        startLine: 197
+      summary: "\nMethods receives specified id of an expense retrieves the index of the\nexpense from the list and removes the expense at that index. \n"
+      example:
+      - "\n\n<pre><code></code></pre>\n\n"
+      syntax:
+        content:
+          CSharp: public void Delete(int Id)
+          VB: Public Sub Delete(Id As Integer)
+        parameters:
+        - id: Id
+          type: System.Int32
+          description: 'Numerical representation of the expense. '
+      overload: Budget.Expenses.Delete*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Budget.Expenses.List
+      commentId: M:Budget.Expenses.List
+      language: CSharp
+      name:
+        CSharp: List()
+        VB: List()
+      nameWithType:
+        CSharp: Expenses.List()
+        VB: Expenses.List()
+      qualifiedName:
+        CSharp: Budget.Expenses.List()
+        VB: Budget.Expenses.List()
+      type: Method
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Expenses.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: List
+        path: Expenses.cs
+        startLine: 226
+      summary: "\nMethod instantiates a list of expenses to allow to make a\ncopy of the list of the current instance of expenses. Using a\nfor-each loop the current expense items are added to the new\nexpense list.\n"
+      example:
+      - "\n\n<pre><code>Expenses expenses = new Expenses();\nexpenses.Add(DateTime.Now, (int) Category.CategoryType.Expense, 23.45, &quot;textbook&quot; );\n\nList&lt;Expense> list = expenses.List();\nforeach (Expense expense in list)\n    Console.WriteLine(expense.Description);</code></pre>\n\n"
+      syntax:
+        content:
+          CSharp: public List<Expense> List()
+          VB: Public Function List As List(Of Expense)
+        return:
+          type: System.Collections.Generic.List{Budget.Expense}
+          description: 'Returns a copied list of expenses. '
+      overload: Budget.Expenses.List*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+  - id: Budget.HomeBudget
+    commentId: T:Budget.HomeBudget
+    language: CSharp
+    name:
+      CSharp: HomeBudget
+      VB: HomeBudget
+    nameWithType:
+      CSharp: HomeBudget
+      VB: HomeBudget
+    qualifiedName:
+      CSharp: Budget.HomeBudget
+      VB: Budget.HomeBudget
+    type: Class
+    assemblies:
+    - HomeBugetOleszczuk_W2022
+    namespace: Budget
+    source:
+      remote:
+        path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/HomeBudget.cs
+        branch: main
+        repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+      id: HomeBudget
+      path: HomeBudget.cs
+      startLine: 23
+    summary: "\nA class represents a home budget that tracks the expenses and their categories. \n"
+    example: []
+    syntax:
+      content:
+        CSharp: public class HomeBudget
+        VB: Public Class HomeBudget
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.ToString
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: Budget.HomeBudget.FileName
+      commentId: P:Budget.HomeBudget.FileName
+      language: CSharp
+      name:
+        CSharp: FileName
+        VB: FileName
+      nameWithType:
+        CSharp: HomeBudget.FileName
+        VB: HomeBudget.FileName
+      qualifiedName:
+        CSharp: Budget.HomeBudget.FileName
+        VB: Budget.HomeBudget.FileName
+      type: Property
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/HomeBudget.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: FileName
+        path: HomeBudget.cs
+        startLine: 37
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public string FileName { get; }
+          VB: Public ReadOnly Property FileName As String
+        parameters: []
+        return:
+          type: System.String
+      overload: Budget.HomeBudget.FileName*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        VB:
+        - Public
+        - ReadOnly
+    - id: Budget.HomeBudget.DirName
+      commentId: P:Budget.HomeBudget.DirName
+      language: CSharp
+      name:
+        CSharp: DirName
+        VB: DirName
+      nameWithType:
+        CSharp: HomeBudget.DirName
+        VB: HomeBudget.DirName
+      qualifiedName:
+        CSharp: Budget.HomeBudget.DirName
+        VB: Budget.HomeBudget.DirName
+      type: Property
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/HomeBudget.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: DirName
+        path: HomeBudget.cs
+        startLine: 38
+      syntax:
+        content:
+          CSharp: public string DirName { get; }
+          VB: Public ReadOnly Property DirName As String
+        parameters: []
+        return:
+          type: System.String
+      overload: Budget.HomeBudget.DirName*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        VB:
+        - Public
+        - ReadOnly
+    - id: Budget.HomeBudget.PathName
+      commentId: P:Budget.HomeBudget.PathName
+      language: CSharp
+      name:
+        CSharp: PathName
+        VB: PathName
+      nameWithType:
+        CSharp: HomeBudget.PathName
+        VB: HomeBudget.PathName
+      qualifiedName:
+        CSharp: Budget.HomeBudget.PathName
+        VB: Budget.HomeBudget.PathName
+      type: Property
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/HomeBudget.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: PathName
+        path: HomeBudget.cs
+        startLine: 39
+      syntax:
+        content:
+          CSharp: public string PathName { get; }
+          VB: Public ReadOnly Property PathName As String
+        parameters: []
+        return:
+          type: System.String
+      overload: Budget.HomeBudget.PathName*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        VB:
+        - Public
+        - ReadOnly
+    - id: Budget.HomeBudget.categories
+      commentId: P:Budget.HomeBudget.categories
+      language: CSharp
+      name:
+        CSharp: categories
+        VB: categories
+      nameWithType:
+        CSharp: HomeBudget.categories
+        VB: HomeBudget.categories
+      qualifiedName:
+        CSharp: Budget.HomeBudget.categories
+        VB: Budget.HomeBudget.categories
+      type: Property
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/HomeBudget.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: categories
+        path: HomeBudget.cs
+        startLine: 55
+      syntax:
+        content:
+          CSharp: public Categories categories { get; }
+          VB: Public ReadOnly Property categories As Categories
+        parameters: []
+        return:
+          type: Budget.Categories
+      overload: Budget.HomeBudget.categories*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        VB:
+        - Public
+        - ReadOnly
+    - id: Budget.HomeBudget.expenses
+      commentId: P:Budget.HomeBudget.expenses
+      language: CSharp
+      name:
+        CSharp: expenses
+        VB: expenses
+      nameWithType:
+        CSharp: HomeBudget.expenses
+        VB: HomeBudget.expenses
+      qualifiedName:
+        CSharp: Budget.HomeBudget.expenses
+        VB: Budget.HomeBudget.expenses
+      type: Property
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/HomeBudget.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: expenses
+        path: HomeBudget.cs
+        startLine: 56
+      syntax:
+        content:
+          CSharp: public Expenses expenses { get; }
+          VB: Public ReadOnly Property expenses As Expenses
+        parameters: []
+        return:
+          type: Budget.Expenses
+      overload: Budget.HomeBudget.expenses*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        VB:
+        - Public
+        - ReadOnly
+    - id: Budget.HomeBudget.#ctor
+      commentId: M:Budget.HomeBudget.#ctor
+      language: CSharp
+      name:
+        CSharp: HomeBudget()
+        VB: HomeBudget()
+      nameWithType:
+        CSharp: HomeBudget.HomeBudget()
+        VB: HomeBudget.HomeBudget()
+      qualifiedName:
+        CSharp: Budget.HomeBudget.HomeBudget()
+        VB: Budget.HomeBudget.HomeBudget()
+      type: Constructor
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/HomeBudget.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: .ctor
+        path: HomeBudget.cs
+        startLine: 65
+      summary: "\nDefault constructor to instantiate a home budget object. It populates the\nlist of categories with the default categories and no expenses. \n"
+      example: []
+      syntax:
+        content:
+          CSharp: public HomeBudget()
+          VB: Public Sub New
+      overload: Budget.HomeBudget.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Budget.HomeBudget.#ctor(System.String)
+      commentId: M:Budget.HomeBudget.#ctor(System.String)
+      language: CSharp
+      name:
+        CSharp: HomeBudget(String)
+        VB: HomeBudget(String)
+      nameWithType:
+        CSharp: HomeBudget.HomeBudget(String)
+        VB: HomeBudget.HomeBudget(String)
+      qualifiedName:
+        CSharp: Budget.HomeBudget.HomeBudget(System.String)
+        VB: Budget.HomeBudget.HomeBudget(System.String)
+      type: Constructor
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/HomeBudget.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: .ctor
+        path: HomeBudget.cs
+        startLine: 79
+      summary: "\nConstructor to instantiate a home budget with information extracted from file.\nThrows exception if the\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public HomeBudget(string budgetFileName)
+          VB: Public Sub New(budgetFileName As String)
+        parameters:
+        - id: budgetFileName
+          type: System.String
+          description: 'The file that contains the home budget information. '
+      overload: Budget.HomeBudget.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Budget.HomeBudget.ReadFromFile(System.String)
+      commentId: M:Budget.HomeBudget.ReadFromFile(System.String)
+      language: CSharp
+      name:
+        CSharp: ReadFromFile(String)
+        VB: ReadFromFile(String)
+      nameWithType:
+        CSharp: HomeBudget.ReadFromFile(String)
+        VB: HomeBudget.ReadFromFile(String)
+      qualifiedName:
+        CSharp: Budget.HomeBudget.ReadFromFile(System.String)
+        VB: Budget.HomeBudget.ReadFromFile(System.String)
+      type: Method
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/HomeBudget.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: ReadFromFile
+        path: HomeBudget.cs
+        startLine: 91
+      syntax:
+        content:
+          CSharp: public void ReadFromFile(string budgetFileName)
+          VB: Public Sub ReadFromFile(budgetFileName As String)
+        parameters:
+        - id: budgetFileName
+          type: System.String
+      overload: Budget.HomeBudget.ReadFromFile*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Budget.HomeBudget.SaveToFile(System.String)
+      commentId: M:Budget.HomeBudget.SaveToFile(System.String)
+      language: CSharp
+      name:
+        CSharp: SaveToFile(String)
+        VB: SaveToFile(String)
+      nameWithType:
+        CSharp: HomeBudget.SaveToFile(String)
+        VB: HomeBudget.SaveToFile(String)
+      qualifiedName:
+        CSharp: Budget.HomeBudget.SaveToFile(System.String)
+        VB: Budget.HomeBudget.SaveToFile(System.String)
+      type: Method
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/HomeBudget.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: SaveToFile
+        path: HomeBudget.cs
+        startLine: 138
+      syntax:
+        content:
+          CSharp: public void SaveToFile(string filepath)
+          VB: Public Sub SaveToFile(filepath As String)
+        parameters:
+        - id: filepath
+          type: System.String
+      overload: Budget.HomeBudget.SaveToFile*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Budget.HomeBudget.GetBudgetItems(System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Boolean,System.Int32)
+      commentId: M:Budget.HomeBudget.GetBudgetItems(System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Boolean,System.Int32)
+      language: CSharp
+      name:
+        CSharp: GetBudgetItems(Nullable<DateTime>, Nullable<DateTime>, Boolean, Int32)
+        VB: GetBudgetItems(Nullable(Of DateTime), Nullable(Of DateTime), Boolean, Int32)
+      nameWithType:
+        CSharp: HomeBudget.GetBudgetItems(Nullable<DateTime>, Nullable<DateTime>, Boolean, Int32)
+        VB: HomeBudget.GetBudgetItems(Nullable(Of DateTime), Nullable(Of DateTime), Boolean, Int32)
+      qualifiedName:
+        CSharp: Budget.HomeBudget.GetBudgetItems(System.Nullable<System.DateTime>, System.Nullable<System.DateTime>, System.Boolean, System.Int32)
+        VB: Budget.HomeBudget.GetBudgetItems(System.Nullable(Of System.DateTime), System.Nullable(Of System.DateTime), System.Boolean, System.Int32)
+      type: Method
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/HomeBudget.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: GetBudgetItems
+        path: HomeBudget.cs
+        startLine: 258
+      summary: "\nMethod gets an list of expenses. \n"
+      example:
+      - "\n\nFor all examples below, assume the budget file contains the\nfollowing elements:\n\n<pre><code>Cat_ID  Expense_ID  Date                    Description                    Cost\n   10       1       1/10/2018 12:00:00 AM   Clothes hat (on credit)         10\n    9       2       1/11/2018 12:00:00 AM   Credit Card hat                -10\n   10       3       1/10/2019 12:00:00 AM   Clothes scarf(on credit)        15\n    9       4       1/10/2020 12:00:00 AM   Credit Card scarf              -15\n   14       5       1/11/2020 12:00:00 AM   Eating Out McDonalds            45\n   14       7       1/12/2020 12:00:00 AM   Eating Out Wendys               25\n   14      10       2/1/2020 12:00:00 AM    Eating Out Pizza                33.33\n    9      13       2/10/2020 12:00:00 AM   Credit Card mittens            -15\n    9      12       2/25/2020 12:00:00 AM   Credit Card Hat                -25\n   14      11       2/27/2020 12:00:00 AM   Eating Out Pizza                33.33\n   14       9       7/11/2020 12:00:00 AM   Eating Out Cafeteria            11.11</code></pre>\n\n<strong>Getting a list of ALL budget items.</strong>\n\n<pre><code> HomeBudget budget = new HomeBudget();\n budget.ReadFromFile(filename);\n\n // Get a list of all budget items\n var budgetItems = budget.GetBudgetItems(null, null, false, 0);\n\n // print important information\n foreach (var bi in budgetItems)\n {\n     Console.WRiteLine ( \n         String.Format(&quot;{0} {1,-20}  {2,8:C} {3,12:C}&quot;, \n            bi.Date.ToString(&quot;yyyy/MMM/dd&quot;),\n            bi.ShortDescription,\n            bi.Amount, bi.Balance)\n      );\n }</code></pre>\n\nSample output:\n<pre><code>2018/Jan/10 hat (on credit)       ($10.00)     ($10.00)\n2018/Jan/11 hat                     $10.00        $0.00\n2019/Jan/10 scarf(on credit)      ($15.00)     ($15.00)\n2020/Jan/10 scarf                   $15.00        $0.00\n2020/Jan/11 McDonalds             ($45.00)     ($45.00)\n2020/Jan/12 Wendys                ($25.00)     ($70.00)\n2020/Feb/01 Pizza                 ($33.33)    ($103.33)\n2020/Feb/10 mittens                 $15.00     ($88.33)\n2020/Feb/25 Hat                     $25.00     ($63.33)\n2020/Feb/27 Pizza                 ($33.33)     ($96.66)\n2020/Jul/11 Cafeteria             ($11.11)    ($107.77)</code></pre>\n\n"
+      syntax:
+        content:
+          CSharp: public List<BudgetItem> GetBudgetItems(DateTime? Start, DateTime? End, bool FilterFlag, int CategoryID)
+          VB: Public Function GetBudgetItems(Start As Date?, End As Date?, FilterFlag As Boolean, CategoryID As Integer) As List(Of BudgetItem)
+        parameters:
+        - id: Start
+          type: System.Nullable{System.DateTime}
+          description: 'Date of the begin of the period. '
+        - id: End
+          type: System.Nullable{System.DateTime}
+          description: 'Date of the end of the period. '
+        - id: FilterFlag
+          type: System.Boolean
+          description: ''
+        - id: CategoryID
+          type: System.Int32
+          description: 'Numerical representation of a category. '
+        return:
+          type: System.Collections.Generic.List{Budget.BudgetItem}
+          description: 'A list of items considered expenses. '
+      overload: Budget.HomeBudget.GetBudgetItems*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Budget.HomeBudget.GetBudgetItemsByMonth(System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Boolean,System.Int32)
+      commentId: M:Budget.HomeBudget.GetBudgetItemsByMonth(System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Boolean,System.Int32)
+      language: CSharp
+      name:
+        CSharp: GetBudgetItemsByMonth(Nullable<DateTime>, Nullable<DateTime>, Boolean, Int32)
+        VB: GetBudgetItemsByMonth(Nullable(Of DateTime), Nullable(Of DateTime), Boolean, Int32)
+      nameWithType:
+        CSharp: HomeBudget.GetBudgetItemsByMonth(Nullable<DateTime>, Nullable<DateTime>, Boolean, Int32)
+        VB: HomeBudget.GetBudgetItemsByMonth(Nullable(Of DateTime), Nullable(Of DateTime), Boolean, Int32)
+      qualifiedName:
+        CSharp: Budget.HomeBudget.GetBudgetItemsByMonth(System.Nullable<System.DateTime>, System.Nullable<System.DateTime>, System.Boolean, System.Int32)
+        VB: Budget.HomeBudget.GetBudgetItemsByMonth(System.Nullable(Of System.DateTime), System.Nullable(Of System.DateTime), System.Boolean, System.Int32)
+      type: Method
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/HomeBudget.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: GetBudgetItemsByMonth
+        path: HomeBudget.cs
+        startLine: 323
+      summary: "\nMethod groups all expenses according to the month. \n"
+      example:
+      - "\n\n<pre><code></code></pre>\n\n"
+      syntax:
+        content:
+          CSharp: public List<BudgetItemsByMonth> GetBudgetItemsByMonth(DateTime? Start, DateTime? End, bool FilterFlag, int CategoryID)
+          VB: Public Function GetBudgetItemsByMonth(Start As Date?, End As Date?, FilterFlag As Boolean, CategoryID As Integer) As List(Of BudgetItemsByMonth)
+        parameters:
+        - id: Start
+          type: System.Nullable{System.DateTime}
+          description: 'Date of the beginning of period. '
+        - id: End
+          type: System.Nullable{System.DateTime}
+          description: 'Date of the end of period. '
+        - id: FilterFlag
+          type: System.Boolean
+          description: ''
+        - id: CategoryID
+          type: System.Int32
+          description: 'Numerical representation of category. '
+        return:
+          type: System.Collections.Generic.List{Budget.BudgetItemsByMonth}
+          description: 'List of item for specific month. '
+      overload: Budget.HomeBudget.GetBudgetItemsByMonth*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Budget.HomeBudget.GeBudgetItemsByCategory(System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Boolean,System.Int32)
+      commentId: M:Budget.HomeBudget.GeBudgetItemsByCategory(System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Boolean,System.Int32)
+      language: CSharp
+      name:
+        CSharp: GeBudgetItemsByCategory(Nullable<DateTime>, Nullable<DateTime>, Boolean, Int32)
+        VB: GeBudgetItemsByCategory(Nullable(Of DateTime), Nullable(Of DateTime), Boolean, Int32)
+      nameWithType:
+        CSharp: HomeBudget.GeBudgetItemsByCategory(Nullable<DateTime>, Nullable<DateTime>, Boolean, Int32)
+        VB: HomeBudget.GeBudgetItemsByCategory(Nullable(Of DateTime), Nullable(Of DateTime), Boolean, Int32)
+      qualifiedName:
+        CSharp: Budget.HomeBudget.GeBudgetItemsByCategory(System.Nullable<System.DateTime>, System.Nullable<System.DateTime>, System.Boolean, System.Int32)
+        VB: Budget.HomeBudget.GeBudgetItemsByCategory(System.Nullable(Of System.DateTime), System.Nullable(Of System.DateTime), System.Boolean, System.Int32)
+      type: Method
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/HomeBudget.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: GeBudgetItemsByCategory
+        path: HomeBudget.cs
+        startLine: 380
+      summary: "\nMethod groups all expenses by category \n"
+      example:
+      - "\n\n<pre><code></code></pre>\n\n"
+      syntax:
+        content:
+          CSharp: public List<BudgetItemsByCategory> GeBudgetItemsByCategory(DateTime? Start, DateTime? End, bool FilterFlag, int CategoryID)
+          VB: Public Function GeBudgetItemsByCategory(Start As Date?, End As Date?, FilterFlag As Boolean, CategoryID As Integer) As List(Of BudgetItemsByCategory)
+        parameters:
+        - id: Start
+          type: System.Nullable{System.DateTime}
+          description: ''
+        - id: End
+          type: System.Nullable{System.DateTime}
+          description: ''
+        - id: FilterFlag
+          type: System.Boolean
+          description: ''
+        - id: CategoryID
+          type: System.Int32
+          description: ''
+        return:
+          type: System.Collections.Generic.List{Budget.BudgetItemsByCategory}
+          description: 'A list all expenses sorted by the name of categories. '
+      overload: Budget.HomeBudget.GeBudgetItemsByCategory*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Budget.HomeBudget.GetBudgetDictionaryByCategoryAndMonth(System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Boolean,System.Int32)
+      commentId: M:Budget.HomeBudget.GetBudgetDictionaryByCategoryAndMonth(System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Boolean,System.Int32)
+      language: CSharp
+      name:
+        CSharp: GetBudgetDictionaryByCategoryAndMonth(Nullable<DateTime>, Nullable<DateTime>, Boolean, Int32)
+        VB: GetBudgetDictionaryByCategoryAndMonth(Nullable(Of DateTime), Nullable(Of DateTime), Boolean, Int32)
+      nameWithType:
+        CSharp: HomeBudget.GetBudgetDictionaryByCategoryAndMonth(Nullable<DateTime>, Nullable<DateTime>, Boolean, Int32)
+        VB: HomeBudget.GetBudgetDictionaryByCategoryAndMonth(Nullable(Of DateTime), Nullable(Of DateTime), Boolean, Int32)
+      qualifiedName:
+        CSharp: Budget.HomeBudget.GetBudgetDictionaryByCategoryAndMonth(System.Nullable<System.DateTime>, System.Nullable<System.DateTime>, System.Boolean, System.Int32)
+        VB: Budget.HomeBudget.GetBudgetDictionaryByCategoryAndMonth(System.Nullable(Of System.DateTime), System.Nullable(Of System.DateTime), System.Boolean, System.Int32)
+      type: Method
+      assemblies:
+      - HomeBugetOleszczuk_W2022
+      namespace: Budget
+      source:
+        remote:
+          path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/HomeBudget.cs
+          branch: main
+          repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
+        id: GetBudgetDictionaryByCategoryAndMonth
+        path: HomeBudget.cs
+        startLine: 452
+      summary: "\nMethod groups all expenses by category and month creating a list of \n\n"
+      example:
+      - "\n\n<pre><code></code></pre>\n\n"
+      syntax:
+        content:
+          CSharp: public List<Dictionary<string, object>> GetBudgetDictionaryByCategoryAndMonth(DateTime? Start, DateTime? End, bool FilterFlag, int CategoryID)
+          VB: Public Function GetBudgetDictionaryByCategoryAndMonth(Start As Date?, End As Date?, FilterFlag As Boolean, CategoryID As Integer) As List(Of Dictionary(Of String, Object))
+        parameters:
+        - id: Start
+          type: System.Nullable{System.DateTime}
+          description: ''
+        - id: End
+          type: System.Nullable{System.DateTime}
+          description: ''
+        - id: FilterFlag
+          type: System.Boolean
+          description: ''
+        - id: CategoryID
+          type: System.Int32
+          description: ''
+        return:
+          type: System.Collections.Generic.List{System.Collections.Generic.Dictionary{System.String,System.Object}}
+          description: ''
+      overload: Budget.HomeBudget.GetBudgetDictionaryByCategoryAndMonth*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+references:
+  System:
+    name:
+      CSharp:
+      - name: System
+        nameWithType: System
+        qualifiedName: System
+        isExternal: true
+      VB:
+      - name: System
+        nameWithType: System
+        qualifiedName: System
+    isDefinition: true
+    commentId: N:System
+  System.Object:
+    name:
+      CSharp:
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      VB:
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Object
+  System.Object.ToString:
+    name:
+      CSharp:
+      - id: System.Object.ToString
+        name: ToString
+        nameWithType: Object.ToString
+        qualifiedName: System.Object.ToString
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.ToString
+        name: ToString
+        nameWithType: Object.ToString
+        qualifiedName: System.Object.ToString
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.ToString
+  System.Object.Equals(System.Object):
+    name:
+      CSharp:
+      - id: System.Object.Equals(System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.Equals(System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.Equals(System.Object)
+  System.Object.Equals(System.Object,System.Object):
+    name:
+      CSharp:
+      - id: System.Object.Equals(System.Object,System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.Equals(System.Object,System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.Equals(System.Object,System.Object)
+  System.Object.ReferenceEquals(System.Object,System.Object):
+    name:
+      CSharp:
+      - id: System.Object.ReferenceEquals(System.Object,System.Object)
+        name: ReferenceEquals
+        nameWithType: Object.ReferenceEquals
+        qualifiedName: System.Object.ReferenceEquals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.ReferenceEquals(System.Object,System.Object)
+        name: ReferenceEquals
+        nameWithType: Object.ReferenceEquals
+        qualifiedName: System.Object.ReferenceEquals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  System.Object.GetHashCode:
+    name:
+      CSharp:
+      - id: System.Object.GetHashCode
+        name: GetHashCode
+        nameWithType: Object.GetHashCode
+        qualifiedName: System.Object.GetHashCode
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.GetHashCode
+        name: GetHashCode
+        nameWithType: Object.GetHashCode
+        qualifiedName: System.Object.GetHashCode
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.GetHashCode
+  System.Object.GetType:
+    name:
+      CSharp:
+      - id: System.Object.GetType
+        name: GetType
+        nameWithType: Object.GetType
+        qualifiedName: System.Object.GetType
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.GetType
+        name: GetType
+        nameWithType: Object.GetType
+        qualifiedName: System.Object.GetType
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.GetType
+  System.Object.MemberwiseClone:
+    name:
+      CSharp:
+      - id: System.Object.MemberwiseClone
+        name: MemberwiseClone
+        nameWithType: Object.MemberwiseClone
+        qualifiedName: System.Object.MemberwiseClone
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.MemberwiseClone
+        name: MemberwiseClone
+        nameWithType: Object.MemberwiseClone
+        qualifiedName: System.Object.MemberwiseClone
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.MemberwiseClone
+  System.String:
+    name:
+      CSharp:
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      VB:
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.String
+  Budget.BudgetFiles.VerifyReadFromFileName*:
+    name:
+      CSharp:
+      - id: Budget.BudgetFiles.VerifyReadFromFileName*
+        name: VerifyReadFromFileName
+        nameWithType: BudgetFiles.VerifyReadFromFileName
+        qualifiedName: Budget.BudgetFiles.VerifyReadFromFileName
+      VB:
+      - id: Budget.BudgetFiles.VerifyReadFromFileName*
+        name: VerifyReadFromFileName
+        nameWithType: BudgetFiles.VerifyReadFromFileName
+        qualifiedName: Budget.BudgetFiles.VerifyReadFromFileName
+    isDefinition: true
+    commentId: Overload:Budget.BudgetFiles.VerifyReadFromFileName
+  Budget.BudgetFiles.VerifyWriteToFileName*:
+    name:
+      CSharp:
+      - id: Budget.BudgetFiles.VerifyWriteToFileName*
+        name: VerifyWriteToFileName
+        nameWithType: BudgetFiles.VerifyWriteToFileName
+        qualifiedName: Budget.BudgetFiles.VerifyWriteToFileName
+      VB:
+      - id: Budget.BudgetFiles.VerifyWriteToFileName*
+        name: VerifyWriteToFileName
+        nameWithType: BudgetFiles.VerifyWriteToFileName
+        qualifiedName: Budget.BudgetFiles.VerifyWriteToFileName
+    isDefinition: true
+    commentId: Overload:Budget.BudgetFiles.VerifyWriteToFileName
+  Budget.BudgetFiles:
+    name:
+      CSharp:
+      - id: Budget.BudgetFiles
+        name: BudgetFiles
+        nameWithType: BudgetFiles
+        qualifiedName: Budget.BudgetFiles
+      VB:
+      - id: Budget.BudgetFiles
+        name: BudgetFiles
+        nameWithType: BudgetFiles
+        qualifiedName: Budget.BudgetFiles
+    isDefinition: true
+    commentId: T:Budget.BudgetFiles
+  System.Int32:
+    name:
+      CSharp:
+      - id: System.Int32
+        name: Int32
+        nameWithType: Int32
+        qualifiedName: System.Int32
+        isExternal: true
+      VB:
+      - id: System.Int32
+        name: Int32
+        nameWithType: Int32
+        qualifiedName: System.Int32
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Int32
+  Budget.BudgetItem.CategoryID*:
+    name:
+      CSharp:
+      - id: Budget.BudgetItem.CategoryID*
+        name: CategoryID
+        nameWithType: BudgetItem.CategoryID
+        qualifiedName: Budget.BudgetItem.CategoryID
+      VB:
+      - id: Budget.BudgetItem.CategoryID*
+        name: CategoryID
+        nameWithType: BudgetItem.CategoryID
+        qualifiedName: Budget.BudgetItem.CategoryID
+    isDefinition: true
+    commentId: Overload:Budget.BudgetItem.CategoryID
+  Budget.BudgetItem.ExpenseID*:
+    name:
+      CSharp:
+      - id: Budget.BudgetItem.ExpenseID*
+        name: ExpenseID
+        nameWithType: BudgetItem.ExpenseID
+        qualifiedName: Budget.BudgetItem.ExpenseID
+      VB:
+      - id: Budget.BudgetItem.ExpenseID*
+        name: ExpenseID
+        nameWithType: BudgetItem.ExpenseID
+        qualifiedName: Budget.BudgetItem.ExpenseID
+    isDefinition: true
+    commentId: Overload:Budget.BudgetItem.ExpenseID
+  System.DateTime:
+    name:
+      CSharp:
+      - id: System.DateTime
+        name: DateTime
+        nameWithType: DateTime
+        qualifiedName: System.DateTime
+        isExternal: true
+      VB:
+      - id: System.DateTime
+        name: DateTime
+        nameWithType: DateTime
+        qualifiedName: System.DateTime
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.DateTime
+  Budget.BudgetItem.Date*:
+    name:
+      CSharp:
+      - id: Budget.BudgetItem.Date*
+        name: Date
+        nameWithType: BudgetItem.Date
+        qualifiedName: Budget.BudgetItem.Date
+      VB:
+      - id: Budget.BudgetItem.Date*
+        name: Date
+        nameWithType: BudgetItem.Date
+        qualifiedName: Budget.BudgetItem.Date
+    isDefinition: true
+    commentId: Overload:Budget.BudgetItem.Date
+  Budget.BudgetItem.Category*:
+    name:
+      CSharp:
+      - id: Budget.BudgetItem.Category*
+        name: Category
+        nameWithType: BudgetItem.Category
+        qualifiedName: Budget.BudgetItem.Category
+      VB:
+      - id: Budget.BudgetItem.Category*
+        name: Category
+        nameWithType: BudgetItem.Category
+        qualifiedName: Budget.BudgetItem.Category
+    isDefinition: true
+    commentId: Overload:Budget.BudgetItem.Category
+  Budget.BudgetItem.ShortDescription*:
+    name:
+      CSharp:
+      - id: Budget.BudgetItem.ShortDescription*
+        name: ShortDescription
+        nameWithType: BudgetItem.ShortDescription
+        qualifiedName: Budget.BudgetItem.ShortDescription
+      VB:
+      - id: Budget.BudgetItem.ShortDescription*
+        name: ShortDescription
+        nameWithType: BudgetItem.ShortDescription
+        qualifiedName: Budget.BudgetItem.ShortDescription
+    isDefinition: true
+    commentId: Overload:Budget.BudgetItem.ShortDescription
+  System.Double:
+    name:
+      CSharp:
+      - id: System.Double
+        name: Double
+        nameWithType: Double
+        qualifiedName: System.Double
+        isExternal: true
+      VB:
+      - id: System.Double
+        name: Double
+        nameWithType: Double
+        qualifiedName: System.Double
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Double
+  Budget.BudgetItem.Amount*:
+    name:
+      CSharp:
+      - id: Budget.BudgetItem.Amount*
+        name: Amount
+        nameWithType: BudgetItem.Amount
+        qualifiedName: Budget.BudgetItem.Amount
+      VB:
+      - id: Budget.BudgetItem.Amount*
+        name: Amount
+        nameWithType: BudgetItem.Amount
+        qualifiedName: Budget.BudgetItem.Amount
+    isDefinition: true
+    commentId: Overload:Budget.BudgetItem.Amount
+  Budget.BudgetItem.Balance*:
+    name:
+      CSharp:
+      - id: Budget.BudgetItem.Balance*
+        name: Balance
+        nameWithType: BudgetItem.Balance
+        qualifiedName: Budget.BudgetItem.Balance
+      VB:
+      - id: Budget.BudgetItem.Balance*
+        name: Balance
+        nameWithType: BudgetItem.Balance
+        qualifiedName: Budget.BudgetItem.Balance
+    isDefinition: true
+    commentId: Overload:Budget.BudgetItem.Balance
+  Budget.BudgetItem:
+    name:
+      CSharp:
+      - id: Budget.BudgetItem
+        name: BudgetItem
+        nameWithType: BudgetItem
+        qualifiedName: Budget.BudgetItem
+      VB:
+      - id: Budget.BudgetItem
+        name: BudgetItem
+        nameWithType: BudgetItem
+        qualifiedName: Budget.BudgetItem
+    isDefinition: true
+    commentId: T:Budget.BudgetItem
+  Budget.BudgetItemsByMonth.Month*:
+    name:
+      CSharp:
+      - id: Budget.BudgetItemsByMonth.Month*
+        name: Month
+        nameWithType: BudgetItemsByMonth.Month
+        qualifiedName: Budget.BudgetItemsByMonth.Month
+      VB:
+      - id: Budget.BudgetItemsByMonth.Month*
+        name: Month
+        nameWithType: BudgetItemsByMonth.Month
+        qualifiedName: Budget.BudgetItemsByMonth.Month
+    isDefinition: true
+    commentId: Overload:Budget.BudgetItemsByMonth.Month
+  System.Collections.Generic.List`1:
+    name:
+      CSharp:
+      - id: System.Collections.Generic.List`1
+        name: List
+        nameWithType: List
+        qualifiedName: System.Collections.Generic.List
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - name: T
+        nameWithType: T
+        qualifiedName: T
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Collections.Generic.List`1
+        name: List
+        nameWithType: List
+        qualifiedName: System.Collections.Generic.List
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - name: T
+        nameWithType: T
+        qualifiedName: T
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    commentId: T:System.Collections.Generic.List`1
+  System.Collections.Generic:
+    name:
+      CSharp:
+      - name: System.Collections.Generic
+        nameWithType: System.Collections.Generic
+        qualifiedName: System.Collections.Generic
+        isExternal: true
+      VB:
+      - name: System.Collections.Generic
+        nameWithType: System.Collections.Generic
+        qualifiedName: System.Collections.Generic
+    isDefinition: true
+    commentId: N:System.Collections.Generic
+  System.Collections.Generic.List{Budget.BudgetItem}:
+    name:
+      CSharp:
+      - id: System.Collections.Generic.List`1
+        name: List
+        nameWithType: List
+        qualifiedName: System.Collections.Generic.List
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: Budget.BudgetItem
+        name: BudgetItem
+        nameWithType: BudgetItem
+        qualifiedName: Budget.BudgetItem
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Collections.Generic.List`1
+        name: List
+        nameWithType: List
+        qualifiedName: System.Collections.Generic.List
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: Budget.BudgetItem
+        name: BudgetItem
+        nameWithType: BudgetItem
+        qualifiedName: Budget.BudgetItem
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: System.Collections.Generic.List`1
+    parent: System.Collections.Generic
+    commentId: T:System.Collections.Generic.List{Budget.BudgetItem}
+  Budget.BudgetItemsByMonth.Details*:
+    name:
+      CSharp:
+      - id: Budget.BudgetItemsByMonth.Details*
+        name: Details
+        nameWithType: BudgetItemsByMonth.Details
+        qualifiedName: Budget.BudgetItemsByMonth.Details
+      VB:
+      - id: Budget.BudgetItemsByMonth.Details*
+        name: Details
+        nameWithType: BudgetItemsByMonth.Details
+        qualifiedName: Budget.BudgetItemsByMonth.Details
+    isDefinition: true
+    commentId: Overload:Budget.BudgetItemsByMonth.Details
+  Budget.BudgetItemsByMonth.Total*:
+    name:
+      CSharp:
+      - id: Budget.BudgetItemsByMonth.Total*
+        name: Total
+        nameWithType: BudgetItemsByMonth.Total
+        qualifiedName: Budget.BudgetItemsByMonth.Total
+      VB:
+      - id: Budget.BudgetItemsByMonth.Total*
+        name: Total
+        nameWithType: BudgetItemsByMonth.Total
+        qualifiedName: Budget.BudgetItemsByMonth.Total
+    isDefinition: true
+    commentId: Overload:Budget.BudgetItemsByMonth.Total
+  Budget.BudgetItemsByMonth:
+    name:
+      CSharp:
+      - id: Budget.BudgetItemsByMonth
+        name: BudgetItemsByMonth
+        nameWithType: BudgetItemsByMonth
+        qualifiedName: Budget.BudgetItemsByMonth
+      VB:
+      - id: Budget.BudgetItemsByMonth
+        name: BudgetItemsByMonth
+        nameWithType: BudgetItemsByMonth
+        qualifiedName: Budget.BudgetItemsByMonth
+    isDefinition: true
+    commentId: T:Budget.BudgetItemsByMonth
+  Budget.BudgetItemsByCategory.Category*:
+    name:
+      CSharp:
+      - id: Budget.BudgetItemsByCategory.Category*
+        name: Category
+        nameWithType: BudgetItemsByCategory.Category
+        qualifiedName: Budget.BudgetItemsByCategory.Category
+      VB:
+      - id: Budget.BudgetItemsByCategory.Category*
+        name: Category
+        nameWithType: BudgetItemsByCategory.Category
+        qualifiedName: Budget.BudgetItemsByCategory.Category
+    isDefinition: true
+    commentId: Overload:Budget.BudgetItemsByCategory.Category
+  Budget.BudgetItemsByCategory.Details*:
+    name:
+      CSharp:
+      - id: Budget.BudgetItemsByCategory.Details*
+        name: Details
+        nameWithType: BudgetItemsByCategory.Details
+        qualifiedName: Budget.BudgetItemsByCategory.Details
+      VB:
+      - id: Budget.BudgetItemsByCategory.Details*
+        name: Details
+        nameWithType: BudgetItemsByCategory.Details
+        qualifiedName: Budget.BudgetItemsByCategory.Details
+    isDefinition: true
+    commentId: Overload:Budget.BudgetItemsByCategory.Details
+  Budget.BudgetItemsByCategory.Total*:
+    name:
+      CSharp:
+      - id: Budget.BudgetItemsByCategory.Total*
+        name: Total
+        nameWithType: BudgetItemsByCategory.Total
+        qualifiedName: Budget.BudgetItemsByCategory.Total
+      VB:
+      - id: Budget.BudgetItemsByCategory.Total*
+        name: Total
+        nameWithType: BudgetItemsByCategory.Total
+        qualifiedName: Budget.BudgetItemsByCategory.Total
+    isDefinition: true
+    commentId: Overload:Budget.BudgetItemsByCategory.Total
+  Budget.BudgetItemsByCategory:
+    name:
+      CSharp:
+      - id: Budget.BudgetItemsByCategory
+        name: BudgetItemsByCategory
+        nameWithType: BudgetItemsByCategory
+        qualifiedName: Budget.BudgetItemsByCategory
+      VB:
+      - id: Budget.BudgetItemsByCategory
+        name: BudgetItemsByCategory
+        nameWithType: BudgetItemsByCategory
+        qualifiedName: Budget.BudgetItemsByCategory
+    isDefinition: true
+    commentId: T:Budget.BudgetItemsByCategory
+  Budget.Categories.FileName*:
+    name:
+      CSharp:
+      - id: Budget.Categories.FileName*
+        name: FileName
+        nameWithType: Categories.FileName
+        qualifiedName: Budget.Categories.FileName
+      VB:
+      - id: Budget.Categories.FileName*
+        name: FileName
+        nameWithType: Categories.FileName
+        qualifiedName: Budget.Categories.FileName
+    isDefinition: true
+    commentId: Overload:Budget.Categories.FileName
+  Budget.Categories.DirName*:
+    name:
+      CSharp:
+      - id: Budget.Categories.DirName*
+        name: DirName
+        nameWithType: Categories.DirName
+        qualifiedName: Budget.Categories.DirName
+      VB:
+      - id: Budget.Categories.DirName*
+        name: DirName
+        nameWithType: Categories.DirName
+        qualifiedName: Budget.Categories.DirName
+    isDefinition: true
+    commentId: Overload:Budget.Categories.DirName
+  Budget.Categories.#ctor*:
+    name:
+      CSharp:
+      - id: Budget.Categories.#ctor*
+        name: Categories
+        nameWithType: Categories.Categories
+        qualifiedName: Budget.Categories.Categories
+      VB:
+      - id: Budget.Categories.#ctor*
+        name: Categories
+        nameWithType: Categories.Categories
+        qualifiedName: Budget.Categories.Categories
+    isDefinition: true
+    commentId: Overload:Budget.Categories.#ctor
+  Budget:
+    name:
+      CSharp:
+      - name: Budget
+        nameWithType: Budget
+        qualifiedName: Budget
+      VB:
+      - name: Budget
+        nameWithType: Budget
+        qualifiedName: Budget
+    isDefinition: true
+    commentId: N:Budget
+  Budget.Category:
+    name:
+      CSharp:
+      - id: Budget.Category
+        name: Category
+        nameWithType: Category
+        qualifiedName: Budget.Category
+      VB:
+      - id: Budget.Category
+        name: Category
+        nameWithType: Category
+        qualifiedName: Budget.Category
+    isDefinition: true
+    parent: Budget
+    commentId: T:Budget.Category
+  Budget.Categories.GetCategoryFromId*:
+    name:
+      CSharp:
+      - id: Budget.Categories.GetCategoryFromId*
+        name: GetCategoryFromId
+        nameWithType: Categories.GetCategoryFromId
+        qualifiedName: Budget.Categories.GetCategoryFromId
+      VB:
+      - id: Budget.Categories.GetCategoryFromId*
+        name: GetCategoryFromId
+        nameWithType: Categories.GetCategoryFromId
+        qualifiedName: Budget.Categories.GetCategoryFromId
+    isDefinition: true
+    commentId: Overload:Budget.Categories.GetCategoryFromId
+  Budget.Categories.ReadFromFile*:
+    name:
+      CSharp:
+      - id: Budget.Categories.ReadFromFile*
+        name: ReadFromFile
+        nameWithType: Categories.ReadFromFile
+        qualifiedName: Budget.Categories.ReadFromFile
+      VB:
+      - id: Budget.Categories.ReadFromFile*
+        name: ReadFromFile
+        nameWithType: Categories.ReadFromFile
+        qualifiedName: Budget.Categories.ReadFromFile
+    isDefinition: true
+    commentId: Overload:Budget.Categories.ReadFromFile
+  Budget.Categories.SaveToFile*:
+    name:
+      CSharp:
+      - id: Budget.Categories.SaveToFile*
+        name: SaveToFile
+        nameWithType: Categories.SaveToFile
+        qualifiedName: Budget.Categories.SaveToFile
+      VB:
+      - id: Budget.Categories.SaveToFile*
+        name: SaveToFile
+        nameWithType: Categories.SaveToFile
+        qualifiedName: Budget.Categories.SaveToFile
+    isDefinition: true
+    commentId: Overload:Budget.Categories.SaveToFile
+  Budget.Categories.SetCategoriesToDefaults*:
+    name:
+      CSharp:
+      - id: Budget.Categories.SetCategoriesToDefaults*
+        name: SetCategoriesToDefaults
+        nameWithType: Categories.SetCategoriesToDefaults
+        qualifiedName: Budget.Categories.SetCategoriesToDefaults
+      VB:
+      - id: Budget.Categories.SetCategoriesToDefaults*
+        name: SetCategoriesToDefaults
+        nameWithType: Categories.SetCategoriesToDefaults
+        qualifiedName: Budget.Categories.SetCategoriesToDefaults
+    isDefinition: true
+    commentId: Overload:Budget.Categories.SetCategoriesToDefaults
+  Budget.Category.CategoryType:
+    name:
+      CSharp:
+      - id: Budget.Category.CategoryType
+        name: Category.CategoryType
+        nameWithType: Category.CategoryType
+        qualifiedName: Budget.Category.CategoryType
+      VB:
+      - id: Budget.Category.CategoryType
+        name: Category.CategoryType
+        nameWithType: Category.CategoryType
+        qualifiedName: Budget.Category.CategoryType
+    isDefinition: true
+    parent: Budget
+    commentId: T:Budget.Category.CategoryType
+  Budget.Categories.Add*:
+    name:
+      CSharp:
+      - id: Budget.Categories.Add*
+        name: Add
+        nameWithType: Categories.Add
+        qualifiedName: Budget.Categories.Add
+      VB:
+      - id: Budget.Categories.Add*
+        name: Add
+        nameWithType: Categories.Add
+        qualifiedName: Budget.Categories.Add
+    isDefinition: true
+    commentId: Overload:Budget.Categories.Add
+  Budget.Categories.Delete*:
+    name:
+      CSharp:
+      - id: Budget.Categories.Delete*
+        name: Delete
+        nameWithType: Categories.Delete
+        qualifiedName: Budget.Categories.Delete
+      VB:
+      - id: Budget.Categories.Delete*
+        name: Delete
+        nameWithType: Categories.Delete
+        qualifiedName: Budget.Categories.Delete
+    isDefinition: true
+    commentId: Overload:Budget.Categories.Delete
+  System.Collections.Generic.List{Budget.Category}:
+    name:
+      CSharp:
+      - id: System.Collections.Generic.List`1
+        name: List
+        nameWithType: List
+        qualifiedName: System.Collections.Generic.List
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: Budget.Category
+        name: Category
+        nameWithType: Category
+        qualifiedName: Budget.Category
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Collections.Generic.List`1
+        name: List
+        nameWithType: List
+        qualifiedName: System.Collections.Generic.List
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: Budget.Category
+        name: Category
+        nameWithType: Category
+        qualifiedName: Budget.Category
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: System.Collections.Generic.List`1
+    parent: System.Collections.Generic
+    commentId: T:System.Collections.Generic.List{Budget.Category}
+  Budget.Categories.List*:
+    name:
+      CSharp:
+      - id: Budget.Categories.List*
+        name: List
+        nameWithType: Categories.List
+        qualifiedName: Budget.Categories.List
+      VB:
+      - id: Budget.Categories.List*
+        name: List
+        nameWithType: Categories.List
+        qualifiedName: Budget.Categories.List
+    isDefinition: true
+    commentId: Overload:Budget.Categories.List
+  Budget.Categories:
+    name:
+      CSharp:
+      - id: Budget.Categories
+        name: Categories
+        nameWithType: Categories
+        qualifiedName: Budget.Categories
+      VB:
+      - id: Budget.Categories
+        name: Categories
+        nameWithType: Categories
+        qualifiedName: Budget.Categories
+    isDefinition: true
+    parent: Budget
+    commentId: T:Budget.Categories
+  Budget.Category.Id*:
+    name:
+      CSharp:
+      - id: Budget.Category.Id*
+        name: Id
+        nameWithType: Category.Id
+        qualifiedName: Budget.Category.Id
+      VB:
+      - id: Budget.Category.Id*
+        name: Id
+        nameWithType: Category.Id
+        qualifiedName: Budget.Category.Id
+    isDefinition: true
+    commentId: Overload:Budget.Category.Id
+  Budget.Category.Description*:
+    name:
+      CSharp:
+      - id: Budget.Category.Description*
+        name: Description
+        nameWithType: Category.Description
+        qualifiedName: Budget.Category.Description
+      VB:
+      - id: Budget.Category.Description*
+        name: Description
+        nameWithType: Category.Description
+        qualifiedName: Budget.Category.Description
+    isDefinition: true
+    commentId: Overload:Budget.Category.Description
+  Budget.Category.Type*:
+    name:
+      CSharp:
+      - id: Budget.Category.Type*
+        name: Type
+        nameWithType: Category.Type
+        qualifiedName: Budget.Category.Type
+      VB:
+      - id: Budget.Category.Type*
+        name: Type
+        nameWithType: Category.Type
+        qualifiedName: Budget.Category.Type
+    isDefinition: true
+    commentId: Overload:Budget.Category.Type
+  Budget.Category.#ctor*:
+    name:
+      CSharp:
+      - id: Budget.Category.#ctor*
+        name: Category
+        nameWithType: Category.Category
+        qualifiedName: Budget.Category.Category
+      VB:
+      - id: Budget.Category.#ctor*
+        name: Category
+        nameWithType: Category.Category
+        qualifiedName: Budget.Category.Category
+    isDefinition: true
+    commentId: Overload:Budget.Category.#ctor
+  Budget.Category.ToString*:
+    name:
+      CSharp:
+      - id: Budget.Category.ToString*
+        name: ToString
+        nameWithType: Category.ToString
+        qualifiedName: Budget.Category.ToString
+      VB:
+      - id: Budget.Category.ToString*
+        name: ToString
+        nameWithType: Category.ToString
+        qualifiedName: Budget.Category.ToString
+    isDefinition: true
+    commentId: Overload:Budget.Category.ToString
+  Budget.Expense.Id*:
+    name:
+      CSharp:
+      - id: Budget.Expense.Id*
+        name: Id
+        nameWithType: Expense.Id
+        qualifiedName: Budget.Expense.Id
+      VB:
+      - id: Budget.Expense.Id*
+        name: Id
+        nameWithType: Expense.Id
+        qualifiedName: Budget.Expense.Id
+    isDefinition: true
+    commentId: Overload:Budget.Expense.Id
+  Budget.Expense.Date*:
+    name:
+      CSharp:
+      - id: Budget.Expense.Date*
+        name: Date
+        nameWithType: Expense.Date
+        qualifiedName: Budget.Expense.Date
+      VB:
+      - id: Budget.Expense.Date*
+        name: Date
+        nameWithType: Expense.Date
+        qualifiedName: Budget.Expense.Date
+    isDefinition: true
+    commentId: Overload:Budget.Expense.Date
+  Budget.Expense.Amount*:
+    name:
+      CSharp:
+      - id: Budget.Expense.Amount*
+        name: Amount
+        nameWithType: Expense.Amount
+        qualifiedName: Budget.Expense.Amount
+      VB:
+      - id: Budget.Expense.Amount*
+        name: Amount
+        nameWithType: Expense.Amount
+        qualifiedName: Budget.Expense.Amount
+    isDefinition: true
+    commentId: Overload:Budget.Expense.Amount
+  Budget.Expense.Description*:
+    name:
+      CSharp:
+      - id: Budget.Expense.Description*
+        name: Description
+        nameWithType: Expense.Description
+        qualifiedName: Budget.Expense.Description
+      VB:
+      - id: Budget.Expense.Description*
+        name: Description
+        nameWithType: Expense.Description
+        qualifiedName: Budget.Expense.Description
+    isDefinition: true
+    commentId: Overload:Budget.Expense.Description
+  Budget.Expense.Category*:
+    name:
+      CSharp:
+      - id: Budget.Expense.Category*
+        name: Category
+        nameWithType: Expense.Category
+        qualifiedName: Budget.Expense.Category
+      VB:
+      - id: Budget.Expense.Category*
+        name: Category
+        nameWithType: Expense.Category
+        qualifiedName: Budget.Expense.Category
+    isDefinition: true
+    commentId: Overload:Budget.Expense.Category
+  Budget.Expense.#ctor*:
+    name:
+      CSharp:
+      - id: Budget.Expense.#ctor*
+        name: Expense
+        nameWithType: Expense.Expense
+        qualifiedName: Budget.Expense.Expense
+      VB:
+      - id: Budget.Expense.#ctor*
+        name: Expense
+        nameWithType: Expense.Expense
+        qualifiedName: Budget.Expense.Expense
+    isDefinition: true
+    commentId: Overload:Budget.Expense.#ctor
+  Budget.Expense:
+    name:
+      CSharp:
+      - id: Budget.Expense
+        name: Expense
+        nameWithType: Expense
+        qualifiedName: Budget.Expense
+      VB:
+      - id: Budget.Expense
+        name: Expense
+        nameWithType: Expense
+        qualifiedName: Budget.Expense
+    isDefinition: true
+    parent: Budget
+    commentId: T:Budget.Expense
+  Budget.Expenses.FileName*:
+    name:
+      CSharp:
+      - id: Budget.Expenses.FileName*
+        name: FileName
+        nameWithType: Expenses.FileName
+        qualifiedName: Budget.Expenses.FileName
+      VB:
+      - id: Budget.Expenses.FileName*
+        name: FileName
+        nameWithType: Expenses.FileName
+        qualifiedName: Budget.Expenses.FileName
+    isDefinition: true
+    commentId: Overload:Budget.Expenses.FileName
+  Budget.Expenses.DirName*:
+    name:
+      CSharp:
+      - id: Budget.Expenses.DirName*
+        name: DirName
+        nameWithType: Expenses.DirName
+        qualifiedName: Budget.Expenses.DirName
+      VB:
+      - id: Budget.Expenses.DirName*
+        name: DirName
+        nameWithType: Expenses.DirName
+        qualifiedName: Budget.Expenses.DirName
+    isDefinition: true
+    commentId: Overload:Budget.Expenses.DirName
+  Budget.Expenses.ReadFromFile*:
+    name:
+      CSharp:
+      - id: Budget.Expenses.ReadFromFile*
+        name: ReadFromFile
+        nameWithType: Expenses.ReadFromFile
+        qualifiedName: Budget.Expenses.ReadFromFile
+      VB:
+      - id: Budget.Expenses.ReadFromFile*
+        name: ReadFromFile
+        nameWithType: Expenses.ReadFromFile
+        qualifiedName: Budget.Expenses.ReadFromFile
+    isDefinition: true
+    commentId: Overload:Budget.Expenses.ReadFromFile
+  Budget.Expenses.SaveToFile*:
+    name:
+      CSharp:
+      - id: Budget.Expenses.SaveToFile*
+        name: SaveToFile
+        nameWithType: Expenses.SaveToFile
+        qualifiedName: Budget.Expenses.SaveToFile
+      VB:
+      - id: Budget.Expenses.SaveToFile*
+        name: SaveToFile
+        nameWithType: Expenses.SaveToFile
+        qualifiedName: Budget.Expenses.SaveToFile
+    isDefinition: true
+    commentId: Overload:Budget.Expenses.SaveToFile
+  Budget.Expenses.Add*:
+    name:
+      CSharp:
+      - id: Budget.Expenses.Add*
+        name: Add
+        nameWithType: Expenses.Add
+        qualifiedName: Budget.Expenses.Add
+      VB:
+      - id: Budget.Expenses.Add*
+        name: Add
+        nameWithType: Expenses.Add
+        qualifiedName: Budget.Expenses.Add
+    isDefinition: true
+    commentId: Overload:Budget.Expenses.Add
+  Budget.Expenses.Delete*:
+    name:
+      CSharp:
+      - id: Budget.Expenses.Delete*
+        name: Delete
+        nameWithType: Expenses.Delete
+        qualifiedName: Budget.Expenses.Delete
+      VB:
+      - id: Budget.Expenses.Delete*
+        name: Delete
+        nameWithType: Expenses.Delete
+        qualifiedName: Budget.Expenses.Delete
+    isDefinition: true
+    commentId: Overload:Budget.Expenses.Delete
+  System.Collections.Generic.List{Budget.Expense}:
+    name:
+      CSharp:
+      - id: System.Collections.Generic.List`1
+        name: List
+        nameWithType: List
+        qualifiedName: System.Collections.Generic.List
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: Budget.Expense
+        name: Expense
+        nameWithType: Expense
+        qualifiedName: Budget.Expense
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Collections.Generic.List`1
+        name: List
+        nameWithType: List
+        qualifiedName: System.Collections.Generic.List
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: Budget.Expense
+        name: Expense
+        nameWithType: Expense
+        qualifiedName: Budget.Expense
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: System.Collections.Generic.List`1
+    parent: System.Collections.Generic
+    commentId: T:System.Collections.Generic.List{Budget.Expense}
+  Budget.Expenses.List*:
+    name:
+      CSharp:
+      - id: Budget.Expenses.List*
+        name: List
+        nameWithType: Expenses.List
+        qualifiedName: Budget.Expenses.List
+      VB:
+      - id: Budget.Expenses.List*
+        name: List
+        nameWithType: Expenses.List
+        qualifiedName: Budget.Expenses.List
+    isDefinition: true
+    commentId: Overload:Budget.Expenses.List
+  Budget.Expenses:
+    name:
+      CSharp:
+      - id: Budget.Expenses
+        name: Expenses
+        nameWithType: Expenses
+        qualifiedName: Budget.Expenses
+      VB:
+      - id: Budget.Expenses
+        name: Expenses
+        nameWithType: Expenses
+        qualifiedName: Budget.Expenses
+    isDefinition: true
+    parent: Budget
+    commentId: T:Budget.Expenses
+  Budget.HomeBudget.FileName*:
+    name:
+      CSharp:
+      - id: Budget.HomeBudget.FileName*
+        name: FileName
+        nameWithType: HomeBudget.FileName
+        qualifiedName: Budget.HomeBudget.FileName
+      VB:
+      - id: Budget.HomeBudget.FileName*
+        name: FileName
+        nameWithType: HomeBudget.FileName
+        qualifiedName: Budget.HomeBudget.FileName
+    isDefinition: true
+    commentId: Overload:Budget.HomeBudget.FileName
+  Budget.HomeBudget.DirName*:
+    name:
+      CSharp:
+      - id: Budget.HomeBudget.DirName*
+        name: DirName
+        nameWithType: HomeBudget.DirName
+        qualifiedName: Budget.HomeBudget.DirName
+      VB:
+      - id: Budget.HomeBudget.DirName*
+        name: DirName
+        nameWithType: HomeBudget.DirName
+        qualifiedName: Budget.HomeBudget.DirName
+    isDefinition: true
+    commentId: Overload:Budget.HomeBudget.DirName
+  Budget.HomeBudget.PathName*:
+    name:
+      CSharp:
+      - id: Budget.HomeBudget.PathName*
+        name: PathName
+        nameWithType: HomeBudget.PathName
+        qualifiedName: Budget.HomeBudget.PathName
+      VB:
+      - id: Budget.HomeBudget.PathName*
+        name: PathName
+        nameWithType: HomeBudget.PathName
+        qualifiedName: Budget.HomeBudget.PathName
+    isDefinition: true
+    commentId: Overload:Budget.HomeBudget.PathName
+  Budget.HomeBudget.categories*:
+    name:
+      CSharp:
+      - id: Budget.HomeBudget.categories*
+        name: categories
+        nameWithType: HomeBudget.categories
+        qualifiedName: Budget.HomeBudget.categories
+      VB:
+      - id: Budget.HomeBudget.categories*
+        name: categories
+        nameWithType: HomeBudget.categories
+        qualifiedName: Budget.HomeBudget.categories
+    isDefinition: true
+    commentId: Overload:Budget.HomeBudget.categories
+  Budget.HomeBudget.expenses*:
+    name:
+      CSharp:
+      - id: Budget.HomeBudget.expenses*
+        name: expenses
+        nameWithType: HomeBudget.expenses
+        qualifiedName: Budget.HomeBudget.expenses
+      VB:
+      - id: Budget.HomeBudget.expenses*
+        name: expenses
+        nameWithType: HomeBudget.expenses
+        qualifiedName: Budget.HomeBudget.expenses
+    isDefinition: true
+    commentId: Overload:Budget.HomeBudget.expenses
+  Budget.HomeBudget.#ctor*:
+    name:
+      CSharp:
+      - id: Budget.HomeBudget.#ctor*
+        name: HomeBudget
+        nameWithType: HomeBudget.HomeBudget
+        qualifiedName: Budget.HomeBudget.HomeBudget
+      VB:
+      - id: Budget.HomeBudget.#ctor*
+        name: HomeBudget
+        nameWithType: HomeBudget.HomeBudget
+        qualifiedName: Budget.HomeBudget.HomeBudget
+    isDefinition: true
+    commentId: Overload:Budget.HomeBudget.#ctor
+  Budget.HomeBudget.ReadFromFile*:
+    name:
+      CSharp:
+      - id: Budget.HomeBudget.ReadFromFile*
+        name: ReadFromFile
+        nameWithType: HomeBudget.ReadFromFile
+        qualifiedName: Budget.HomeBudget.ReadFromFile
+      VB:
+      - id: Budget.HomeBudget.ReadFromFile*
+        name: ReadFromFile
+        nameWithType: HomeBudget.ReadFromFile
+        qualifiedName: Budget.HomeBudget.ReadFromFile
+    isDefinition: true
+    commentId: Overload:Budget.HomeBudget.ReadFromFile
+  Budget.HomeBudget.SaveToFile*:
+    name:
+      CSharp:
+      - id: Budget.HomeBudget.SaveToFile*
+        name: SaveToFile
+        nameWithType: HomeBudget.SaveToFile
+        qualifiedName: Budget.HomeBudget.SaveToFile
+      VB:
+      - id: Budget.HomeBudget.SaveToFile*
+        name: SaveToFile
+        nameWithType: HomeBudget.SaveToFile
+        qualifiedName: Budget.HomeBudget.SaveToFile
+    isDefinition: true
+    commentId: Overload:Budget.HomeBudget.SaveToFile
+  System.Nullable`1:
+    name:
+      CSharp:
+      - id: System.Nullable`1
+        name: Nullable
+        nameWithType: Nullable
+        qualifiedName: System.Nullable
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - name: T
+        nameWithType: T
+        qualifiedName: T
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Nullable`1
+        name: Nullable
+        nameWithType: Nullable
+        qualifiedName: System.Nullable
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - name: T
+        nameWithType: T
+        qualifiedName: T
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    commentId: T:System.Nullable`1
+  System.Nullable{System.DateTime}:
+    name:
+      CSharp:
+      - id: System.Nullable`1
+        name: Nullable
+        nameWithType: Nullable
+        qualifiedName: System.Nullable
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: System.DateTime
+        name: DateTime
+        nameWithType: DateTime
+        qualifiedName: System.DateTime
+        isExternal: true
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Nullable`1
+        name: Nullable
+        nameWithType: Nullable
+        qualifiedName: System.Nullable
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: System.DateTime
+        name: DateTime
+        nameWithType: DateTime
+        qualifiedName: System.DateTime
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: System.Nullable`1
+    parent: System
+    commentId: T:System.Nullable{System.DateTime}
+  System.Boolean:
+    name:
+      CSharp:
+      - id: System.Boolean
+        name: Boolean
+        nameWithType: Boolean
+        qualifiedName: System.Boolean
+        isExternal: true
+      VB:
+      - id: System.Boolean
+        name: Boolean
+        nameWithType: Boolean
+        qualifiedName: System.Boolean
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Boolean
+  Budget.HomeBudget.GetBudgetItems*:
+    name:
+      CSharp:
+      - id: Budget.HomeBudget.GetBudgetItems*
+        name: GetBudgetItems
+        nameWithType: HomeBudget.GetBudgetItems
+        qualifiedName: Budget.HomeBudget.GetBudgetItems
+      VB:
+      - id: Budget.HomeBudget.GetBudgetItems*
+        name: GetBudgetItems
+        nameWithType: HomeBudget.GetBudgetItems
+        qualifiedName: Budget.HomeBudget.GetBudgetItems
+    isDefinition: true
+    commentId: Overload:Budget.HomeBudget.GetBudgetItems
+  System.Collections.Generic.List{Budget.BudgetItemsByMonth}:
+    name:
+      CSharp:
+      - id: System.Collections.Generic.List`1
+        name: List
+        nameWithType: List
+        qualifiedName: System.Collections.Generic.List
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: Budget.BudgetItemsByMonth
+        name: BudgetItemsByMonth
+        nameWithType: BudgetItemsByMonth
+        qualifiedName: Budget.BudgetItemsByMonth
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Collections.Generic.List`1
+        name: List
+        nameWithType: List
+        qualifiedName: System.Collections.Generic.List
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: Budget.BudgetItemsByMonth
+        name: BudgetItemsByMonth
+        nameWithType: BudgetItemsByMonth
+        qualifiedName: Budget.BudgetItemsByMonth
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: System.Collections.Generic.List`1
+    parent: System.Collections.Generic
+    commentId: T:System.Collections.Generic.List{Budget.BudgetItemsByMonth}
+  Budget.HomeBudget.GetBudgetItemsByMonth*:
+    name:
+      CSharp:
+      - id: Budget.HomeBudget.GetBudgetItemsByMonth*
+        name: GetBudgetItemsByMonth
+        nameWithType: HomeBudget.GetBudgetItemsByMonth
+        qualifiedName: Budget.HomeBudget.GetBudgetItemsByMonth
+      VB:
+      - id: Budget.HomeBudget.GetBudgetItemsByMonth*
+        name: GetBudgetItemsByMonth
+        nameWithType: HomeBudget.GetBudgetItemsByMonth
+        qualifiedName: Budget.HomeBudget.GetBudgetItemsByMonth
+    isDefinition: true
+    commentId: Overload:Budget.HomeBudget.GetBudgetItemsByMonth
+  System.Collections.Generic.List{Budget.BudgetItemsByCategory}:
+    name:
+      CSharp:
+      - id: System.Collections.Generic.List`1
+        name: List
+        nameWithType: List
+        qualifiedName: System.Collections.Generic.List
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: Budget.BudgetItemsByCategory
+        name: BudgetItemsByCategory
+        nameWithType: BudgetItemsByCategory
+        qualifiedName: Budget.BudgetItemsByCategory
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Collections.Generic.List`1
+        name: List
+        nameWithType: List
+        qualifiedName: System.Collections.Generic.List
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: Budget.BudgetItemsByCategory
+        name: BudgetItemsByCategory
+        nameWithType: BudgetItemsByCategory
+        qualifiedName: Budget.BudgetItemsByCategory
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: System.Collections.Generic.List`1
+    parent: System.Collections.Generic
+    commentId: T:System.Collections.Generic.List{Budget.BudgetItemsByCategory}
+  Budget.HomeBudget.GeBudgetItemsByCategory*:
+    name:
+      CSharp:
+      - id: Budget.HomeBudget.GeBudgetItemsByCategory*
+        name: GeBudgetItemsByCategory
+        nameWithType: HomeBudget.GeBudgetItemsByCategory
+        qualifiedName: Budget.HomeBudget.GeBudgetItemsByCategory
+      VB:
+      - id: Budget.HomeBudget.GeBudgetItemsByCategory*
+        name: GeBudgetItemsByCategory
+        nameWithType: HomeBudget.GeBudgetItemsByCategory
+        qualifiedName: Budget.HomeBudget.GeBudgetItemsByCategory
+    isDefinition: true
+    commentId: Overload:Budget.HomeBudget.GeBudgetItemsByCategory
+  System.Collections.Generic.List{System.Collections.Generic.Dictionary{System.String,System.Object}}:
+    name:
+      CSharp:
+      - id: System.Collections.Generic.List`1
+        name: List
+        nameWithType: List
+        qualifiedName: System.Collections.Generic.List
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: System.Collections.Generic.Dictionary`2
+        name: Dictionary
+        nameWithType: Dictionary
+        qualifiedName: System.Collections.Generic.Dictionary
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Collections.Generic.List`1
+        name: List
+        nameWithType: List
+        qualifiedName: System.Collections.Generic.List
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: System.Collections.Generic.Dictionary`2
+        name: Dictionary
+        nameWithType: Dictionary
+        qualifiedName: System.Collections.Generic.Dictionary
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: System.Collections.Generic.List`1
+    parent: System.Collections.Generic
+    commentId: T:System.Collections.Generic.List{System.Collections.Generic.Dictionary{System.String,System.Object}}
+  Budget.HomeBudget.GetBudgetDictionaryByCategoryAndMonth*:
+    name:
+      CSharp:
+      - id: Budget.HomeBudget.GetBudgetDictionaryByCategoryAndMonth*
+        name: GetBudgetDictionaryByCategoryAndMonth
+        nameWithType: HomeBudget.GetBudgetDictionaryByCategoryAndMonth
+        qualifiedName: Budget.HomeBudget.GetBudgetDictionaryByCategoryAndMonth
+      VB:
+      - id: Budget.HomeBudget.GetBudgetDictionaryByCategoryAndMonth*
+        name: GetBudgetDictionaryByCategoryAndMonth
+        nameWithType: HomeBudget.GetBudgetDictionaryByCategoryAndMonth
+        qualifiedName: Budget.HomeBudget.GetBudgetDictionaryByCategoryAndMonth
+    isDefinition: true
+    commentId: Overload:Budget.HomeBudget.GetBudgetDictionaryByCategoryAndMonth
+  Budget.HomeBudget:
+    name:
+      CSharp:
+      - id: Budget.HomeBudget
+        name: HomeBudget
+        nameWithType: HomeBudget
+        qualifiedName: Budget.HomeBudget
+      VB:
+      - id: Budget.HomeBudget
+        name: HomeBudget
+        nameWithType: HomeBudget
+        qualifiedName: Budget.HomeBudget
+    isDefinition: true
+    commentId: T:Budget.HomeBudget

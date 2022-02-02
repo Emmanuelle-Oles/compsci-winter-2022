@@ -96,6 +96,13 @@ namespace Budget
         /// </summary>
         /// <param name="filepath"> File path specified by user to location.
         /// File path is set to null by default. </param>
+        /// <example>
+        /// 
+        /// <code>
+        /// 
+        /// </code>
+        /// 
+        /// </example>
         public void SaveToFile(String filepath = null)
         {
             // ---------------------------------------------------------------
@@ -134,6 +141,13 @@ namespace Budget
         /// Method adds an instance expense to the list of expenses. 
         /// </summary>
         /// <param name="exp"> Expense that needs to be added. </param>
+        /// <example>
+        /// 
+        /// <code>
+        /// 
+        /// </code>
+        /// 
+        /// </example>
         private void Add(Expense exp)
         {
             _Expenses.Add(exp);
@@ -141,12 +155,25 @@ namespace Budget
 
         /// <summary>
         /// Method receives specified date, category, amount and description of an
-        /// expense sets the id of the expense and adds it to the list of expenses. 
+        /// expense sets the id of the expense and adds it to the list of expenses.
+        /// This method also assign the id to the expense. 
+        /// 
         /// </summary>
         /// <param name="date"> Date and time of the expense. </param>
         /// <param name="category"> Numerical representation of the category of the expense. </param>
         /// <param name="amount"> The monetary value of the expense. </param>
         /// <param name="description"> The description of the expense. </param>
+        /// <example>
+        /// 
+        /// <code>
+        /// <![CDATA[
+        /// Expenses expenses = new Expenses();
+        /// expenses.Add(DateTime.Now, (int)Category.CategoryType.Expense,
+        ///            22.22, "transportation");
+        /// ]]>
+        /// </code>
+        /// 
+        /// </example>
         public void Add(DateTime date, int category, Double amount, String description)
         {
             int new_id = 1;
@@ -167,6 +194,33 @@ namespace Budget
         /// expense from the list and removes the expense at that index. 
         /// </summary>
         /// <param name="Id"> Numerical representation of the expense. </param>
+        /// <example>
+        /// 
+        /// <code>
+        /// <![CDATA[
+        /// Expenses expenses = new Expenses();
+        /// expenses.Add(DateTime.Now, (int) Category.CategoryType.Expense,
+        ///                22.22, "transportation");
+        ///                
+        /// expenses.Add(DateTime.Now, (int) Category.CategoryType.Expense,
+        ///                 33.33, "Tarot");
+        ///
+        ///
+        /// foreach (Expense expense in expenses.List())
+        ///     Console.WriteLine(expense.Description);
+        ///
+        /// Console.ReadLine();
+        ///
+        /// expenses.Delete(1);
+        ///
+        /// foreach (Expense expense in expenses.List())
+        ///     Console.WriteLine(expense.Description);
+        ///
+        /// Console.ReadLine();
+        /// 
+        /// ]]>
+        /// </code>
+        /// </example>
         public void Delete(int Id)
         {
             int i = _Expenses.FindIndex(x => x.Id == Id);
@@ -181,6 +235,21 @@ namespace Budget
         /// expense list.
         /// </summary>
         /// <returns> Returns a copied list of expenses. </returns>
+        /// <example>
+        /// 
+        /// <code>
+        /// <![CDATA[
+        /// Expenses expenses = new Expenses();
+        /// expenses.Add(DateTime.Now, (int) Category.CategoryType.Expense, 23.45, "textbook" );
+        ///                         
+        /// List<Expense> list = expenses.List();
+        /// foreach (Expense expense in list)
+        ///     Console.WriteLine(expense.Description);
+        ///
+        /// ]]>
+        /// </code>
+        /// 
+        /// </example>
         public List<Expense> List()
         {
             //creating a instance of a list of expense
@@ -200,6 +269,13 @@ namespace Budget
         /// If the file cannot create expense from file, throws a ReadFromFileException.
         /// </summary>
         /// <param name="filepath"> File path of the XML file. </param>
+        /// <example>
+        /// 
+        /// <code>
+        /// 
+        /// </code>
+        /// 
+        /// </example>
         private void _ReadXMLFile(String filepath)
         {
             try

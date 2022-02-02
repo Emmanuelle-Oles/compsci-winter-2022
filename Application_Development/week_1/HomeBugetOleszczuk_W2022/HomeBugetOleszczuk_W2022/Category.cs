@@ -21,9 +21,25 @@ namespace Budget
         // ====================================================================
         // Properties
         // ====================================================================
+
+        /// <summary>
+        /// Property that gets and sets a numerical id for a category. 
+        /// </summary>
         public int Id { get; set; }
+
+        /// <summary>
+        /// Property that gets and sets the description of the category.
+        /// </summary>
         public String Description { get; set; }
+
+        /// <summary>
+        /// Property that gets and sets the category type from the CategoryType enum. 
+        /// </summary>
         public CategoryType Type { get; set; }
+
+        /// <summary>
+        /// Enum that contains the default list of categories. 
+        /// </summary>
         public enum CategoryType
         {
             Income,
@@ -36,7 +52,8 @@ namespace Budget
         // Constructor
         // ====================================================================
         /// <summary>
-        /// 
+        /// Constructor that creates an instance of category with the specificied id, description
+        /// and type. If the type is not specified, it will be set by default to expense. 
         /// </summary>
         /// <param name="id"> Numerical id assigned to the category. </param>
         /// <param name="description"> Description of the category. </param>
@@ -52,7 +69,8 @@ namespace Budget
         // Copy Constructor
         // ====================================================================
         /// <summary>
-        /// 
+        /// Constructor that takes the specified instance of category and makes a deep 
+        /// copy. 
         /// </summary>
         /// <param name="category"></param>
         public Category(Category category)
@@ -61,13 +79,25 @@ namespace Budget
             this.Description = category.Description;
             this.Type = category.Type;
         }
+
         // ====================================================================
-        // String version of object
+        //                          Behaviours
         // ====================================================================
         /// <summary>
-        /// Method ToString represensation of category. 
+        /// Method that outputs the description of the category. 
         /// </summary>
         /// <returns> Description of category. </returns>
+        /// <example>
+        /// <code>
+        /// 
+        /// <![CDATA[
+        /// Category category = new Category(12, "Food", Category.CategoryType.Expense);
+        /// Console.WriteLine(category.ToString());
+        ///
+        /// ]]>
+        /// 
+        /// </code>
+        /// </example>
         public override string ToString()
         {
             return Description;

@@ -20,13 +20,17 @@ items:
   fullName: Budget.Expenses
   type: Class
   source:
+    remote:
+      path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Expenses.cs
+      branch: main
+      repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
     id: Expenses
-    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\Expenses.cs
-    startLine: 23
+    path: Expenses.cs
+    startLine: 24
   assemblies:
   - HomeBugetOleszczuk_W2022
   namespace: Budget
-  summary: "\nA class that collects expense items. Also, holds the functionality of \nreading and writing to file.\n"
+  summary: "\nA class that holds an instance of a list of Expense objects. Also, holds the functionality of \nreading and writing to file.\n"
   example: []
   syntax:
     content: public class Expenses
@@ -59,12 +63,18 @@ items:
   fullName: Budget.Expenses.FileName
   type: Property
   source:
+    remote:
+      path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Expenses.cs
+      branch: main
+      repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
     id: FileName
-    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\Expenses.cs
-    startLine: 33
+    path: Expenses.cs
+    startLine: 38
   assemblies:
   - HomeBugetOleszczuk_W2022
   namespace: Budget
+  summary: "\nProperty that gets a file name.\n"
+  example: []
   syntax:
     content: public string FileName { get; }
     parameters: []
@@ -90,12 +100,18 @@ items:
   fullName: Budget.Expenses.DirName
   type: Property
   source:
+    remote:
+      path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Expenses.cs
+      branch: main
+      repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
     id: DirName
-    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\Expenses.cs
-    startLine: 34
+    path: Expenses.cs
+    startLine: 43
   assemblies:
   - HomeBugetOleszczuk_W2022
   namespace: Budget
+  summary: "\nProperty that gets the name of directory.\n"
+  example: []
   syntax:
     content: public string DirName { get; }
     parameters: []
@@ -121,20 +137,24 @@ items:
   fullName: Budget.Expenses.ReadFromFile(System.String)
   type: Method
   source:
+    remote:
+      path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Expenses.cs
+      branch: main
+      repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
     id: ReadFromFile
-    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\Expenses.cs
-    startLine: 48
+    path: Expenses.cs
+    startLine: 55
   assemblies:
   - HomeBugetOleszczuk_W2022
   namespace: Budget
-  summary: "\nMethod populates categories from file. If the file not specified, the information is \nread and save the information from AppData file(?). Method throws a \nSystem.IO.FileNotFoundException if file does not exist. M\n"
+  summary: "\nMethod populates categories from file. If the file not specified, the information is \nread and saved to a file in the AppData folder.\nMethod throws a System.IO.FileNotFoundException if file does not exist.\nMethod throws a System.Exception if file cannot be read during the XML parsing.\n"
   example: []
   syntax:
     content: public void ReadFromFile(string filepath = null)
     parameters:
     - id: filepath
       type: System.String
-      description: 'File path to read extract the budget information from. '
+      description: "File path to the file that contains the budget information.\nFile path is set to null by default "
     content.vb: Public Sub ReadFromFile(filepath As String = Nothing)
   overload: Budget.Expenses.ReadFromFile*
   modifiers.csharp:
@@ -153,20 +173,25 @@ items:
   fullName: Budget.Expenses.SaveToFile(System.String)
   type: Method
   source:
+    remote:
+      path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Expenses.cs
+      branch: main
+      repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
     id: SaveToFile
-    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\Expenses.cs
-    startLine: 91
+    path: Expenses.cs
+    startLine: 105
   assemblies:
   - HomeBugetOleszczuk_W2022
   namespace: Budget
-  summary: "\n\n"
-  example: []
+  summary: "\nMethod that saves file.\nIf the file path not specified, the information is read and saved to a file in the AppData folder.\nIf the file path does not exist, the path information is reset.\n"
+  example:
+  - "\n\n<pre><code></code></pre>\n\n"
   syntax:
     content: public void SaveToFile(string filepath = null)
     parameters:
     - id: filepath
       type: System.String
-      description: ''
+      description: "File path specified by user to location.\nFile path is set to null by default. "
     content.vb: Public Sub SaveToFile(filepath As String = Nothing)
   overload: Budget.Expenses.SaveToFile*
   modifiers.csharp:
@@ -185,29 +210,34 @@ items:
   fullName: Budget.Expenses.Add(System.DateTime, System.Int32, System.Double, System.String)
   type: Method
   source:
+    remote:
+      path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Expenses.cs
+      branch: main
+      repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
     id: Add
-    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\Expenses.cs
-    startLine: 145
+    path: Expenses.cs
+    startLine: 176
   assemblies:
   - HomeBugetOleszczuk_W2022
   namespace: Budget
-  summary: "\n\n"
-  example: []
+  summary: "\nMethod receives specified date, category, amount and description of an\nexpense sets the id of the expense and adds it to the list of expenses.\nThis method also assign the id to the expense. \n\n"
+  example:
+  - "\n\n<pre><code>Expenses expenses = new Expenses();\nexpenses.Add(DateTime.Now, (int)Category.CategoryType.Expense,\n           22.22, &quot;transportation&quot;);</code></pre>\n\n"
   syntax:
     content: public void Add(DateTime date, int category, double amount, string description)
     parameters:
     - id: date
       type: System.DateTime
-      description: ''
+      description: 'Date and time of the expense. '
     - id: category
       type: System.Int32
-      description: ''
+      description: 'Numerical representation of the category of the expense. '
     - id: amount
       type: System.Double
-      description: ''
+      description: 'The monetary value of the expense. '
     - id: description
       type: System.String
-      description: ''
+      description: 'The description of the expense. '
     content.vb: Public Sub Add(date As Date, category As Integer, amount As Double, description As String)
   overload: Budget.Expenses.Add*
   modifiers.csharp:
@@ -226,20 +256,25 @@ items:
   fullName: Budget.Expenses.Delete(System.Int32)
   type: Method
   source:
+    remote:
+      path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Expenses.cs
+      branch: main
+      repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
     id: Delete
-    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\Expenses.cs
-    startLine: 167
+    path: Expenses.cs
+    startLine: 205
   assemblies:
   - HomeBugetOleszczuk_W2022
   namespace: Budget
-  summary: "\n\n"
-  example: []
+  summary: "\nMethods receives specified id of an expense retrieves the index of the\nexpense from the list and removes the expense at that index. \n"
+  example:
+  - "\n\n<pre><code></code></pre>\n\n"
   syntax:
     content: public void Delete(int Id)
     parameters:
     - id: Id
       type: System.Int32
-      description: ''
+      description: 'Numerical representation of the expense. '
     content.vb: Public Sub Delete(Id As Integer)
   overload: Budget.Expenses.Delete*
   modifiers.csharp:
@@ -258,19 +293,24 @@ items:
   fullName: Budget.Expenses.List()
   type: Method
   source:
+    remote:
+      path: Application_Development/week_1/HomeBugetOleszczuk_W2022/HomeBugetOleszczuk_W2022/Expenses.cs
+      branch: main
+      repo: https://github.com/Emmanuelle-Oles/compsci-winter-2022.git
     id: List
-    path: C:\Users\emman\OneDrive\Desktop\compsci-winter-2022\Application_Development\week_1\HomeBugetOleszczuk_W2022\HomeBugetOleszczuk_W2022\Expenses.cs
-    startLine: 183
+    path: Expenses.cs
+    startLine: 234
   assemblies:
   - HomeBugetOleszczuk_W2022
   namespace: Budget
-  summary: "\n\n"
-  example: []
+  summary: "\nMethod instantiates a list of expenses to allow to make a\ncopy of the list of the current instance of expenses. Using a\nfor-each loop the current expense items are added to the new\nexpense list.\n"
+  example:
+  - "\n\n<pre><code>Expenses expenses = new Expenses();\nexpenses.Add(DateTime.Now, (int) Category.CategoryType.Expense, 23.45, &quot;textbook&quot; );\n\nList&lt;Expense> list = expenses.List();\nforeach (Expense expense in list)\n    Console.WriteLine(expense.Description);</code></pre>\n\n"
   syntax:
     content: public List<Expense> List()
     return:
       type: System.Collections.Generic.List{Budget.Expense}
-      description: ''
+      description: 'Returns a copied list of expenses. '
     content.vb: Public Function List As List(Of Expense)
   overload: Budget.Expenses.List*
   modifiers.csharp:
