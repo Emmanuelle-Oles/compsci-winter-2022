@@ -1,0 +1,11 @@
+10
+add 15 10
+add 17 20
+add 19 20
+add 17 30
+add 18 30
+add 1 40
+add 1 30
+add 23 40
+add 4 50
+add 7 50

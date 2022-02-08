@@ -1,0 +1,5 @@
+4
+add 3 17
+add 2 13
+add 6 19
+query 4
