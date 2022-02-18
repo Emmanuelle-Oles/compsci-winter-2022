@@ -1,0 +1,17 @@
+{
+    "name": "Web_2_Final",
+    "version": "0.0.0",
+    "description": "Web_2_Final",
+    "main": "server.js",
+    "author": {
+        "name": ""
+    },
+    "dependencies": {
+        "jest": "^27.5.1",
+        "mysql2": "^2.3.3",
+        "validator": "^13.7.0"
+    },
+    "scripts": {
+        "test": "jest --verbose ./tests"
+    }
+}
